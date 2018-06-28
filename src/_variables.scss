@@ -1,0 +1,86 @@
+$base-scale: 4px;
+
+// colors
+$ocean: #356ae6 !default;
+$ocean120: #1b54d9 !default;
+$ocean80: #5884ea !default;
+$ocean60: #c1d1f7 !default;
+$ocean40: #e3ebfc !default;
+$ocean20: #fafbff !default;
+
+$slate: #4e5468 !default;
+$slate120: #1f2129 !default;
+$slate80: #5f667e !default;
+$slate60: #9298ad !default;
+$slate40: #ced3e0 !default;
+$slate20: #f7f9ff !default;
+
+$mint: #19cca3 !default;
+$mint120: #139879 !default;
+$mint80: #1bddb1 !default;
+$mint60: #6ae6c9 !default;
+$mint40: #b6f2e4 !default;
+$mint20: #ebfffa !default;
+
+$strawberry: #f3376b !default;
+$strawberry120: #e40e49 !default;
+$strawberry80: #f56e94 !default;
+$strawberry60: #faa5bd !default;
+$strawberry40: #fcdee7 !default;
+$strawberry20: #fff2f6 !default;
+
+$creamsicle: #ff8730 !default;
+$creamsicle120: #f46700 !default;
+$creamsicle80: #ffa869 !default;
+$creamsicle60: #ffbf90 !default;
+$creamsicle40: #ffe1cb !default;
+$creamsicle20: #fff8f2 !default;
+
+$lavendar: #9159fc !default;
+$lavendar120: #73f !default;
+$lavendar80: #aa81fc !default;
+$lavendar60: #c3a7fc !default;
+$lavendar40: #eae0fe !default;
+$lavendar20: #f7f2ff !default;
+
+$banana: #facf3f !default;
+$banana120: #deaa00 !default;
+$banana80: #fbd965 !default;
+$banana60: #fce28b !default;
+$banana40: #fdecb2 !default;
+$banana20: #fff9e6 !default;
+
+$white: #fff !default;
+$transparent: rgba($white, 0) !default;
+
+// Typography
+$heading: 'Poppins', 'Avenir', 'Avenir Next', 'Futura', helvetica, arial, sans-serif;
+$body: 'IBM Plex Sans', 'Franklin Gothic', 'ITC Franklin Gothic', helvetica, arial, sans-serif;
+
+$type-scale: $base-scale * 4;
+
+$font-size-1: $type-scale * 0.625;
+$font-size-2: $type-scale * 0.75;
+$font-size-3: $type-scale * 0.875;
+$font-size-4: $type-scale * 1;
+$font-size-5: $type-scale * 1.125;
+$font-size-6: $type-scale * 1.25;
+$font-size-7: $type-scale * 1.5;
+$font-size-8: $type-scale * 1.75;
+$font-size-9: $type-scale * 2;
+$font-size-10: $type-scale * 2.25;
+$font-size-11: $type-scale * 2.5;
+$font-size-12: $type-scale * 2.75;
+$font-size-13: $type-scale * 3;
+
+$line-height-1: $type-scale * 0.75;
+$line-height-2: $type-scale;
+$line-height-3: $type-scale * 1.25;
+$line-height-4: $type-scale * 1.5;
+$line-height-5: $type-scale * 1.75;
+$line-height-6: $type-scale * 2;
+$line-height-7: $type-scale * 2.25;
+$line-height-8: $type-scale * 2.75;
+$line-height-9: $type-scale * 3;
+$line-height-10: $type-scale * 3.25;
+$line-height-11: $type-scale * 3.5;
