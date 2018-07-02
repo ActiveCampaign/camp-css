@@ -1,5 +1,5 @@
 {
-  "name": "camp-css",
+  "name": "activecampaign-css",
   "version": "0.0.0",
   "description": "CSS for ActiveCampaign",
   "main": "dist/main.css",
@@ -8,10 +8,9 @@
     "build": "node-sass src/main.scss --source-map true --output-style compressed -o dist | postcss dist/main.css -d dist",
     "dev": "node-sass src/main.scss --source-map true --output-style compressed -o dist -w | postcss dist/main.css -d dist -w",
     "start": "yarn dev",
-    "lint": "stylelint \"src/**/*.scss\" --syntax scss",
+    "lint": "stylelint \"src/**/*.scss\"",
     "pretest": "yarn clean && yarn build",
-    "test": "yarn lint && node test.js",
-    "prepublish": "yarn test"
+    "test": "yarn lint && node test.js"
   },
   "repository": {
     "type": "git",
@@ -19,10 +18,11 @@
   },
   "keywords": [
     "css",
-    "scss"
+    "scss",
+    "activecampaign"
   ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/rod/camp-css/issues"
   },
@@ -35,6 +35,6 @@
     "rimraf": "^2.6.2",
     "sourcemap-validator": "^1.1.0",
     "stylelint": "^9.3.0",
-    "stylelint-config-activecampaign": "github:rod/stylelint-config-activecampaign"
+    "stylelint-config-activecampaign": "rod/stylelint-config-activecampaign"
   }
 }

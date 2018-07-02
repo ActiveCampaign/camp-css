@@ -1,5 +1,3 @@
 module.exports = {
-  extends: [
-    "stylelint-config-activecampaign"
-  ]
+  extends: ['stylelint-config-activecampaign'],
 }

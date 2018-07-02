@@ -1,0 +1,25 @@
+@each $color, $value in $colors {
+  .#{$color} {
+    color: #{$value};
+  }
+}
+
+@each $color, $value in $colors {
+  .#{$color}-hover:hover,
+  .#{$color}-hover:focus {
+    color: #{$value};
+  }
+}
+
+@each $color, $value in $colors {
+  .bg-#{$color} {
+    background-color: #{$value};
+  }
+}
+
+@each $color, $value in $colors {
+  .bg-#{$color}-hover:hover,
+  .bg-#{$color}-hover:focus {
+    background-color: #{$value};
+  }
+}

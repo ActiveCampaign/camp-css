@@ -1,0 +1,7 @@
+@for $i from 1 through length($line-heights) {
+  $size: nth($line-heights, $i);
+
+  .lh#{$i} {
+    line-height: #{$size};
+  }
+}
