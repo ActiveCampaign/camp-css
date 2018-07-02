@@ -34,6 +34,7 @@
     "postcss-syntax": "^0.30.0",
     "rimraf": "^2.6.2",
     "sourcemap-validator": "^1.1.0",
-    "stylelint": "^9.3.0"
+    "stylelint": "^9.3.0",
+    "stylelint-config-activecampaign": "github:rod/stylelint-config-activecampaign"
   }
 }
