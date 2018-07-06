@@ -1,3 +1,5 @@
+// See $spacers map in _variables.scss
+
 @each $spacer-name, $spacer-value in $spacers {
   $i: index($spacers, $spacer-name $spacer-value);
 
@@ -30,4 +32,35 @@
   .ml#{$i} {
     margin-left: $spacer-value;
   }
+
+  .p#{$i} {
+    padding: $spacer-value;
+  }
+
+  .px#{$i} {
+    padding-left: $spacer-value;
+    padding-right: $spacer-value;
+  }
+
+  .py#{$i} {
+    padding-top: $spacer-value;
+    padding-bottom: $spacer-value;
+  }
+
+  .pt#{$i} {
+    padding-top: $spacer-value;
+  }
+
+  .pr#{$i} {
+    padding-right: $spacer-value;
+  }
+
+  .pb#{$i} {
+    padding-bottom: $spacer-value;
+  }
+
+  .pl#{$i} {
+    padding-left: $spacer-value;
+  }
+
 }
