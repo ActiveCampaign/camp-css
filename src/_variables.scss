@@ -81,3 +81,22 @@ $line-heights: (
   line-height-10: $type-scale * 3.25,
   line-height-11: $type-scale * 3.5,
 );
+
+$spacers: (
+  spacer-1: $base-scale * 1,
+  spacer-2: $base-scale * 2,
+  spacer-3: $base-scale * 3,
+  spacer-4: $base-scale * 4,
+  spacer-5: $base-scale * 5,
+  spacer-6: $base-scale * 6,
+  spacer-7: $base-scale * 7,
+  spacer-8: $base-scale * 8,
+  spacer-9: $base-scale * 9,
+  spacer-10: $base-scale * 10,
+  spacer-11: $base-scale * 11,
+  spacer-12: $base-scale * 12,
+  spacer-13: $base-scale * 13,
+  spacer-14: $base-scale * 14,
+  spacer-15: $base-scale * 15,
+  spacer-16: $base-scale * 16
+)
