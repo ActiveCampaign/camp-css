@@ -1,0 +1,5 @@
+@for $i from 1 through 9 {
+  .fw#{$i} {
+    font-weight: $i * 100;
+  }
+}
