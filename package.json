@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rod/camp-css.git"
+    "url": "git+https://github.com/rod/activecampaign-css.git"
   },
   "keywords": [
     "css",
@@ -24,9 +24,9 @@
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rod/camp-css/issues"
+    "url": "https://github.com/rod/activecampaign-css/issues"
   },
-  "homepage": "https://github.com/rod/camp-css#readme",
+  "homepage": "https://github.com/rod/activecampaign-css#readme",
   "devDependencies": {
     "autoprefixer": "^8.6.4",
     "node-sass": "^4.9.0",
