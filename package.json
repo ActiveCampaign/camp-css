@@ -1,7 +1,7 @@
 {
   "name": "activecampaign-css",
   "version": "0.0.0",
-  "description": "CSS for ActiveCampaign",
+  "description": "Functional CSS for ActiveCampaign",
   "main": "dist/main.css",
   "scripts": {
     "clean": "rimraf dist",
