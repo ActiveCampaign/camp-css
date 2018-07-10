@@ -1,66 +1,65 @@
-// See $spacers map in _variables.scss
+// See $spacing map in _variables.scss
 
-@each $spacer-name, $spacer-value in $spacers {
-  $i: index($spacers, $spacer-name $spacer-value);
+@each $spacing-name, $spacing-value in $spacing {
+  $i: index($spacing, $spacing-name $spacing-value);
 
   .m#{$i} {
-    margin: $spacer-value;
+    margin: $spacing-value;
   }
 
   .mx#{$i} {
-    margin-left: $spacer-value;
-    margin-right: $spacer-value;
+    margin-left: $spacing-value;
+    margin-right: $spacing-value;
   }
 
   .my#{$i} {
-    margin-top: $spacer-value;
-    margin-bottom: $spacer-value;
+    margin-top: $spacing-value;
+    margin-bottom: $spacing-value;
   }
 
   .mt#{$i} {
-    margin-top: $spacer-value;
+    margin-top: $spacing-value;
   }
 
   .mr#{$i} {
-    margin-right: $spacer-value;
+    margin-right: $spacing-value;
   }
 
   .mb#{$i} {
-    margin-bottom: $spacer-value;
+    margin-bottom: $spacing-value;
   }
 
   .ml#{$i} {
-    margin-left: $spacer-value;
+    margin-left: $spacing-value;
   }
 
   .p#{$i} {
-    padding: $spacer-value;
+    padding: $spacing-value;
   }
 
   .px#{$i} {
-    padding-left: $spacer-value;
-    padding-right: $spacer-value;
+    padding-left: $spacing-value;
+    padding-right: $spacing-value;
   }
 
   .py#{$i} {
-    padding-top: $spacer-value;
-    padding-bottom: $spacer-value;
+    padding-top: $spacing-value;
+    padding-bottom: $spacing-value;
   }
 
   .pt#{$i} {
-    padding-top: $spacer-value;
+    padding-top: $spacing-value;
   }
 
   .pr#{$i} {
-    padding-right: $spacer-value;
+    padding-right: $spacing-value;
   }
 
   .pb#{$i} {
-    padding-bottom: $spacer-value;
+    padding-bottom: $spacing-value;
   }
 
   .pl#{$i} {
-    padding-left: $spacer-value;
+    padding-left: $spacing-value;
   }
-
 }

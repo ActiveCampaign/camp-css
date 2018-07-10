@@ -1,3 +1,6 @@
+$base-scale: 4px;
+
+// Colors
 $colors: (
   ocean: #356ae6,
   ocean120: #1b54d9,
@@ -45,14 +48,13 @@ $colors: (
   transparent: rgba(255, 255, 255, 0),
 );
 
+// Typography
 $heading: 'Poppins', 'Avenir', 'Avenir Next', 'Futura', helvetica, arial, sans-serif;
 $body: 'IBM Plex Sans', 'Franklin Gothic', 'ITC Franklin Gothic', helvetica, arial, sans-serif;
 
-$base-scale: 4px;
 $type-scale: $base-scale * 4;
 
 $font-sizes: (
-  font-size-0: 0,
   font-size-1: $type-scale * 0.625,
   font-size-2: $type-scale * 0.75,
   font-size-3: $type-scale * 0.875,
@@ -82,21 +84,19 @@ $line-heights: (
   line-height-11: $type-scale * 3.5,
 );
 
-$spacers: (
-  spacer-1: $base-scale * 1,
-  spacer-2: $base-scale * 2,
-  spacer-3: $base-scale * 3,
-  spacer-4: $base-scale * 4,
-  spacer-5: $base-scale * 5,
-  spacer-6: $base-scale * 6,
-  spacer-7: $base-scale * 7,
-  spacer-8: $base-scale * 8,
-  spacer-9: $base-scale * 9,
-  spacer-10: $base-scale * 10,
-  spacer-11: $base-scale * 11,
-  spacer-12: $base-scale * 12,
-  spacer-13: $base-scale * 13,
-  spacer-14: $base-scale * 14,
-  spacer-15: $base-scale * 15,
-  spacer-16: $base-scale * 16
-)
+// Spacing
+$spacing-scale: $base-scale * 1;
+
+$spacing: (
+  spacing-1: $spacing-scale * 1,
+  spacing-2: $spacing-scale * 2,
+  spacing-3: $spacing-scale * 3,
+  spacing-4: $spacing-scale * 4,
+  spacing-5: $spacing-scale * 5,
+  spacing-6: $spacing-scale * 6,
+  spacing-7: $spacing-scale * 7,
+  spacing-8: $spacing-scale * 8,
+  spacing-9: $spacing-scale * 12,
+  spacing-10: $spacing-scale * 16,
+  spacing-12: $spacing-scale * 20,
+);
