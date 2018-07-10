@@ -1,5 +1,5 @@
-@for $i from 1 through length($font-sizes) {
-  $size: nth($font-sizes, $i);
+@each $name, $size in $font-sizes {
+  $i: index($font-sizes, $name $size);
 
   .fs#{$i} {
     font-size: #{$size};
