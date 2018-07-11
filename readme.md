@@ -1,19 +1,20 @@
-# activecampaign-css
+# ac-css
 
-> Functional CSS for ActiveCampaign
+> CSS behind the distinctive style of ActiveCampaign
 
-## Setup
+![GitHub package version](https://img.shields.io/github/package-json/v/rod/ac-css.svg) ![David](https://img.shields.io/david/dev/rod/ac-css.svg)
 
-Make sure that yarn (or npm) is installed:
+
+## Usage
+
+With yarn:
 
 ```sh
-yarn install # or npm install
+yarn add ac-css
 ```
 
-## Test
-
-Run linters and validators with the following command:
+With npm:
 
 ```sh
-yarn test
+npm install ac-css
 ```

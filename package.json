@@ -1,12 +1,12 @@
 {
-  "name": "activecampaign-css",
+  "name": "ac-css",
   "version": "0.0.0",
-  "description": "Functional CSS for ActiveCampaign",
+  "description": "CSS behind the distinctive style of ActiveCampaign",
   "main": "dist/main.css",
   "scripts": {
     "clean": "rimraf dist",
     "build": "node-sass src/main.scss --source-map true --output-style compressed -o dist | postcss dist/main.css -d dist",
-    "dev": "node-sass src/main.scss --source-map true --output-style expanded -o dist -w | postcss dist/main.css -d dist -w",
+    "dev": "node-sass src/main.scss --source-map true --output-style compressed -o dist -w | postcss dist/main.css -d dist -w",
     "start": "yarn dev",
     "lint": "stylelint \"src/**/*.scss\"",
     "pretest": "yarn clean && yarn build",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rod/activecampaign-css.git"
+    "url": "git+https://github.com/rod/ac-css.git"
   },
   "keywords": [
     "css",
@@ -24,17 +24,20 @@
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rod/activecampaign-css/issues"
+    "url": "https://github.com/rod/ac-css/issues"
   },
-  "homepage": "https://github.com/rod/activecampaign-css#readme",
+  "homepage": "https://github.com/rod/ac-css#readme",
   "devDependencies": {
     "autoprefixer": "^8.6.4",
     "node-sass": "^4.9.0",
     "postcss-cli": "^5.0.1",
-    "postcss-syntax": "^0.30.0",
+    "postcss-syntax": "^0.31.0",
     "rimraf": "^2.6.2",
     "sourcemap-validator": "^1.1.0",
     "stylelint": "^9.3.0",
     "stylelint-config-activecampaign": "rod/stylelint-config-activecampaign"
+  },
+  "peerDependencies": {
+    "postcss": ">=5.0.0"
   }
 }
