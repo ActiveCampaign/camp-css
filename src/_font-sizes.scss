@@ -1,9 +1,9 @@
 @each $name, $size in $font-sizes {
   $i: index($font-sizes, $name $size);
 
-  .fs#{$i} {
+  .fs-#{$i} {
     font-size: #{$size};
   }
 }
 
-.fs0 { font-size: 0; }
+.fs-0 { font-size: 0; }

@@ -1,7 +1,7 @@
 @each $name, $height in $line-heights {
   $i: index($line-heights, $name $height);
 
-  .lh#{$i} {
+  .lh-#{$i} {
     line-height: $height;
   }
 }
