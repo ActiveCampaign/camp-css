@@ -1,19 +1,19 @@
 @each $color-name, $color-value in $colors {
-  .#{$color} {
+  .#{$color-name} {
     color: #{$color-value};
   }
 
-  .#{$color}-hover:hover,
-  .#{$color}-hover:focus {
+  .#{$color-name}-hover:hover,
+  .#{$color-name}-hover:focus {
     color: #{$color-value};
   }
 
-  .bg-#{$color} {
+  .bg-#{$color-name} {
     background-color: #{$color-value};
   }
 
-  .bg-#{$color}-hover:hover,
-  .bg-#{$color}-hover:focus {
+  .bg-#{$color-name}-hover:hover,
+  .bg-#{$color-name}-hover:focus {
     background-color: #{$color-value};
   }
 }
