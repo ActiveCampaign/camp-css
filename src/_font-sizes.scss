@@ -1,3 +1,5 @@
+.fs-0 { font-size: 0; }
+
 @each $name, $size in $font-sizes {
   $i: index($font-sizes, $name $size);
 
@@ -6,4 +8,16 @@
   }
 }
 
-.fs-0 { font-size: 0; }
+@each $breakpoint-name, $breakpoint-value in $breakpoints {
+  $i: index($breakpoints, $breakpoint-name $breakpoint-value);
+
+  .#{$breakpoint-name}--fs-0 { font-size: 0; }
+
+  @each $name, $size in $font-sizes {
+    $i: index($font-sizes, $name $size);
+
+    .#{$breakpoint-name}--fs-#{$i} {
+      font-size: #{$size};
+    }
+  }
+}

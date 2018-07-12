@@ -3,8 +3,8 @@
     color: #{$color-value};
   }
 
-  .#{$color-name}-hover:hover,
-  .#{$color-name}-hover:focus {
+  .hover-#{$color-name}:hover,
+  .hover-#{$color-name}:focus {
     color: #{$color-value};
   }
 
@@ -12,8 +12,8 @@
     background-color: #{$color-value};
   }
 
-  .bg-#{$color-name}-hover:hover,
-  .bg-#{$color-name}-hover:focus {
+  .hover-bg-#{$color-name}:hover,
+  .hover-bg-#{$color-name}:focus {
     background-color: #{$color-value};
   }
 }
