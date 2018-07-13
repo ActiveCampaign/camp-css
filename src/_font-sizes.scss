@@ -1,8 +1,8 @@
-@each $name, $size in $font-sizes {
-  $i: index($font-sizes, $name $size);
+@each $font-scale, $font-size in $font-sizes {
+  $i: index($font-sizes, $font-scale $font-size);
 
   .fs-#{$i} {
-    font-size: #{$size};
+    font-size: rem($font-size);
   }
 }
 

@@ -1,0 +1,12 @@
+@function rem($vals...) {
+  $result: ();
+
+  @for $i from 1 through length($vals) {
+    $val: nth($vals, $i);
+    $item: ($val / 16px) * 1rem;
+
+    $result: append($result, $item);
+  }
+
+  @return $result;
+}
