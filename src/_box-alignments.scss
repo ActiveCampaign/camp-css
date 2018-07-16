@@ -1,0 +1,335 @@
+// justify-self
+.js-start {
+  justify-self: start;
+}
+
+.js-end {
+  justify-self: end;
+}
+
+.js-center {
+  justify-self: center;
+}
+
+.js-stretch {
+  justify-self: stretch;
+}
+
+// justify content
+.jc-start {
+  justify-content: start;
+}
+
+.jc-end {
+  justify-content: end;
+}
+
+.jc-flex-start {
+  justify-content: flex-start;
+}
+
+.jc-flex-end {
+  justify-content: flex-end;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.jc-stretch {
+  justify-content: stretch;
+}
+
+.jc-space-around {
+  justify-content: space-around;
+}
+
+.jc-space-between {
+  justify-content: space-between;
+}
+
+.jc-space-evenly {
+  justify-content: space-evenly;
+}
+
+// justify-items
+.ji-start {
+  justify-items: start;
+}
+
+.ji-end {
+  justify-items: end;
+}
+
+.ji-center {
+  justify-items: center;
+}
+
+.ji-stretch {
+  justify-items: stretch;
+}
+
+// align-self
+.as-start {
+  align-self: start;
+}
+
+.as-end {
+  align-self: end;
+}
+
+.as-flex-start {
+  align-self: flex-start;
+}
+
+.as-flex-end {
+  align-self: flex-end;
+}
+
+.as-center {
+  align-self: center;
+}
+
+.as-baseline {
+  align-self: baseline;
+}
+
+.as-stretch {
+  align-self: stretch;
+}
+
+// align-items
+.ai-start {
+  align-items: start;
+}
+
+.ai-end {
+  align-items: end;
+}
+
+.ai-flex-start {
+  align-items: flex-start;
+}
+
+.ai-flex-end {
+  align-items: flex-end;
+}
+
+.ai-baseline {
+  align-items: baseline;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.ai-stretch {
+  align-items: stretch;
+}
+
+// align-content
+.ac-start {
+  align-content: start;
+}
+
+.ac-end {
+  align-content: end;
+}
+
+.ac-flex-start {
+  align-content: flex-start;
+}
+
+.ac-flex-end {
+  align-content: flex-end;
+}
+
+.ac-center {
+  align-content: center;
+}
+
+.ac-stretch {
+  align-content: stretch;
+}
+
+.ac-space-around {
+  align-content: space-around;
+}
+
+.ac-space-between {
+  align-content: space-between;
+}
+
+.ac-space-evenly {
+  align-content: space-evenly;
+}
+
+@each $breakpoint-name, $breakpoint-value in $breakpoints {
+  @media #{$breakpoint-value} {
+    // justify-self
+    .#{$breakpoint-name}--js-start {
+      justify-self: start;
+    }
+
+    .#{$breakpoint-name}--js-end {
+      justify-self: end;
+    }
+
+    .#{$breakpoint-name}--js-center {
+      justify-self: center;
+    }
+
+    .#{$breakpoint-name}--js-stretch {
+      justify-self: stretch;
+    }
+
+    // justify content
+    .#{$breakpoint-name}--jc-start {
+      justify-content: start;
+    }
+
+    .#{$breakpoint-name}--jc-end {
+      justify-content: end;
+    }
+
+    .#{$breakpoint-name}--jc-flex-start {
+      justify-content: flex-start;
+    }
+
+    .#{$breakpoint-name}--jc-flex-end {
+      justify-content: flex-end;
+    }
+
+    .#{$breakpoint-name}--jc-center {
+      justify-content: center;
+    }
+
+    .#{$breakpoint-name}--jc-stretch {
+      justify-content: stretch;
+    }
+
+    .#{$breakpoint-name}--jc-space-around {
+      justify-content: space-around;
+    }
+
+    .#{$breakpoint-name}--jc-space-between {
+      justify-content: space-between;
+    }
+
+    .#{$breakpoint-name}--jc-space-evenly {
+      justify-content: space-evenly;
+    }
+
+    // justify-items
+    .#{$breakpoint-name}--ji-start {
+      justify-items: start;
+    }
+
+    .#{$breakpoint-name}--ji-end {
+      justify-items: end;
+    }
+
+    .#{$breakpoint-name}--ji-center {
+      justify-items: center;
+    }
+
+    .#{$breakpoint-name}--ji-stretch {
+      justify-items: stretch;
+    }
+
+    // align-self
+    .#{$breakpoint-name}--as-start {
+      align-self: start;
+    }
+
+    .#{$breakpoint-name}--as-end {
+      align-self: end;
+    }
+
+    .#{$breakpoint-name}--as-flex-start {
+      align-self: flex-start;
+    }
+
+    .#{$breakpoint-name}--as-flex-end {
+      align-self: flex-end;
+    }
+
+    .#{$breakpoint-name}--as-center {
+      align-self: center;
+    }
+
+    .#{$breakpoint-name}--as-baseline {
+      align-self: baseline;
+    }
+
+    .#{$breakpoint-name}--as-stretch {
+      align-self: stretch;
+    }
+
+    // align-items
+    .#{$breakpoint-name}--ai-start {
+      align-items: start;
+    }
+
+    .#{$breakpoint-name}--ai-end {
+      align-items: end;
+    }
+
+    .#{$breakpoint-name}--ai-flex-start {
+      align-items: flex-start;
+    }
+
+    .#{$breakpoint-name}--ai-flex-end {
+      align-items: flex-end;
+    }
+
+    .#{$breakpoint-name}--ai-baseline {
+      align-items: baseline;
+    }
+
+    .#{$breakpoint-name}--ai-center {
+      align-items: center;
+    }
+
+    .#{$breakpoint-name}--ai-stretch {
+      align-items: stretch;
+    }
+
+    // align-content
+    .#{$breakpoint-name}--ac-start {
+      align-content: start;
+    }
+
+    .#{$breakpoint-name}--ac-end {
+      align-content: end;
+    }
+
+    .#{$breakpoint-name}--ac-flex-start {
+      align-content: flex-start;
+    }
+
+    .#{$breakpoint-name}--ac-flex-end {
+      align-content: flex-end;
+    }
+
+    .#{$breakpoint-name}--ac-center {
+      align-content: center;
+    }
+
+    .#{$breakpoint-name}--ac-stretch {
+      align-content: stretch;
+    }
+
+    .#{$breakpoint-name}--ac-space-around {
+      align-content: space-around;
+    }
+
+    .#{$breakpoint-name}--ac-space-between {
+      align-content: space-between;
+    }
+
+    .#{$breakpoint-name}--ac-space-evenly {
+      align-content: space-evenly;
+    }
+  }
+}
