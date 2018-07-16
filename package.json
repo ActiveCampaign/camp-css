@@ -2,15 +2,17 @@
   "name": "ac-css",
   "version": "0.0.0",
   "description": "CSS behind the distinctive style of ActiveCampaign",
-  "main": "dist/main.css",
+  "main": "dist/main.min.css",
   "scripts": {
     "clean": "rimraf dist",
-    "build": "node-sass src/main.scss --source-map true --output-style compressed -o dist | postcss dist/main.css -d dist",
-    "dev": "node-sass src/main.scss --source-map true --output-style expanded -o dist -w | postcss dist/main.css -d dist -w",
-    "start": "yarn dev",
-    "lint": "stylelint \"src/**/*.scss\" --config .stylelint.config.js",
-    "pretest": "yarn clean && yarn build",
-    "test": "yarn lint && node test.js"
+    "prebuild": "npm run lint",
+    "build": "node-sass src --output dist --source-map true",
+    "postbuild": "npm run post && npm run compress",
+    "lint": "stylelint src",
+    "post": "postcss dist/main.css --replace",
+    "compress": "node-sass --output-style compressed dist/main.css > dist/main.min.css",
+    "start": "npm run clean && watch 'npm run build' src",
+    "dev": "npm start"
   },
   "repository": {
     "type": "git",
@@ -33,11 +35,8 @@
     "postcss-cli": "^5.0.1",
     "postcss-syntax": "^0.31.0",
     "rimraf": "^2.6.2",
-    "sourcemap-validator": "^1.1.0",
     "stylelint": "^9.3.0",
-    "stylelint-config-activecampaign": "rod/stylelint-config-activecampaign"
-  },
-  "peerDependencies": {
-    "postcss": ">=5.0.0"
+    "stylelint-config-activecampaign": "rod/stylelint-config-activecampaign",
+    "watch": "^1.0.2"
   }
 }
