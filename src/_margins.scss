@@ -1,0 +1,135 @@
+// See $spacing map in _variables.scss
+
+@each $spacing-name, $spacing-value in $spacing {
+  $i: index($spacing, $spacing-name $spacing-value);
+
+  .m-#{$i} {
+    margin: rem($spacing-value);
+  }
+
+  .mx-#{$i} {
+    margin-left: rem($spacing-value);
+    margin-right: rem($spacing-value);
+  }
+
+  .my-#{$i} {
+    margin-top: rem($spacing-value);
+    margin-bottom: rem($spacing-value);
+  }
+
+  .mt-#{$i} {
+    margin-top: rem($spacing-value);
+  }
+
+  .mr-#{$i} {
+    margin-right: rem($spacing-value);
+  }
+
+  .mb-#{$i} {
+    margin-bottom: rem($spacing-value);
+  }
+
+  .ml-#{$i} {
+    margin-left: rem($spacing-value);
+  }
+
+  .p-#{$i} {
+    padding: rem($spacing-value);
+  }
+
+  .px-#{$i} {
+    padding-left: rem($spacing-value);
+    padding-right: rem($spacing-value);
+  }
+
+  .py-#{$i} {
+    padding-top: rem($spacing-value);
+    padding-bottom: rem($spacing-value);
+  }
+
+  .pt-#{$i} {
+    padding-top: rem($spacing-value);
+  }
+
+  .pr-#{$i} {
+    padding-right: rem($spacing-value);
+  }
+
+  .pb-#{$i} {
+    padding-bottom: rem($spacing-value);
+  }
+
+  .pl-#{$i} {
+    padding-left: rem($spacing-value);
+  }
+}
+
+@each $breakpoint-name, $breakpoint-value in $breakpoints {
+  $i: index($breakpoints, $breakpoint-name $breakpoint-value);
+
+  @media #{$breakpoint-value} {
+    @each $spacing-name, $spacing-value in $spacing {
+      $i: index($spacing, $spacing-name $spacing-value);
+
+      .#{$breakpoint-name}--m-#{$i} {
+        margin: rem($spacing-value);
+      }
+
+      .#{$breakpoint-name}--mx-#{$i} {
+        margin-left: rem($spacing-value);
+        margin-right: rem($spacing-value);
+      }
+
+      .#{$breakpoint-name}--my-#{$i} {
+        margin-top: rem($spacing-value);
+        margin-bottom: rem($spacing-value);
+      }
+
+      .#{$breakpoint-name}--mt-#{$i} {
+        margin-top: rem($spacing-value);
+      }
+
+      .#{$breakpoint-name}--mr-#{$i} {
+        margin-right: rem($spacing-value);
+      }
+
+      .#{$breakpoint-name}--mb-#{$i} {
+        margin-bottom: rem($spacing-value);
+      }
+
+      .#{$breakpoint-name}--ml-#{$i} {
+        margin-left: rem($spacing-value);
+      }
+
+      .#{$breakpoint-name}--p-#{$i} {
+        padding: rem($spacing-value);
+      }
+
+      .#{$breakpoint-name}--px-#{$i} {
+        padding-left: rem($spacing-value);
+        padding-right: rem($spacing-value);
+      }
+
+      .#{$breakpoint-name}--py-#{$i} {
+        padding-top: rem($spacing-value);
+        padding-bottom: rem($spacing-value);
+      }
+
+      .#{$breakpoint-name}--pt-#{$i} {
+        padding-top: rem($spacing-value);
+      }
+
+      .#{$breakpoint-name}--pr-#{$i} {
+        padding-right: rem($spacing-value);
+      }
+
+      .#{$breakpoint-name}--pb-#{$i} {
+        padding-bottom: rem($spacing-value);
+      }
+
+      .#{$breakpoint-name}--pl-#{$i} {
+        padding-left: rem($spacing-value);
+      }
+    }
+  }
+}
