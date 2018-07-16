@@ -116,3 +116,10 @@ $breakpoints: (
 // From design 12 columns, 68px wide + 24px gutter
 $column-width: $base-scale * 17;
 $gutter-width: $base-scale * 6;
+$cols: 12;
+
+$columns-basis: (
+  s: $base-scale * 50,
+  m: $base-scale * 100,
+  l: $base-scale * 200
+)
