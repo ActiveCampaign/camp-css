@@ -8,6 +8,7 @@
 
     .gg-#{$i} {
         grid-gap: $spacing-value;
+        gap: $spacing-value; // newer, renamed property not available in all browsers yet.
     }
 }
 
@@ -17,9 +18,10 @@
     @media #{$breakpoint-value} {
         @each $spacing-name, $spacing-value in $spacing {
             $i: index($spacing, $spacing-name $spacing-value);
-        
+
             .#{$breakpoint-name}--gg-#{$i} {
                 grid-gap: $spacing-value;
+                gap: $spacing-value; // newer, renamed property not available in all browsers yet.
             }
         }
     }
@@ -35,7 +37,7 @@
 	.g-col-#{$i} {
 		grid-column: span $i;
 	}
-	
+
 	.g-row-#{$i} {
 		grid-row: span $i;
     }
@@ -43,13 +45,13 @@
 
 @each $breakpoint-name, $breakpoint-value in $breakpoints {
     $i: index($breakpoints, $breakpoint-name $breakpoint-value);
-  
+
     @media #{$breakpoint-value} {
         @for $i from 1 through $cols {
             .#{$breakpoint-name}--g-col-#{$i} {
                 grid-column: span $i;
             }
-            
+
             .#{$breakpoint-name}--g-row-#{$i} {
                 grid-row: span $i;
             }
