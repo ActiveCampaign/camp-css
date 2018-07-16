@@ -32,36 +32,6 @@
   .ml-#{$i} {
     margin-left: rem($spacing-value);
   }
-
-  .p-#{$i} {
-    padding: rem($spacing-value);
-  }
-
-  .px-#{$i} {
-    padding-left: rem($spacing-value);
-    padding-right: rem($spacing-value);
-  }
-
-  .py-#{$i} {
-    padding-top: rem($spacing-value);
-    padding-bottom: rem($spacing-value);
-  }
-
-  .pt-#{$i} {
-    padding-top: rem($spacing-value);
-  }
-
-  .pr-#{$i} {
-    padding-right: rem($spacing-value);
-  }
-
-  .pb-#{$i} {
-    padding-bottom: rem($spacing-value);
-  }
-
-  .pl-#{$i} {
-    padding-left: rem($spacing-value);
-  }
 }
 
 @each $breakpoint-name, $breakpoint-value in $breakpoints {
@@ -99,36 +69,6 @@
 
       .#{$breakpoint-name}--ml-#{$i} {
         margin-left: rem($spacing-value);
-      }
-
-      .#{$breakpoint-name}--p-#{$i} {
-        padding: rem($spacing-value);
-      }
-
-      .#{$breakpoint-name}--px-#{$i} {
-        padding-left: rem($spacing-value);
-        padding-right: rem($spacing-value);
-      }
-
-      .#{$breakpoint-name}--py-#{$i} {
-        padding-top: rem($spacing-value);
-        padding-bottom: rem($spacing-value);
-      }
-
-      .#{$breakpoint-name}--pt-#{$i} {
-        padding-top: rem($spacing-value);
-      }
-
-      .#{$breakpoint-name}--pr-#{$i} {
-        padding-right: rem($spacing-value);
-      }
-
-      .#{$breakpoint-name}--pb-#{$i} {
-        padding-bottom: rem($spacing-value);
-      }
-
-      .#{$breakpoint-name}--pl-#{$i} {
-        padding-left: rem($spacing-value);
       }
     }
   }
