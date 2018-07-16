@@ -2,53 +2,57 @@ $base-scale: 4px;
 
 // Colors
 $colors: (
+  // Primary palette
   ocean: #356ae6,
-  ocean120: #1b54d9,
-  ocean80: #5884ea,
-  ocean60: #c1d1f7,
-  ocean40: #e3ebfc,
-  ocean20: #fafbff,
+  ocean-120: #1b54d9,
+  ocean-80: #5884ea,
+  ocean-60: #c1d1f7,
+  ocean-40: #e3ebfc,
+  ocean-20: #fafbff,
   slate: #4e5468,
-  slate120: #1f2129,
-  slate80: #5f667e,
-  slate60: #9298ad,
-  slate40: #ced3e0,
-  slate20: #f7f9ff,
+  slate-120: #1f2129,
+  slate-80: #5f667e,
+  slate-60: #9298ad,
+  slate-40: #ced3e0,
+  slate-20: #f7f9ff,
   mint: #19cca3,
-  mint120: #139879,
-  mint80: #1bddb1,
-  mint60: #6ae6c9,
-  mint40: #b6f2e4,
-  mint20: #ebfffa,
+  mint-120: #139879,
+  mint-80: #1bddb1,
+  mint-60: #6ae6c9,
+  mint-40: #b6f2e4,
+  mint-20: #ebfffa,
+  // Secondary palette
   strawberry: #f3376b,
-  strawberry120: #e40e49,
-  strawberry80: #f56e94,
-  strawberry60: #faa5bd,
-  strawberry40: #fcdee7,
-  strawberry20: #fff2f6,
+  strawberry-120: #e40e49,
+  strawberry-80: #f56e94,
+  strawberry-60: #faa5bd,
+  strawberry-40: #fcdee7,
+  strawberry-20: #fff2f6,
   creamsicle: #ff8730,
-  creamsicle120: #f46700,
-  creamsicle80: #ffa869,
-  creamsicle60: #ffbf90,
-  creamsicle40: #ffe1cb,
-  creamsicle20: #fff8f2,
+  creamsicle-120: #f46700,
+  creamsicle-80: #ffa869,
+  creamsicle-60: #ffbf90,
+  creamsicle-40: #ffe1cb,
+  creamsicle-20: #fff8f2,
   lavendar: #9159fc,
-  lavendar120: #73f,
-  lavendar80: #aa81fc,
-  lavendar60: #c3a7fc,
-  lavendar40: #eae0fe,
-  lavendar20: #f7f2ff,
+  lavendar-120: #73f,
+  lavendar-80: #aa81fc,
+  lavendar-60: #c3a7fc,
+  lavendar-40: #eae0fe,
+  lavendar-20: #f7f2ff,
   banana: #facf3f,
-  banana120: #deaa00,
-  banana80: #fbd965,
-  banana60: #fce28b,
-  banana40: #fdecb2,
-  banana20: #fff9e6,
+  banana-120: #deaa00,
+  banana-80: #fbd965,
+  banana-60: #fce28b,
+  banana-40: #fdecb2,
+  banana-20: #fff9e6,
+  // Other
+  black: #000,
   white: #fff,
   transparent: rgba(255, 255, 255, 0),
 );
 
-// Typography
+// Font families
 $heading: 'Poppins', 'Avenir', 'Avenir Next', 'Futura', helvetica, arial, sans-serif;
 $body: 'IBM Plex Sans', 'Franklin Gothic', 'ITC Franklin Gothic', helvetica, arial, sans-serif;
 
@@ -99,4 +103,21 @@ $spacing: (
   spacing-9: $spacing-scale * 12,
   spacing-10: $spacing-scale * 16,
   spacing-12: $spacing-scale * 20,
+);
+
+// Breakpoints
+$breakpoints: (
+  bp-s: 'screen and (min-width: 30em)',     // ~ phone
+  bp-m: 'screen and (min-width: 45em)',     // ~ tablet
+  bp-l: 'screen and (min-width: 60em)',     // ~ laptop
+  bp-xl: 'screen and (min-width: 70.5em)',  // ~ monitor
+  bp-2xl: 'screen and (min-width: 100em)',  // ~ ultra-wide monitor
+);
+
+// Grid: 12 column gridy system, 68px columns, 24px gutters
+$column-width: $base-scale * 17;
+$gutter-width: $base-scale * 6;
+
+$columns: (
+  column-1: $column-width * 1,
 );
