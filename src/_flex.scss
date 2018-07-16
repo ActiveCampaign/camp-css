@@ -1,0 +1,145 @@
+.flex {
+  display: flex;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.flex-none {
+  flex: none;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+.flex-column-reverse {
+  flex-direction: column-reverse;
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+/*
+
+tbd if we will really need the `order` classes? they can be applied to both
+flex and grid items, but they are officially part of the flexbox spec. so not
+sure which file to place them in if we use them
+
+*/
+
+// .order-0 { order: 0; }
+// .order-1 { order: 1; }
+// .order-2 { order: 2; }
+// .order-3 { order: 3; }
+// .order-4 { order: 4; }
+// .order-5 { order: 5; }
+// .order-6 { order: 6; }
+// .order-7 { order: 7; }
+// .order-8 { order: 8; }
+// .order-last { order: 99999; }
+
+.flex-grow-0 {
+  flex-grow: 0;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+
+.flex-shrink-1 {
+  flex-shrink: 1;
+}
+
+@each $breakpoint-name, $breakpoint-value in $breakpoints {
+
+  @media #{$breakpoint-value} {
+    .#{$breakpoint-name}--flex {
+      display: flex;
+    }
+
+    .#{$breakpoint-name}--inline-flex {
+      display: inline-flex;
+    }
+
+    .#{$breakpoint-name}--flex-none {
+      flex: none;
+    }
+
+    .#{$breakpoint-name}--flex-column {
+      flex-direction: column;
+    }
+
+    .#{$breakpoint-name}--flex-row {
+      flex-direction: row;
+    }
+
+    .#{$breakpoint-name}--flex-wrap {
+      flex-wrap: wrap;
+    }
+
+    .#{$breakpoint-name}--flex-nowrap {
+      flex-wrap: nowrap;
+    }
+
+    .#{$breakpoint-name}--flex-wrap-reverse {
+      flex-wrap: wrap-reverse;
+    }
+
+    .#{$breakpoint-name}--flex-column-reverse {
+      flex-direction: column-reverse;
+    }
+
+    .#{$breakpoint-name}--flex-row-reverse {
+      flex-direction: row-reverse;
+    }
+
+    // .#{$breakpoint-name}--order-0 { order: 0; }
+    // .#{$breakpoint-name}--order-1 { order: 1; }
+    // .#{$breakpoint-name}--order-2 { order: 2; }
+    // .#{$breakpoint-name}--order-3 { order: 3; }
+    // .#{$breakpoint-name}--order-4 { order: 4; }
+    // .#{$breakpoint-name}--order-5 { order: 5; }
+    // .#{$breakpoint-name}--order-6 { order: 6; }
+    // .#{$breakpoint-name}--order-7 { order: 7; }
+    // .#{$breakpoint-name}--order-8 { order: 8; }
+    // .#{$breakpoint-name}--order-last { order: 99999; }
+
+    .#{$breakpoint-name}--flex-grow-0 {
+      flex-grow: 0;
+    }
+
+    .#{$breakpoint-name}--flex-grow-1 {
+      flex-grow: 1;
+    }
+
+    .#{$breakpoint-name}--flex-shrink-0 {
+      flex-shrink: 0;
+    }
+
+    .#{$breakpoint-name}--flex-shrink-1 {
+      flex-shrink: 1;
+    }
+  }
+}
