@@ -2,10 +2,6 @@
 	display: grid;
 }
 
-.g-cols {
-	grid-template-columns: repeat($cols, 1fr);
-}
-
 /* Space between grid cells, use on grid container. Uses spacing scale. */
 @each $spacing-name, $spacing-value in $spacing {
     $i: index($spacing, $spacing-name $spacing-value);
@@ -29,7 +25,12 @@
     }
 }
 
-/* Number of columns or rows to span, use on grid items. */
+/* Sets up a 12 column grid with equal width columns. Use on grid container. */
+.g-cols {
+	grid-template-columns: repeat($cols, 1fr);
+}
+
+/* Number of columns or rows to span. Use on children of .g-cols. */
 @for $i from 1 through $cols {
 	.g-col-#{$i} {
 		grid-column: span $i;
@@ -37,7 +38,7 @@
 	
 	.g-row-#{$i} {
 		grid-row: span $i;
-	}
+    }
 }
 
 @each $breakpoint-name, $breakpoint-value in $breakpoints {
@@ -56,10 +57,8 @@
     }
 }
 
-/* Auto-sized columns */
+/* Auto-fit columns, use on grid container. Children will be automatically inherit responsive behavior. */
 @each $basis-name, $basis-value in $columns-basis {
-    // $i: index($columns-basis, $basis-name $basis-value);
-
     .g-cols-auto-#{$basis-name} {
         grid-template-columns: repeat(auto-fit, minmax(#{$basis-value}, 1fr));
     }
