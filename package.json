@@ -8,7 +8,7 @@
     "build": "node-sass src/main.scss --source-map true --output-style compressed -o dist | postcss dist/main.css -d dist",
     "dev": "node-sass src/main.scss --source-map true --output-style expanded -o dist -w | postcss dist/main.css -d dist -w",
     "start": "yarn dev",
-    "lint": "stylelint \"src/**/*.scss\"",
+    "lint": "stylelint \"src/**/*.scss\" --config .stylelint.config.js",
     "pretest": "yarn clean && yarn build",
     "test": "yarn lint && node test.js"
   },
