@@ -17,6 +17,7 @@
 .flex-row {
   flex-direction: row;
 }
+
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -55,7 +56,6 @@ sure which file to place them in if we use them
 // .order-7 { order: 7; }
 // .order-8 { order: 8; }
 // .order-last { order: 99999; }
-
 .flex-grow-0 {
   flex-grow: 0;
 }
@@ -73,7 +73,6 @@ sure which file to place them in if we use them
 }
 
 @each $breakpoint-name, $breakpoint-value in $breakpoints {
-
   @media #{$breakpoint-value} {
     .#{$breakpoint-name}--flex {
       display: flex;
@@ -125,7 +124,6 @@ sure which file to place them in if we use them
     // .#{$breakpoint-name}--order-7 { order: 7; }
     // .#{$breakpoint-name}--order-8 { order: 8; }
     // .#{$breakpoint-name}--order-last { order: 99999; }
-
     .#{$breakpoint-name}--flex-grow-0 {
       flex-grow: 0;
     }
