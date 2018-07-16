@@ -1,66 +1,65 @@
 .grid {
-	display: grid;
+  display: grid;
 }
 
 .g-cols {
-	grid-template-columns: repeat($cols, 1fr);
+  grid-template-columns: repeat($cols, 1fr);
 }
 
-/* Space between grid cells, use on grid container. Uses spacing scale. */
+// Space between grid cells, use on grid container. Uses spacing scale.
 @each $spacing-name, $spacing-value in $spacing {
-    $i: index($spacing, $spacing-name $spacing-value);
+  $i: index($spacing, $spacing-name $spacing-value);
 
-    .gg-#{$i} {
+  .gg-#{$i} {
+    grid-gap: $spacing-value;
+  }
+}
+
+@each $breakpoint-name, $breakpoint-value in $breakpoints {
+  $i: index($breakpoints, $breakpoint-name $breakpoint-value);
+
+  @media #{$breakpoint-value} {
+    @each $spacing-name, $spacing-value in $spacing {
+      $i: index($spacing, $spacing-name $spacing-value);
+
+      .#{$breakpoint-name}--gg-#{$i} {
         grid-gap: $spacing-value;
+      }
     }
+  }
 }
 
-@each $breakpoint-name, $breakpoint-value in $breakpoints {
-    $i: index($breakpoints, $breakpoint-name $breakpoint-value);
-
-    @media #{$breakpoint-value} {
-        @each $spacing-name, $spacing-value in $spacing {
-            $i: index($spacing, $spacing-name $spacing-value);
-        
-            .#{$breakpoint-name}--gg-#{$i} {
-                grid-gap: $spacing-value;
-            }
-        }
-    }
-}
-
-/* Number of columns or rows to span, use on grid items. */
+// Number of columns or rows to span, use on grid items.
 @for $i from 1 through $cols {
-	.g-col-#{$i} {
-		grid-column: span $i;
-	}
-	
-	.g-row-#{$i} {
-		grid-row: span $i;
-	}
+  .g-col-#{$i} {
+    grid-column: span $i;
+  }
+
+  .g-row-#{$i} {
+    grid-row: span $i;
+  }
 }
 
 @each $breakpoint-name, $breakpoint-value in $breakpoints {
-    $i: index($breakpoints, $breakpoint-name $breakpoint-value);
-  
-    @media #{$breakpoint-value} {
-        @for $i from 1 through $cols {
-            .#{$breakpoint-name}--g-col-#{$i} {
-                grid-column: span $i;
-            }
-            
-            .#{$breakpoint-name}--g-row-#{$i} {
-                grid-row: span $i;
-            }
-        }
+  $i: index($breakpoints, $breakpoint-name $breakpoint-value);
+
+  @media #{$breakpoint-value} {
+    @for $i from 1 through $cols {
+      .#{$breakpoint-name}--g-col-#{$i} {
+        grid-column: span $i;
+      }
+
+      .#{$breakpoint-name}--g-row-#{$i} {
+        grid-row: span $i;
+      }
     }
+  }
 }
 
-/* Auto-sized columns */
+// Auto-sized columns
 @each $basis-name, $basis-value in $columns-basis {
-    // $i: index($columns-basis, $basis-name $basis-value);
-
-    .g-cols-auto-#{$basis-name} {
-        grid-template-columns: repeat(auto-fit, minmax(#{$basis-value}, 1fr));
-    }
+  // $i: index($columns-basis, $basis-name $basis-value);
+  .g-cols-auto-#{$basis-name} {
+    grid-template-columns: repeat(auto-fit, minmax(#{$basis-value}, 1fr));
+  }
 }
