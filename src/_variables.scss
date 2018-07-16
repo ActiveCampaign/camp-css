@@ -115,9 +115,16 @@ $breakpoints: (
 );
 
 // Grid: 12 column gridy system, 68px columns, 24px gutters
+$cols: 12;
 $column-width: $base-scale * 17;
 $gutter-width: $base-scale * 6;
 
 $columns: (
   column-1: $column-width * 1,
 );
+
+$columns-basis: (
+  s: $base-scale * 50,
+  m: $base-scale * 100,
+  l: $base-scale * 200
+)
