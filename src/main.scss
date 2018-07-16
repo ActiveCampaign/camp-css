@@ -1,7 +1,12 @@
+// Functions
+@import 'functions/rem';
+
+// Styles
 @import 'variables';
 @import 'colors';
 @import 'font-sizes';
 @import 'font-weights';
 @import 'line-heights';
-@import 'spacing';
 @import 'grid';
+@import 'margins';
+@import 'paddings';

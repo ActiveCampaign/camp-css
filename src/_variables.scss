@@ -107,21 +107,16 @@ $spacing: (
 
 // Breakpoints
 $breakpoints: (
-  bp-s: 'screen and (min-width: 30em)',     // ~ phone
-  bp-m: 'screen and (min-width: 45em)',     // ~ tablet
-  bp-l: 'screen and (min-width: 60em)',     // ~ laptop
-  bp-xl: 'screen and (min-width: 70.5em)',  // ~ monitor
-  bp-2xl: 'screen and (min-width: 100em)',  // ~ ultra-wide monitor
+  bp-s: 'screen and (min-width: 30rem)',     // ~ phone
+  bp-m: 'screen and (min-width: 45rem)',     // ~ tablet
+  bp-l: 'screen and (min-width: 60rem)',     // ~ laptop
+  bp-xl: 'screen and (min-width: 70.5rem)',  // ~ monitor
 );
 
-// Grid: 12 column gridy system, 68px columns, 24px gutters
-$cols: 12;
+// From design 12 columns, 68px wide + 24px gutter
 $column-width: $base-scale * 17;
 $gutter-width: $base-scale * 6;
-
-$columns: (
-  column-1: $column-width * 1,
-);
+$cols: 12;
 
 $columns-basis: (
   s: $base-scale * 50,

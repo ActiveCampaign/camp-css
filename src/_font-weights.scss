@@ -4,3 +4,14 @@
   }
 }
 
+@each $breakpoint-name, $breakpoint-value in $breakpoints {
+  $i: index($breakpoints, $breakpoint-name $breakpoint-value);
+
+  @media #{$breakpoint-value} {
+    @for $i from 1 through 9 {
+      .#{$breakpoint-name}--fw-#{$i} {
+        font-weight: $i * 100;
+      }
+    }
+  }
+}

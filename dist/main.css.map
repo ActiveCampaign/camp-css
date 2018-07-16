@@ -3,6 +3,7 @@
 	"file": "main.css",
 	"sources": [
 		"../src/main.scss",
+		"../src/functions/_rem.scss",
 		"../src/_variables.scss",
 		"../src/_colors.scss",
 		"../src/_font-sizes.scss",
