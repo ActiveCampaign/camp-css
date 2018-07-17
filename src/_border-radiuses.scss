@@ -1,0 +1,19 @@
+@each $border-radius in $border-radiuses {
+  $border-radius-value: strip-unit($border-radius);
+
+  .br-#{$border-radius-value} {
+    border-radius: $border-radius;
+  }
+}
+
+@each $breakpoint-name, $breakpoint-value in $breakpoints {
+  @media #{$breakpoint-value} {
+    @each $border-radius in $border-radiuses {
+      $border-radius-value: strip-unit($border-radius);
+
+      .#{$breakpoint-name}--br-#{$border-radius-value} {
+        border-radius: $border-radius;
+      }
+    }
+  }
+}

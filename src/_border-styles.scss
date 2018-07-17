@@ -1,0 +1,51 @@
+.bs-none {
+  border-style: none;
+}
+
+.bs-solid {
+  border-style: solid;
+}
+
+.bs-t-solid {
+  border-top-style: solid;
+}
+
+.bs-r-solid {
+  border-right-style: solid;
+}
+
+.bs-b-solid {
+  border-bottom-style: solid;
+}
+
+.bs-l-solid {
+  border-left-style: solid;
+}
+
+@each $breakpoint-name, $breakpoint-value in $breakpoints {
+  @media #{$breakpoint-value} {
+    .#{$breakpoint-name}--bs-none {
+      border-style: none;
+    }
+
+    .#{$breakpoint-name}--bs-solid {
+      border-style: solid;
+    }
+
+    .#{$breakpoint-name}--bs-t-solid {
+      border-top-style: solid;
+    }
+
+    .#{$breakpoint-name}--bs-r-solid {
+      border-right-style: solid;
+    }
+
+    .#{$breakpoint-name}--bs-b-solid {
+      border-bottom-style: solid;
+    }
+
+    .#{$breakpoint-name}--bs-l-solid {
+      border-left-style: solid;
+    }
+  }
+}
