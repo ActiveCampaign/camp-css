@@ -1,0 +1,9 @@
+.ls { letter-spacing: rem($type-scale * 0.1); }
+.ls-n { letter-spacing: rem($type-scale * -0.05); }
+
+@each $breakpoint-name, $breakpoint-value in $breakpoints {
+  @media #{$breakpoint-value} {
+    .#{$breakpoint-name}--ls { letter-spacing: rem($type-scale * 0.1); }
+    .#{$breakpoint-name}--ls-n { letter-spacing: rem($type-scale * -0.05); }
+  }
+}
