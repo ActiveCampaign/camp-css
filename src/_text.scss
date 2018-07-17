@@ -1,0 +1,91 @@
+.ta-left {
+  text-align: left;
+}
+
+.ta-center {
+  text-align: center;
+}
+
+.ta-right {
+  text-align: right;
+}
+
+@each $breakpoint-name, $breakpoint-value in $breakpoints {
+  @media #{$breakpoint-value} {
+    .#{$breakpoint-name}--ta-left {
+      text-align: left;
+    }
+
+    .#{$breakpoint-name}--ta-center {
+      text-align: center;
+    }
+
+    .#{$breakpoint-name}--ta-right {
+      text-align: right;
+    }
+  }
+}
+
+.td-none {
+  text-decoration: none;
+}
+
+.td-underline {
+  text-decoration: underline;
+}
+
+.td-strike {
+  text-decoration: line-through;
+}
+
+@each $breakpoint-name, $breakpoint-value in $breakpoints {
+  @media #{$breakpoint-value} {
+    .#{$breakpoint-name}--td-none {
+      text-decoration: none;
+    }
+
+    .#{$breakpoint-name}--td-underline {
+      text-decoration: underline;
+    }
+
+    .#{$breakpoint-name}--td-strike {
+      text-decoration: line-through;
+    }
+  }
+}
+
+.tt-upper {
+  text-transform: uppercase;
+}
+
+.tt-lower {
+  text-transform: lowercase;
+}
+
+.tt-none {
+  text-transform: none;
+}
+
+.tt-caps {
+  text-transform: capitalize;
+}
+
+@each $breakpoint-name, $breakpoint-value in $breakpoints {
+  @media #{$breakpoint-value} {
+    .#{$breakpoint-name}--tt-upper {
+      text-transform: uppercase;
+    }
+
+    .#{$breakpoint-name}--tt-lower {
+      text-transform: lowercase;
+    }
+
+    .#{$breakpoint-name}--tt-none {
+      text-transform: none;
+    }
+
+    .#{$breakpoint-name}--tt-caps {
+      text-transform: capitalize;
+    }
+  }
+}
