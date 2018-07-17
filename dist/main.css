@@ -4773,4 +4773,37 @@ sure which file to place them in if we use them
     height: 100%; }
   .bp-xl--h-auto {
     height: auto; } }
+
+.o-0 {
+  opacity: 0; }
+
+.o-10 {
+  opacity: 0.1; }
+
+.o-20 {
+  opacity: 0.2; }
+
+.o-30 {
+  opacity: 0.3; }
+
+.o-40 {
+  opacity: 0.4; }
+
+.o-50 {
+  opacity: 0.5; }
+
+.o-60 {
+  opacity: 0.6; }
+
+.o-70 {
+  opacity: 0.7; }
+
+.o-80 {
+  opacity: 0.8; }
+
+.o-90 {
+  opacity: 0.9; }
+
+.o-100 {
+  opacity: 1; }
 /*# sourceMappingURL=main.css.map */
