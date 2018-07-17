@@ -5,3 +5,15 @@
     line-height: rem($height);
   }
 }
+
+@each $breakpoint-name, $breakpoint-value in $breakpoints {
+  @media #{$breakpoint-value} {
+    @each $scale, $height in $line-heights {
+      $i: index($line-heights, $scale $height);
+
+      .#{$breakpoint-name}--lh-#{$i} {
+        line-height: rem($height);
+      }
+    }
+  }
+}

@@ -13,8 +13,6 @@
 }
 
 @each $breakpoint-name, $breakpoint-value in $breakpoints {
-  $i: index($breakpoints, $breakpoint-name $breakpoint-value);
-
   @media #{$breakpoint-value} {
     @each $spacing-name, $spacing-value in $spacing {
       $i: index($spacing, $spacing-name $spacing-value);
@@ -44,8 +42,6 @@
 }
 
 @each $breakpoint-name, $breakpoint-value in $breakpoints {
-  $i: index($breakpoints, $breakpoint-name $breakpoint-value);
-
   @media #{$breakpoint-value} {
     @for $i from 1 through $cols {
       .#{$breakpoint-name}--g-col-#{$i} {
