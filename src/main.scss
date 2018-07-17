@@ -1,5 +1,6 @@
 // Functions
 @import 'functions/rem';
+@import 'functions/strip-unit';
 
 // Styles
 @import 'variables';
@@ -12,3 +13,5 @@
 @import 'box-alignments';
 @import 'margins';
 @import 'paddings';
+@import 'widths';
+@import 'heights';

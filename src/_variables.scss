@@ -105,6 +105,12 @@ $spacing: (
   spacing-12: $spacing-scale * 20,
 );
 
+// Widths
+$widths: 10%, 20%, 25%, 30%, 33%, 34%, 40%, 50%, 60%, 67%, 70%, 75%, 80%, 90%, 100%;
+
+// Heights
+$heights: 0, 100%;
+
 // Breakpoints
 $breakpoints: (
   bp-s: 'screen and (min-width: 30rem)',     // ~ phone

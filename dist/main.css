@@ -1,3 +1,11 @@
+/*
+ * Strip-unit Function by Hugo Giraudel
+ * https://css-tricks.com/snippets/sass/strip-unit-function/
+ *
+ * Remove the unit of a length
+ * @param {Number} $number - Number to remove unit from
+ * @return {Number} - Unitless number
+ */
 .ocean {
   color: #356ae6; }
 
@@ -4321,4 +4329,218 @@ sure which file to place them in if we use them
     padding-bottom: 5rem; }
   .bp-xl--pl-11 {
     padding-left: 5rem; } }
+
+.w-10 {
+  width: 10%; }
+
+.w-20 {
+  width: 20%; }
+
+.w-25 {
+  width: 25%; }
+
+.w-30 {
+  width: 30%; }
+
+.w-33 {
+  width: 33%; }
+
+.w-34 {
+  width: 34%; }
+
+.w-40 {
+  width: 40%; }
+
+.w-50 {
+  width: 50%; }
+
+.w-60 {
+  width: 60%; }
+
+.w-67 {
+  width: 67%; }
+
+.w-70 {
+  width: 70%; }
+
+.w-75 {
+  width: 75%; }
+
+.w-80 {
+  width: 80%; }
+
+.w-90 {
+  width: 90%; }
+
+.w-100 {
+  width: 100%; }
+
+@media screen and (min-width: 30rem) {
+  .bp-s--w-10 {
+    width: 10%; }
+  .bp-s--w-20 {
+    width: 20%; }
+  .bp-s--w-25 {
+    width: 25%; }
+  .bp-s--w-30 {
+    width: 30%; }
+  .bp-s--w-33 {
+    width: 33%; }
+  .bp-s--w-34 {
+    width: 34%; }
+  .bp-s--w-40 {
+    width: 40%; }
+  .bp-s--w-50 {
+    width: 50%; }
+  .bp-s--w-60 {
+    width: 60%; }
+  .bp-s--w-67 {
+    width: 67%; }
+  .bp-s--w-70 {
+    width: 70%; }
+  .bp-s--w-75 {
+    width: 75%; }
+  .bp-s--w-80 {
+    width: 80%; }
+  .bp-s--w-90 {
+    width: 90%; }
+  .bp-s--w-100 {
+    width: 100%; } }
+
+@media screen and (min-width: 45rem) {
+  .bp-m--w-10 {
+    width: 10%; }
+  .bp-m--w-20 {
+    width: 20%; }
+  .bp-m--w-25 {
+    width: 25%; }
+  .bp-m--w-30 {
+    width: 30%; }
+  .bp-m--w-33 {
+    width: 33%; }
+  .bp-m--w-34 {
+    width: 34%; }
+  .bp-m--w-40 {
+    width: 40%; }
+  .bp-m--w-50 {
+    width: 50%; }
+  .bp-m--w-60 {
+    width: 60%; }
+  .bp-m--w-67 {
+    width: 67%; }
+  .bp-m--w-70 {
+    width: 70%; }
+  .bp-m--w-75 {
+    width: 75%; }
+  .bp-m--w-80 {
+    width: 80%; }
+  .bp-m--w-90 {
+    width: 90%; }
+  .bp-m--w-100 {
+    width: 100%; } }
+
+@media screen and (min-width: 60rem) {
+  .bp-l--w-10 {
+    width: 10%; }
+  .bp-l--w-20 {
+    width: 20%; }
+  .bp-l--w-25 {
+    width: 25%; }
+  .bp-l--w-30 {
+    width: 30%; }
+  .bp-l--w-33 {
+    width: 33%; }
+  .bp-l--w-34 {
+    width: 34%; }
+  .bp-l--w-40 {
+    width: 40%; }
+  .bp-l--w-50 {
+    width: 50%; }
+  .bp-l--w-60 {
+    width: 60%; }
+  .bp-l--w-67 {
+    width: 67%; }
+  .bp-l--w-70 {
+    width: 70%; }
+  .bp-l--w-75 {
+    width: 75%; }
+  .bp-l--w-80 {
+    width: 80%; }
+  .bp-l--w-90 {
+    width: 90%; }
+  .bp-l--w-100 {
+    width: 100%; } }
+
+@media screen and (min-width: 70.5rem) {
+  .bp-xl--w-10 {
+    width: 10%; }
+  .bp-xl--w-20 {
+    width: 20%; }
+  .bp-xl--w-25 {
+    width: 25%; }
+  .bp-xl--w-30 {
+    width: 30%; }
+  .bp-xl--w-33 {
+    width: 33%; }
+  .bp-xl--w-34 {
+    width: 34%; }
+  .bp-xl--w-40 {
+    width: 40%; }
+  .bp-xl--w-50 {
+    width: 50%; }
+  .bp-xl--w-60 {
+    width: 60%; }
+  .bp-xl--w-67 {
+    width: 67%; }
+  .bp-xl--w-70 {
+    width: 70%; }
+  .bp-xl--w-75 {
+    width: 75%; }
+  .bp-xl--w-80 {
+    width: 80%; }
+  .bp-xl--w-90 {
+    width: 90%; }
+  .bp-xl--w-100 {
+    width: 100%; } }
+
+.h-0 {
+  height: 0; }
+
+.h-100 {
+  height: 100%; }
+
+.h-auto {
+  height: auto; }
+
+@media screen and (min-width: 30rem) {
+  .bp-s--h-0 {
+    height: 0; }
+  .bp-s--h-100 {
+    height: 100%; }
+  .bp-s--h-auto {
+    height: auto; } }
+
+@media screen and (min-width: 45rem) {
+  .bp-m--h-0 {
+    height: 0; }
+  .bp-m--h-100 {
+    height: 100%; }
+  .bp-m--h-auto {
+    height: auto; } }
+
+@media screen and (min-width: 60rem) {
+  .bp-l--h-0 {
+    height: 0; }
+  .bp-l--h-100 {
+    height: 100%; }
+  .bp-l--h-auto {
+    height: auto; } }
+
+@media screen and (min-width: 70.5rem) {
+  .bp-xl--h-0 {
+    height: 0; }
+  .bp-xl--h-100 {
+    height: 100%; }
+  .bp-xl--h-auto {
+    height: auto; } }
 /*# sourceMappingURL=main.css.map */
