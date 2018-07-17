@@ -4909,78 +4909,78 @@ sure which file to place them in if we use them
   .bp-xl--h-auto {
     height: auto; } }
 
-.b-none {
+.bn {
   border-style: none; }
 
-.b-all {
+.ba {
   border-style: solid; }
 
-.b-top {
+.bt {
   border-top-style: solid; }
 
-.b-right {
+.br {
   border-right-style: solid; }
 
-.b-bottom {
+.bb {
   border-bottom-style: solid; }
 
-.b-left {
+.bl {
   border-left-style: solid; }
 
 @media screen and (min-width: 30rem) {
-  .bp-s--b-none {
+  .bp-s--bn {
     border-style: none; }
-  .bp-s--b-all {
+  .bp-s--ba {
     border-style: solid; }
-  .bp-s--b-top {
+  .bp-s--bt {
     border-top-style: solid; }
-  .bp-s--b-right {
+  .bp-s--br {
     border-right-style: solid; }
-  .bp-s--b-bottom {
+  .bp-s--bb {
     border-bottom-style: solid; }
-  .bp-s--b-left {
+  .bp-s--bl {
     border-left-style: solid; } }
 
 @media screen and (min-width: 45rem) {
-  .bp-m--b-none {
+  .bp-m--bn {
     border-style: none; }
-  .bp-m--b-all {
+  .bp-m--ba {
     border-style: solid; }
-  .bp-m--b-top {
+  .bp-m--bt {
     border-top-style: solid; }
-  .bp-m--b-right {
+  .bp-m--br {
     border-right-style: solid; }
-  .bp-m--b-bottom {
+  .bp-m--bb {
     border-bottom-style: solid; }
-  .bp-m--b-left {
+  .bp-m--bl {
     border-left-style: solid; } }
 
 @media screen and (min-width: 60rem) {
-  .bp-l--b-none {
+  .bp-l--bn {
     border-style: none; }
-  .bp-l--b-all {
+  .bp-l--ba {
     border-style: solid; }
-  .bp-l--b-top {
+  .bp-l--bt {
     border-top-style: solid; }
-  .bp-l--b-right {
+  .bp-l--br {
     border-right-style: solid; }
-  .bp-l--b-bottom {
+  .bp-l--bb {
     border-bottom-style: solid; }
-  .bp-l--b-left {
+  .bp-l--bl {
     border-left-style: solid; } }
 
 @media screen and (min-width: 70.5rem) {
-  .bp-xl--b-none {
+  .bp-xl--bn {
     border-style: none; }
-  .bp-xl--b-all {
+  .bp-xl--ba {
     border-style: solid; }
-  .bp-xl--b-top {
+  .bp-xl--bt {
     border-top-style: solid; }
-  .bp-xl--b-right {
+  .bp-xl--br {
     border-right-style: solid; }
-  .bp-xl--b-bottom {
+  .bp-xl--bb {
     border-bottom-style: solid; }
-  .bp-xl--b-left {
+  .bp-xl--bl {
     border-left-style: solid; } }
 
 .bw-0 {
