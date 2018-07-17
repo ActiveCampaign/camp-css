@@ -30,13 +30,13 @@
   },
   "homepage": "https://github.com/rod/ac-css#readme",
   "devDependencies": {
-    "autoprefixer": "^8.6.4",
-    "node-sass": "^4.9.0",
+    "autoprefixer": "^8.6.5",
+    "node-sass": "^4.9.2",
     "postcss-cli": "^5.0.1",
     "postcss-syntax": "^0.31.0",
     "rimraf": "^2.6.2",
     "stylelint": "^9.3.0",
-    "stylelint-config-activecampaign": "rod/stylelint-config-activecampaign",
+    "stylelint-config-activecampaign": "github:rod/stylelint-config-activecampaign",
     "watch": "^1.0.2"
   }
 }
