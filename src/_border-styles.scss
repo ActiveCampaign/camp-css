@@ -1,0 +1,51 @@
+.bn {
+  border-style: none;
+}
+
+.ba {
+  border-style: solid;
+}
+
+.bt {
+  border-top-style: solid;
+}
+
+.br {
+  border-right-style: solid;
+}
+
+.bb {
+  border-bottom-style: solid;
+}
+
+.bl {
+  border-left-style: solid;
+}
+
+@each $breakpoint-name, $breakpoint-value in $breakpoints {
+  @media #{$breakpoint-value} {
+    .#{$breakpoint-name}--bn {
+      border-style: none;
+    }
+
+    .#{$breakpoint-name}--ba {
+      border-style: solid;
+    }
+
+    .#{$breakpoint-name}--bt {
+      border-top-style: solid;
+    }
+
+    .#{$breakpoint-name}--br {
+      border-right-style: solid;
+    }
+
+    .#{$breakpoint-name}--bb {
+      border-bottom-style: solid;
+    }
+
+    .#{$breakpoint-name}--bl {
+      border-left-style: solid;
+    }
+  }
+}

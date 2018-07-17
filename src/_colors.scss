@@ -16,4 +16,8 @@
   .hover-bg-#{$color-name}:focus {
     background-color: #{$color-value};
   }
+
+  .b-#{$color-name} {
+    border-color: #{$color-value};
+  }
 }
