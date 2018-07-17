@@ -1,0 +1,9 @@
+.fs-normal { font-style: normal; }
+.fs-italic { font-style: italic; }
+
+@each $breakpoint-name, $breakpoint-value in $breakpoints {
+  @media #{$breakpoint-value} {
+    .#{$breakpoint-name}--fs-normal { font-style: normal; }
+    .#{$breakpoint-name}--fs-italic { font-style: italic; }
+  }
+}
