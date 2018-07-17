@@ -5129,4 +5129,74 @@ sure which file to place them in if we use them
   .bp-xl--of-none {
     -o-object-fit: none;
        object-fit: none; } }
+
+.none {
+  display: none; }
+
+.inline {
+  display: inline; }
+
+.block {
+  display: block; }
+
+.inline-block {
+  display: inline-block; }
+
+.table {
+  display: table; }
+
+.table-cell {
+  display: table-cell; }
+
+.table-row {
+  display: table-row; }
+
+.table-row-group {
+  display: table-row-group; }
+
+.table-column {
+  display: table-column; }
+
+.table-column-group {
+  display: table-column-group; }
+
+@media screen and (min-width: 30rem) {
+  .bp-s--none {
+    display: none; }
+  .bp-s--inline {
+    display: inline; }
+  .bp-s--block {
+    display: block; }
+  .bp-s--inline-block {
+    display: inline-block; } }
+
+@media screen and (min-width: 45rem) {
+  .bp-m--none {
+    display: none; }
+  .bp-m--inline {
+    display: inline; }
+  .bp-m--block {
+    display: block; }
+  .bp-m--inline-block {
+    display: inline-block; } }
+
+@media screen and (min-width: 60rem) {
+  .bp-l--none {
+    display: none; }
+  .bp-l--inline {
+    display: inline; }
+  .bp-l--block {
+    display: block; }
+  .bp-l--inline-block {
+    display: inline-block; } }
+
+@media screen and (min-width: 70.5rem) {
+  .bp-xl--none {
+    display: none; }
+  .bp-xl--inline {
+    display: inline; }
+  .bp-xl--block {
+    display: block; }
+  .bp-xl--inline-block {
+    display: inline-block; } }
 /*# sourceMappingURL=main.css.map */

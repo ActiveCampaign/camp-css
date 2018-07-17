@@ -1,0 +1,59 @@
+.none {
+  display: none;
+}
+
+.inline {
+  display: inline;
+}
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.table {
+  display: table;
+}
+
+.table-cell {
+  display: table-cell;
+}
+
+.table-row {
+  display: table-row;
+}
+
+.table-row-group {
+  display: table-row-group;
+}
+
+.table-column {
+  display: table-column;
+}
+
+.table-column-group {
+  display: table-column-group;
+}
+
+@each $breakpoint-name, $breakpoint-value in $breakpoints {
+  @media #{$breakpoint-value} {
+    .#{$breakpoint-name}--none {
+      display: none;
+    }
+
+    .#{$breakpoint-name}--inline {
+      display: inline;
+    }
+
+    .#{$breakpoint-name}--block {
+      display: block;
+    }
+
+    .#{$breakpoint-name}--inline-block {
+      display: inline-block;
+    }
+  }
+}
