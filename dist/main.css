@@ -4773,4 +4773,34 @@ sure which file to place them in if we use them
     height: 100%; }
   .bp-xl--h-auto {
     height: auto; } }
+
+.ls {
+  letter-spacing: 0.1rem; }
+
+.ls-n {
+  letter-spacing: -0.05rem; }
+
+@media screen and (min-width: 30rem) {
+  .bp-s--ls {
+    letter-spacing: 0.1rem; }
+  .bp-s--ls-n {
+    letter-spacing: -0.05rem; } }
+
+@media screen and (min-width: 45rem) {
+  .bp-m--ls {
+    letter-spacing: 0.1rem; }
+  .bp-m--ls-n {
+    letter-spacing: -0.05rem; } }
+
+@media screen and (min-width: 60rem) {
+  .bp-l--ls {
+    letter-spacing: 0.1rem; }
+  .bp-l--ls-n {
+    letter-spacing: -0.05rem; } }
+
+@media screen and (min-width: 70.5rem) {
+  .bp-xl--ls {
+    letter-spacing: 0.1rem; }
+  .bp-xl--ls-n {
+    letter-spacing: -0.05rem; } }
 /*# sourceMappingURL=main.css.map */
