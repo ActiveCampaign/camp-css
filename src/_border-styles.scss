@@ -1,50 +1,50 @@
-.bs-none {
+.b-none {
   border-style: none;
 }
 
-.bs-solid {
+.b-all {
   border-style: solid;
 }
 
-.bs-t-solid {
+.b-top {
   border-top-style: solid;
 }
 
-.bs-r-solid {
+.b-right {
   border-right-style: solid;
 }
 
-.bs-b-solid {
+.b-bottom {
   border-bottom-style: solid;
 }
 
-.bs-l-solid {
+.b-left {
   border-left-style: solid;
 }
 
 @each $breakpoint-name, $breakpoint-value in $breakpoints {
   @media #{$breakpoint-value} {
-    .#{$breakpoint-name}--bs-none {
+    .#{$breakpoint-name}--b-none {
       border-style: none;
     }
 
-    .#{$breakpoint-name}--bs-solid {
+    .#{$breakpoint-name}--b-all {
       border-style: solid;
     }
 
-    .#{$breakpoint-name}--bs-t-solid {
+    .#{$breakpoint-name}--b-top {
       border-top-style: solid;
     }
 
-    .#{$breakpoint-name}--bs-r-solid {
+    .#{$breakpoint-name}--b-right {
       border-right-style: solid;
     }
 
-    .#{$breakpoint-name}--bs-b-solid {
+    .#{$breakpoint-name}--b-bottom {
       border-bottom-style: solid;
     }
 
-    .#{$breakpoint-name}--bs-l-solid {
+    .#{$breakpoint-name}--b-left {
       border-left-style: solid;
     }
   }

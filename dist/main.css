@@ -4909,78 +4909,78 @@ sure which file to place them in if we use them
   .bp-xl--h-auto {
     height: auto; } }
 
-.bs-none {
+.b-none {
   border-style: none; }
 
-.bs-solid {
+.b-all {
   border-style: solid; }
 
-.bs-t-solid {
+.b-top {
   border-top-style: solid; }
 
-.bs-r-solid {
+.b-right {
   border-right-style: solid; }
 
-.bs-b-solid {
+.b-bottom {
   border-bottom-style: solid; }
 
-.bs-l-solid {
+.b-left {
   border-left-style: solid; }
 
 @media screen and (min-width: 30rem) {
-  .bp-s--bs-none {
+  .bp-s--b-none {
     border-style: none; }
-  .bp-s--bs-solid {
+  .bp-s--b-all {
     border-style: solid; }
-  .bp-s--bs-t-solid {
+  .bp-s--b-top {
     border-top-style: solid; }
-  .bp-s--bs-r-solid {
+  .bp-s--b-right {
     border-right-style: solid; }
-  .bp-s--bs-b-solid {
+  .bp-s--b-bottom {
     border-bottom-style: solid; }
-  .bp-s--bs-l-solid {
+  .bp-s--b-left {
     border-left-style: solid; } }
 
 @media screen and (min-width: 45rem) {
-  .bp-m--bs-none {
+  .bp-m--b-none {
     border-style: none; }
-  .bp-m--bs-solid {
+  .bp-m--b-all {
     border-style: solid; }
-  .bp-m--bs-t-solid {
+  .bp-m--b-top {
     border-top-style: solid; }
-  .bp-m--bs-r-solid {
+  .bp-m--b-right {
     border-right-style: solid; }
-  .bp-m--bs-b-solid {
+  .bp-m--b-bottom {
     border-bottom-style: solid; }
-  .bp-m--bs-l-solid {
+  .bp-m--b-left {
     border-left-style: solid; } }
 
 @media screen and (min-width: 60rem) {
-  .bp-l--bs-none {
+  .bp-l--b-none {
     border-style: none; }
-  .bp-l--bs-solid {
+  .bp-l--b-all {
     border-style: solid; }
-  .bp-l--bs-t-solid {
+  .bp-l--b-top {
     border-top-style: solid; }
-  .bp-l--bs-r-solid {
+  .bp-l--b-right {
     border-right-style: solid; }
-  .bp-l--bs-b-solid {
+  .bp-l--b-bottom {
     border-bottom-style: solid; }
-  .bp-l--bs-l-solid {
+  .bp-l--b-left {
     border-left-style: solid; } }
 
 @media screen and (min-width: 70.5rem) {
-  .bp-xl--bs-none {
+  .bp-xl--b-none {
     border-style: none; }
-  .bp-xl--bs-solid {
+  .bp-xl--b-all {
     border-style: solid; }
-  .bp-xl--bs-t-solid {
+  .bp-xl--b-top {
     border-top-style: solid; }
-  .bp-xl--bs-r-solid {
+  .bp-xl--b-right {
     border-right-style: solid; }
-  .bp-xl--bs-b-solid {
+  .bp-xl--b-bottom {
     border-bottom-style: solid; }
-  .bp-xl--bs-l-solid {
+  .bp-xl--b-left {
     border-left-style: solid; } }
 
 .bw-0 {
