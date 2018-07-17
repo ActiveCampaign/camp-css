@@ -1,0 +1,27 @@
+@each $height in $heights {
+  $height-value: strip-unit($height);
+
+  .h-#{$height-value} {
+    height: $height;
+  }
+}
+
+.h-auto {
+  height: auto;
+}
+
+@each $breakpoint-name, $breakpoint-value in $breakpoints {
+  @media #{$breakpoint-value} {
+    @each $height in $heights {
+      $height-value: strip-unit($height);
+
+      .#{$breakpoint-name}--h-#{$height-value} {
+        height: $height;
+      }
+    }
+
+    .#{$breakpoint-name}--h-auto {
+      height: auto;
+    }
+  }
+}
