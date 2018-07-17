@@ -1,0 +1,19 @@
+@each $border-width in $border-widths {
+  $border-width-value: strip-unit($border-width);
+
+  .bw-#{$border-width-value} {
+    border-width: $border-width;
+  }
+}
+
+@each $breakpoint-name, $breakpoint-value in $breakpoints {
+  @media #{$breakpoint-value} {
+    @each $border-width in $border-widths {
+      $border-width-value: strip-unit($border-width);
+
+      .#{$breakpoint-name}--bw-#{$border-width-value} {
+        border-width: $border-width;
+      }
+    }
+  }
+}
