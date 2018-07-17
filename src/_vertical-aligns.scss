@@ -1,0 +1,35 @@
+.va-top {
+  vertical-align: top;
+}
+
+.va-baseline {
+  vertical-align: baseline;
+}
+
+.va-middle {
+  vertical-align: middle;
+}
+
+.va-bottom {
+  vertical-align: bottom;
+}
+
+@each $breakpoint-name, $breakpoint-value in $breakpoints {
+  @media #{$breakpoint-value} {
+    .#{$breakpoint-name}--va-top {
+      vertical-align: top;
+    }
+
+    .#{$breakpoint-name}--va-baseline {
+      vertical-align: baseline;
+    }
+
+    .#{$breakpoint-name}--va-middle {
+      vertical-align: middle;
+    }
+
+    .#{$breakpoint-name}--va-bottom {
+      vertical-align: bottom;
+    }
+  }
+}

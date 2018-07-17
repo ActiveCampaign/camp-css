@@ -5021,4 +5021,56 @@ sure which file to place them in if we use them
     visibility: visible; }
   .bp-xl--invisible {
     visibility: hidden; } }
+
+.va-top {
+  vertical-align: top; }
+
+.va-baseline {
+  vertical-align: baseline; }
+
+.va-middle {
+  vertical-align: middle; }
+
+.va-bottom {
+  vertical-align: bottom; }
+
+@media screen and (min-width: 30rem) {
+  .bp-s--va-top {
+    vertical-align: top; }
+  .bp-s--va-baseline {
+    vertical-align: baseline; }
+  .bp-s--va-middle {
+    vertical-align: middle; }
+  .bp-s--va-bottom {
+    vertical-align: bottom; } }
+
+@media screen and (min-width: 45rem) {
+  .bp-m--va-top {
+    vertical-align: top; }
+  .bp-m--va-baseline {
+    vertical-align: baseline; }
+  .bp-m--va-middle {
+    vertical-align: middle; }
+  .bp-m--va-bottom {
+    vertical-align: bottom; } }
+
+@media screen and (min-width: 60rem) {
+  .bp-l--va-top {
+    vertical-align: top; }
+  .bp-l--va-baseline {
+    vertical-align: baseline; }
+  .bp-l--va-middle {
+    vertical-align: middle; }
+  .bp-l--va-bottom {
+    vertical-align: bottom; } }
+
+@media screen and (min-width: 70.5rem) {
+  .bp-xl--va-top {
+    vertical-align: top; }
+  .bp-xl--va-baseline {
+    vertical-align: baseline; }
+  .bp-xl--va-middle {
+    vertical-align: middle; }
+  .bp-xl--va-bottom {
+    vertical-align: bottom; } }
 /*# sourceMappingURL=main.css.map */
