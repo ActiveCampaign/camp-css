@@ -5073,4 +5073,60 @@ sure which file to place them in if we use them
     vertical-align: middle; }
   .bp-xl--va-bottom {
     vertical-align: bottom; } }
+
+.of-cover {
+  -o-object-fit: cover;
+     object-fit: cover; }
+
+.of-contain {
+  -o-object-fit: contain;
+     object-fit: contain; }
+
+.of-none {
+  -o-object-fit: none;
+     object-fit: none; }
+
+@media screen and (min-width: 30rem) {
+  .bp-s--of-cover {
+    -o-object-fit: cover;
+       object-fit: cover; }
+  .bp-s--of-contain {
+    -o-object-fit: contain;
+       object-fit: contain; }
+  .bp-s--of-none {
+    -o-object-fit: none;
+       object-fit: none; } }
+
+@media screen and (min-width: 45rem) {
+  .bp-m--of-cover {
+    -o-object-fit: cover;
+       object-fit: cover; }
+  .bp-m--of-contain {
+    -o-object-fit: contain;
+       object-fit: contain; }
+  .bp-m--of-none {
+    -o-object-fit: none;
+       object-fit: none; } }
+
+@media screen and (min-width: 60rem) {
+  .bp-l--of-cover {
+    -o-object-fit: cover;
+       object-fit: cover; }
+  .bp-l--of-contain {
+    -o-object-fit: contain;
+       object-fit: contain; }
+  .bp-l--of-none {
+    -o-object-fit: none;
+       object-fit: none; } }
+
+@media screen and (min-width: 70.5rem) {
+  .bp-xl--of-cover {
+    -o-object-fit: cover;
+       object-fit: cover; }
+  .bp-xl--of-contain {
+    -o-object-fit: contain;
+       object-fit: contain; }
+  .bp-xl--of-none {
+    -o-object-fit: none;
+       object-fit: none; } }
 /*# sourceMappingURL=main.css.map */
