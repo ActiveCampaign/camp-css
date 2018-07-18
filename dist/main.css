@@ -1696,6 +1696,133 @@ tr,
 .b-transparent {
   border-color: rgba(255, 255, 255, 0); }
 
+.c-left {
+  clear: left; }
+
+.c-right {
+  clear: right; }
+
+.c-both {
+  clear: both; }
+
+.c-none {
+  clear: none; }
+
+@media screen and (min-width: 30rem) {
+  .bp-s--c-left {
+    clear: left; }
+  .bp-s--c-right {
+    clear: right; }
+  .bp-s--c-both {
+    clear: both; }
+  .bp-s--c-none {
+    clear: none; } }
+
+@media screen and (min-width: 45rem) {
+  .bp-m--c-left {
+    clear: left; }
+  .bp-m--c-right {
+    clear: right; }
+  .bp-m--c-both {
+    clear: both; }
+  .bp-m--c-none {
+    clear: none; } }
+
+@media screen and (min-width: 60rem) {
+  .bp-l--c-left {
+    clear: left; }
+  .bp-l--c-right {
+    clear: right; }
+  .bp-l--c-both {
+    clear: both; }
+  .bp-l--c-none {
+    clear: none; } }
+
+@media screen and (min-width: 70.5rem) {
+  .bp-xl--c-left {
+    clear: left; }
+  .bp-xl--c-right {
+    clear: right; }
+  .bp-xl--c-both {
+    clear: both; }
+  .bp-xl--c-none {
+    clear: none; } }
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both; }
+
+.none {
+  display: none; }
+
+.inline {
+  display: inline; }
+
+.block {
+  display: block; }
+
+.inline-block {
+  display: inline-block; }
+
+.table {
+  display: table; }
+
+.table-cell {
+  display: table-cell; }
+
+.table-row {
+  display: table-row; }
+
+.table-row-group {
+  display: table-row-group; }
+
+.table-column {
+  display: table-column; }
+
+.table-column-group {
+  display: table-column-group; }
+
+@media screen and (min-width: 30rem) {
+  .bp-s--none {
+    display: none; }
+  .bp-s--inline {
+    display: inline; }
+  .bp-s--block {
+    display: block; }
+  .bp-s--inline-block {
+    display: inline-block; } }
+
+@media screen and (min-width: 45rem) {
+  .bp-m--none {
+    display: none; }
+  .bp-m--inline {
+    display: inline; }
+  .bp-m--block {
+    display: block; }
+  .bp-m--inline-block {
+    display: inline-block; } }
+
+@media screen and (min-width: 60rem) {
+  .bp-l--none {
+    display: none; }
+  .bp-l--inline {
+    display: inline; }
+  .bp-l--block {
+    display: block; }
+  .bp-l--inline-block {
+    display: inline-block; } }
+
+@media screen and (min-width: 70.5rem) {
+  .bp-xl--none {
+    display: none; }
+  .bp-xl--inline {
+    display: inline; }
+  .bp-xl--block {
+    display: block; }
+  .bp-xl--inline-block {
+    display: inline-block; } }
+
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1999,6 +2126,47 @@ sure which file to place them in if we use them
   .bp-xl--flex-shrink-1 {
     -ms-flex-negative: 1;
         flex-shrink: 1; } }
+
+.f-left {
+  float: left; }
+
+.f-right {
+  float: right; }
+
+.f-none {
+  float: none; }
+
+@media screen and (min-width: 30rem) {
+  .bp-s--f-left {
+    float: left; }
+  .bp-s--f-right {
+    float: right; }
+  .bp-s--f-none {
+    float: none; } }
+
+@media screen and (min-width: 45rem) {
+  .bp-m--f-left {
+    float: left; }
+  .bp-m--f-right {
+    float: right; }
+  .bp-m--f-none {
+    float: none; } }
+
+@media screen and (min-width: 60rem) {
+  .bp-l--f-left {
+    float: left; }
+  .bp-l--f-right {
+    float: right; }
+  .bp-l--f-none {
+    float: none; } }
+
+@media screen and (min-width: 70.5rem) {
+  .bp-xl--f-left {
+    float: left; }
+  .bp-xl--f-right {
+    float: right; }
+  .bp-xl--f-none {
+    float: none; } }
 
 .title {
   font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif; }
@@ -3963,6 +4131,62 @@ sure which file to place them in if we use them
   .bp-xl--ml-11 {
     margin-left: 5rem; } }
 
+.of-cover {
+  -o-object-fit: cover;
+     object-fit: cover; }
+
+.of-contain {
+  -o-object-fit: contain;
+     object-fit: contain; }
+
+.of-none {
+  -o-object-fit: none;
+     object-fit: none; }
+
+@media screen and (min-width: 30rem) {
+  .bp-s--of-cover {
+    -o-object-fit: cover;
+       object-fit: cover; }
+  .bp-s--of-contain {
+    -o-object-fit: contain;
+       object-fit: contain; }
+  .bp-s--of-none {
+    -o-object-fit: none;
+       object-fit: none; } }
+
+@media screen and (min-width: 45rem) {
+  .bp-m--of-cover {
+    -o-object-fit: cover;
+       object-fit: cover; }
+  .bp-m--of-contain {
+    -o-object-fit: contain;
+       object-fit: contain; }
+  .bp-m--of-none {
+    -o-object-fit: none;
+       object-fit: none; } }
+
+@media screen and (min-width: 60rem) {
+  .bp-l--of-cover {
+    -o-object-fit: cover;
+       object-fit: cover; }
+  .bp-l--of-contain {
+    -o-object-fit: contain;
+       object-fit: contain; }
+  .bp-l--of-none {
+    -o-object-fit: none;
+       object-fit: none; } }
+
+@media screen and (min-width: 70.5rem) {
+  .bp-xl--of-cover {
+    -o-object-fit: cover;
+       object-fit: cover; }
+  .bp-xl--of-contain {
+    -o-object-fit: contain;
+       object-fit: contain; }
+  .bp-xl--of-none {
+    -o-object-fit: none;
+       object-fit: none; } }
+
 .o-0 {
   opacity: 0; }
 
@@ -3995,6 +4219,58 @@ sure which file to place them in if we use them
 
 .o-100 {
   opacity: 1; }
+
+.ov-visible {
+  overflow: visible; }
+
+.ov-hidden {
+  overflow: hidden; }
+
+.ov-x-scroll {
+  overflow-x: scroll; }
+
+.ov-y-scroll {
+  overflow-y: scroll; }
+
+@media screen and (min-width: 30rem) {
+  .bp-s--ov-visible {
+    overflow: visible; }
+  .bp-s--ov-hidden {
+    overflow: hidden; }
+  .bp-s--ov-x-scroll {
+    overflow-x: scroll; }
+  .bp-s--ov-y-scroll {
+    overflow-y: scroll; } }
+
+@media screen and (min-width: 45rem) {
+  .bp-m--ov-visible {
+    overflow: visible; }
+  .bp-m--ov-hidden {
+    overflow: hidden; }
+  .bp-m--ov-x-scroll {
+    overflow-x: scroll; }
+  .bp-m--ov-y-scroll {
+    overflow-y: scroll; } }
+
+@media screen and (min-width: 60rem) {
+  .bp-l--ov-visible {
+    overflow: visible; }
+  .bp-l--ov-hidden {
+    overflow: hidden; }
+  .bp-l--ov-x-scroll {
+    overflow-x: scroll; }
+  .bp-l--ov-y-scroll {
+    overflow-y: scroll; } }
+
+@media screen and (min-width: 70.5rem) {
+  .bp-xl--ov-visible {
+    overflow: visible; }
+  .bp-xl--ov-hidden {
+    overflow: hidden; }
+  .bp-xl--ov-x-scroll {
+    overflow-x: scroll; }
+  .bp-xl--ov-y-scroll {
+    overflow-y: scroll; } }
 
 .p-1 {
   padding: 0.25rem; }
@@ -4961,6 +5237,74 @@ sure which file to place them in if we use them
   .bp-xl--pl-11 {
     padding-left: 5rem; } }
 
+.static {
+  position: static; }
+
+.relative {
+  position: relative; }
+
+.absolute {
+  position: absolute; }
+
+.fixed {
+  position: fixed; }
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky; }
+
+@media screen and (min-width: 30rem) {
+  .bp-s--static {
+    position: static; }
+  .bp-s--relative {
+    position: relative; }
+  .bp-s--absolute {
+    position: absolute; }
+  .bp-s--fixed {
+    position: fixed; }
+  .bp-s--sticky {
+    position: -webkit-sticky;
+    position: sticky; } }
+
+@media screen and (min-width: 45rem) {
+  .bp-m--static {
+    position: static; }
+  .bp-m--relative {
+    position: relative; }
+  .bp-m--absolute {
+    position: absolute; }
+  .bp-m--fixed {
+    position: fixed; }
+  .bp-m--sticky {
+    position: -webkit-sticky;
+    position: sticky; } }
+
+@media screen and (min-width: 60rem) {
+  .bp-l--static {
+    position: static; }
+  .bp-l--relative {
+    position: relative; }
+  .bp-l--absolute {
+    position: absolute; }
+  .bp-l--fixed {
+    position: fixed; }
+  .bp-l--sticky {
+    position: -webkit-sticky;
+    position: sticky; } }
+
+@media screen and (min-width: 70.5rem) {
+  .bp-xl--static {
+    position: static; }
+  .bp-xl--relative {
+    position: relative; }
+  .bp-xl--absolute {
+    position: absolute; }
+  .bp-xl--fixed {
+    position: fixed; }
+  .bp-xl--sticky {
+    position: -webkit-sticky;
+    position: sticky; } }
+
 .ta-left {
   text-align: left; }
 
@@ -5094,6 +5438,492 @@ sure which file to place them in if we use them
     text-transform: none; }
   .bp-xl--tt-caps {
     text-transform: capitalize; } }
+
+.top-n4 {
+  top: -4rem; }
+
+.right-n4 {
+  right: -4rem; }
+
+.bottom-n4 {
+  bottom: -4rem; }
+
+.left-n4 {
+  left: -4rem; }
+
+.top-n3 {
+  top: -3rem; }
+
+.right-n3 {
+  right: -3rem; }
+
+.bottom-n3 {
+  bottom: -3rem; }
+
+.left-n3 {
+  left: -3rem; }
+
+.top-n2 {
+  top: -2rem; }
+
+.right-n2 {
+  right: -2rem; }
+
+.bottom-n2 {
+  bottom: -2rem; }
+
+.left-n2 {
+  left: -2rem; }
+
+.top-n1 {
+  top: -1rem; }
+
+.right-n1 {
+  right: -1rem; }
+
+.bottom-n1 {
+  bottom: -1rem; }
+
+.left-n1 {
+  left: -1rem; }
+
+.top-0 {
+  top: 0rem; }
+
+.right-0 {
+  right: 0rem; }
+
+.bottom-0 {
+  bottom: 0rem; }
+
+.left-0 {
+  left: 0rem; }
+
+.top-1 {
+  top: 1rem; }
+
+.right-1 {
+  right: 1rem; }
+
+.bottom-1 {
+  bottom: 1rem; }
+
+.left-1 {
+  left: 1rem; }
+
+.top-2 {
+  top: 2rem; }
+
+.right-2 {
+  right: 2rem; }
+
+.bottom-2 {
+  bottom: 2rem; }
+
+.left-2 {
+  left: 2rem; }
+
+.top-3 {
+  top: 3rem; }
+
+.right-3 {
+  right: 3rem; }
+
+.bottom-3 {
+  bottom: 3rem; }
+
+.left-3 {
+  left: 3rem; }
+
+.top-4 {
+  top: 4rem; }
+
+.right-4 {
+  right: 4rem; }
+
+.bottom-4 {
+  bottom: 4rem; }
+
+.left-4 {
+  left: 4rem; }
+
+@media screen and (min-width: 30rem) {
+  .bp-s--top-n4 {
+    top: -4rem; }
+  .bp-s--right-n4 {
+    right: -4rem; }
+  .bp-s--bottom-n4 {
+    bottom: -4rem; }
+  .bp-s--left-n4 {
+    left: -4rem; }
+  .bp-s--top-n3 {
+    top: -3rem; }
+  .bp-s--right-n3 {
+    right: -3rem; }
+  .bp-s--bottom-n3 {
+    bottom: -3rem; }
+  .bp-s--left-n3 {
+    left: -3rem; }
+  .bp-s--top-n2 {
+    top: -2rem; }
+  .bp-s--right-n2 {
+    right: -2rem; }
+  .bp-s--bottom-n2 {
+    bottom: -2rem; }
+  .bp-s--left-n2 {
+    left: -2rem; }
+  .bp-s--top-n1 {
+    top: -1rem; }
+  .bp-s--right-n1 {
+    right: -1rem; }
+  .bp-s--bottom-n1 {
+    bottom: -1rem; }
+  .bp-s--left-n1 {
+    left: -1rem; }
+  .bp-s--top-0 {
+    top: 0rem; }
+  .bp-s--right-0 {
+    right: 0rem; }
+  .bp-s--bottom-0 {
+    bottom: 0rem; }
+  .bp-s--left-0 {
+    left: 0rem; }
+  .bp-s--top-1 {
+    top: 1rem; }
+  .bp-s--right-1 {
+    right: 1rem; }
+  .bp-s--bottom-1 {
+    bottom: 1rem; }
+  .bp-s--left-1 {
+    left: 1rem; }
+  .bp-s--top-2 {
+    top: 2rem; }
+  .bp-s--right-2 {
+    right: 2rem; }
+  .bp-s--bottom-2 {
+    bottom: 2rem; }
+  .bp-s--left-2 {
+    left: 2rem; }
+  .bp-s--top-3 {
+    top: 3rem; }
+  .bp-s--right-3 {
+    right: 3rem; }
+  .bp-s--bottom-3 {
+    bottom: 3rem; }
+  .bp-s--left-3 {
+    left: 3rem; }
+  .bp-s--top-4 {
+    top: 4rem; }
+  .bp-s--right-4 {
+    right: 4rem; }
+  .bp-s--bottom-4 {
+    bottom: 4rem; }
+  .bp-s--left-4 {
+    left: 4rem; } }
+
+@media screen and (min-width: 45rem) {
+  .bp-m--top-n4 {
+    top: -4rem; }
+  .bp-m--right-n4 {
+    right: -4rem; }
+  .bp-m--bottom-n4 {
+    bottom: -4rem; }
+  .bp-m--left-n4 {
+    left: -4rem; }
+  .bp-m--top-n3 {
+    top: -3rem; }
+  .bp-m--right-n3 {
+    right: -3rem; }
+  .bp-m--bottom-n3 {
+    bottom: -3rem; }
+  .bp-m--left-n3 {
+    left: -3rem; }
+  .bp-m--top-n2 {
+    top: -2rem; }
+  .bp-m--right-n2 {
+    right: -2rem; }
+  .bp-m--bottom-n2 {
+    bottom: -2rem; }
+  .bp-m--left-n2 {
+    left: -2rem; }
+  .bp-m--top-n1 {
+    top: -1rem; }
+  .bp-m--right-n1 {
+    right: -1rem; }
+  .bp-m--bottom-n1 {
+    bottom: -1rem; }
+  .bp-m--left-n1 {
+    left: -1rem; }
+  .bp-m--top-0 {
+    top: 0rem; }
+  .bp-m--right-0 {
+    right: 0rem; }
+  .bp-m--bottom-0 {
+    bottom: 0rem; }
+  .bp-m--left-0 {
+    left: 0rem; }
+  .bp-m--top-1 {
+    top: 1rem; }
+  .bp-m--right-1 {
+    right: 1rem; }
+  .bp-m--bottom-1 {
+    bottom: 1rem; }
+  .bp-m--left-1 {
+    left: 1rem; }
+  .bp-m--top-2 {
+    top: 2rem; }
+  .bp-m--right-2 {
+    right: 2rem; }
+  .bp-m--bottom-2 {
+    bottom: 2rem; }
+  .bp-m--left-2 {
+    left: 2rem; }
+  .bp-m--top-3 {
+    top: 3rem; }
+  .bp-m--right-3 {
+    right: 3rem; }
+  .bp-m--bottom-3 {
+    bottom: 3rem; }
+  .bp-m--left-3 {
+    left: 3rem; }
+  .bp-m--top-4 {
+    top: 4rem; }
+  .bp-m--right-4 {
+    right: 4rem; }
+  .bp-m--bottom-4 {
+    bottom: 4rem; }
+  .bp-m--left-4 {
+    left: 4rem; } }
+
+@media screen and (min-width: 60rem) {
+  .bp-l--top-n4 {
+    top: -4rem; }
+  .bp-l--right-n4 {
+    right: -4rem; }
+  .bp-l--bottom-n4 {
+    bottom: -4rem; }
+  .bp-l--left-n4 {
+    left: -4rem; }
+  .bp-l--top-n3 {
+    top: -3rem; }
+  .bp-l--right-n3 {
+    right: -3rem; }
+  .bp-l--bottom-n3 {
+    bottom: -3rem; }
+  .bp-l--left-n3 {
+    left: -3rem; }
+  .bp-l--top-n2 {
+    top: -2rem; }
+  .bp-l--right-n2 {
+    right: -2rem; }
+  .bp-l--bottom-n2 {
+    bottom: -2rem; }
+  .bp-l--left-n2 {
+    left: -2rem; }
+  .bp-l--top-n1 {
+    top: -1rem; }
+  .bp-l--right-n1 {
+    right: -1rem; }
+  .bp-l--bottom-n1 {
+    bottom: -1rem; }
+  .bp-l--left-n1 {
+    left: -1rem; }
+  .bp-l--top-0 {
+    top: 0rem; }
+  .bp-l--right-0 {
+    right: 0rem; }
+  .bp-l--bottom-0 {
+    bottom: 0rem; }
+  .bp-l--left-0 {
+    left: 0rem; }
+  .bp-l--top-1 {
+    top: 1rem; }
+  .bp-l--right-1 {
+    right: 1rem; }
+  .bp-l--bottom-1 {
+    bottom: 1rem; }
+  .bp-l--left-1 {
+    left: 1rem; }
+  .bp-l--top-2 {
+    top: 2rem; }
+  .bp-l--right-2 {
+    right: 2rem; }
+  .bp-l--bottom-2 {
+    bottom: 2rem; }
+  .bp-l--left-2 {
+    left: 2rem; }
+  .bp-l--top-3 {
+    top: 3rem; }
+  .bp-l--right-3 {
+    right: 3rem; }
+  .bp-l--bottom-3 {
+    bottom: 3rem; }
+  .bp-l--left-3 {
+    left: 3rem; }
+  .bp-l--top-4 {
+    top: 4rem; }
+  .bp-l--right-4 {
+    right: 4rem; }
+  .bp-l--bottom-4 {
+    bottom: 4rem; }
+  .bp-l--left-4 {
+    left: 4rem; } }
+
+@media screen and (min-width: 70.5rem) {
+  .bp-xl--top-n4 {
+    top: -4rem; }
+  .bp-xl--right-n4 {
+    right: -4rem; }
+  .bp-xl--bottom-n4 {
+    bottom: -4rem; }
+  .bp-xl--left-n4 {
+    left: -4rem; }
+  .bp-xl--top-n3 {
+    top: -3rem; }
+  .bp-xl--right-n3 {
+    right: -3rem; }
+  .bp-xl--bottom-n3 {
+    bottom: -3rem; }
+  .bp-xl--left-n3 {
+    left: -3rem; }
+  .bp-xl--top-n2 {
+    top: -2rem; }
+  .bp-xl--right-n2 {
+    right: -2rem; }
+  .bp-xl--bottom-n2 {
+    bottom: -2rem; }
+  .bp-xl--left-n2 {
+    left: -2rem; }
+  .bp-xl--top-n1 {
+    top: -1rem; }
+  .bp-xl--right-n1 {
+    right: -1rem; }
+  .bp-xl--bottom-n1 {
+    bottom: -1rem; }
+  .bp-xl--left-n1 {
+    left: -1rem; }
+  .bp-xl--top-0 {
+    top: 0rem; }
+  .bp-xl--right-0 {
+    right: 0rem; }
+  .bp-xl--bottom-0 {
+    bottom: 0rem; }
+  .bp-xl--left-0 {
+    left: 0rem; }
+  .bp-xl--top-1 {
+    top: 1rem; }
+  .bp-xl--right-1 {
+    right: 1rem; }
+  .bp-xl--bottom-1 {
+    bottom: 1rem; }
+  .bp-xl--left-1 {
+    left: 1rem; }
+  .bp-xl--top-2 {
+    top: 2rem; }
+  .bp-xl--right-2 {
+    right: 2rem; }
+  .bp-xl--bottom-2 {
+    bottom: 2rem; }
+  .bp-xl--left-2 {
+    left: 2rem; }
+  .bp-xl--top-3 {
+    top: 3rem; }
+  .bp-xl--right-3 {
+    right: 3rem; }
+  .bp-xl--bottom-3 {
+    bottom: 3rem; }
+  .bp-xl--left-3 {
+    left: 3rem; }
+  .bp-xl--top-4 {
+    top: 4rem; }
+  .bp-xl--right-4 {
+    right: 4rem; }
+  .bp-xl--bottom-4 {
+    bottom: 4rem; }
+  .bp-xl--left-4 {
+    left: 4rem; } }
+
+.va-top {
+  vertical-align: top; }
+
+.va-baseline {
+  vertical-align: baseline; }
+
+.va-middle {
+  vertical-align: middle; }
+
+.va-bottom {
+  vertical-align: bottom; }
+
+@media screen and (min-width: 30rem) {
+  .bp-s--va-top {
+    vertical-align: top; }
+  .bp-s--va-baseline {
+    vertical-align: baseline; }
+  .bp-s--va-middle {
+    vertical-align: middle; }
+  .bp-s--va-bottom {
+    vertical-align: bottom; } }
+
+@media screen and (min-width: 45rem) {
+  .bp-m--va-top {
+    vertical-align: top; }
+  .bp-m--va-baseline {
+    vertical-align: baseline; }
+  .bp-m--va-middle {
+    vertical-align: middle; }
+  .bp-m--va-bottom {
+    vertical-align: bottom; } }
+
+@media screen and (min-width: 60rem) {
+  .bp-l--va-top {
+    vertical-align: top; }
+  .bp-l--va-baseline {
+    vertical-align: baseline; }
+  .bp-l--va-middle {
+    vertical-align: middle; }
+  .bp-l--va-bottom {
+    vertical-align: bottom; } }
+
+@media screen and (min-width: 70.5rem) {
+  .bp-xl--va-top {
+    vertical-align: top; }
+  .bp-xl--va-baseline {
+    vertical-align: baseline; }
+  .bp-xl--va-middle {
+    vertical-align: middle; }
+  .bp-xl--va-bottom {
+    vertical-align: bottom; } }
+
+.visible {
+  visibility: visible; }
+
+.invisible {
+  visibility: hidden; }
+
+@media screen and (min-width: 30rem) {
+  .bp-s--visible {
+    visibility: visible; }
+  .bp-s--invisible {
+    visibility: hidden; } }
+
+@media screen and (min-width: 45rem) {
+  .bp-m--visible {
+    visibility: visible; }
+  .bp-m--invisible {
+    visibility: hidden; } }
+
+@media screen and (min-width: 60rem) {
+  .bp-l--visible {
+    visibility: visible; }
+  .bp-l--invisible {
+    visibility: hidden; } }
+
+@media screen and (min-width: 70.5rem) {
+  .bp-xl--visible {
+    visibility: visible; }
+  .bp-xl--invisible {
+    visibility: hidden; } }
 
 .w-10 {
   width: 10%; }

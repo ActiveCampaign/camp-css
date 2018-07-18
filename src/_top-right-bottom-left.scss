@@ -1,0 +1,51 @@
+@for $i from -4 through 4 {
+  $selector: $i;
+
+  @if ($i < 0) {
+    $selector: #{n}#{abs($i)};
+  }
+
+  .top-#{$selector} {
+    top: $i * 1rem;
+  }
+
+  .right-#{$selector} {
+    right: $i * 1rem;
+  }
+
+  .bottom-#{$selector} {
+    bottom: $i * 1rem;
+  }
+
+  .left-#{$selector} {
+    left: $i * 1rem;
+  }
+}
+
+@each $breakpoint-name, $breakpoint-value in $breakpoints {
+  @media #{$breakpoint-value} {
+    @for $i from -4 through 4 {
+      $selector: $i;
+
+      @if ($i < 0) {
+        $selector: #{n}#{abs($i)};
+      }
+
+      .#{$breakpoint-name}--top-#{$selector} {
+        top: $i * 1rem;
+      }
+
+      .#{$breakpoint-name}--right-#{$selector} {
+        right: $i * 1rem;
+      }
+
+      .#{$breakpoint-name}--bottom-#{$selector} {
+        bottom: $i * 1rem;
+      }
+
+      .#{$breakpoint-name}--left-#{$selector} {
+        left: $i * 1rem;
+      }
+    }
+  }
+}
