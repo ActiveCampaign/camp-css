@@ -1,0 +1,43 @@
+.static {
+  position: static;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.sticky {
+  position: sticky;
+}
+
+@each $breakpoint-name, $breakpoint-value in $breakpoints {
+  @media #{$breakpoint-value} {
+    .#{$breakpoint-name}--static {
+      position: static;
+    }
+
+    .#{$breakpoint-name}--relative {
+      position: relative;
+    }
+
+    .#{$breakpoint-name}--absolute {
+      position: absolute;
+    }
+
+    .#{$breakpoint-name}--fixed {
+      position: fixed;
+    }
+
+    .#{$breakpoint-name}--sticky {
+      position: sticky;
+    }
+  }
+}
