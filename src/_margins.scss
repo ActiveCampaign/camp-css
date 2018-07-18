@@ -34,6 +34,14 @@
   }
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ml-auto { margin-left: auto; }
+.mr-auto { margin-right: auto; }
+
 @each $breakpoint-name, $breakpoint-value in $breakpoints {
   @media #{$breakpoint-value} {
     @each $spacing-name, $spacing-value in $spacing {
@@ -69,5 +77,13 @@
         margin-left: rem($spacing-value);
       }
     }
+
+    .#{$breakpoint-name}--mx-auto {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .#{$breakpoint-name}--ml-auto { margin-left: auto; }
+    .#{$breakpoint-name}--mr-auto { margin-right: auto; }
   }
 }
