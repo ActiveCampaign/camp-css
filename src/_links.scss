@@ -1,0 +1,22 @@
+.link {
+  text-decoration: none;
+  transition: color $transition-duration $transition-function;
+
+  &:link,
+  &:visited {
+    transition: color $transition-duration $transition-function;
+  }
+
+  &:hover   {
+    transition: color $transition-duration $transition-function;
+  }
+
+  &:active  {
+    transition: color $transition-duration $transition-function;
+  }
+
+  &:focus   {
+    transition: color $transition-duration $transition-function;
+    outline: rem(1px dotted currentColor);
+  }
+}

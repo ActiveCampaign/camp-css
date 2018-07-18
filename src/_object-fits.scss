@@ -1,0 +1,27 @@
+.of-cover {
+  object-fit: cover;
+}
+
+.of-contain {
+  object-fit: contain;
+}
+
+.of-none {
+  object-fit: none;
+}
+
+@each $breakpoint-name, $breakpoint-value in $breakpoints {
+  @media #{$breakpoint-value} {
+    .#{$breakpoint-name}--of-cover {
+      object-fit: cover;
+    }
+
+    .#{$breakpoint-name}--of-contain {
+      object-fit: contain;
+    }
+
+    .#{$breakpoint-name}--of-none {
+      object-fit: none;
+    }
+  }
+}
