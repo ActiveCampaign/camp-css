@@ -4289,6 +4289,179 @@ sure which file to place them in if we use them
   .bp-xl--ml-11 {
     margin-left: 5rem; } }
 
+.mw-10 {
+  max-width: 10%; }
+
+.mw-20 {
+  max-width: 20%; }
+
+.mw-25 {
+  max-width: 25%; }
+
+.mw-30 {
+  max-width: 30%; }
+
+.mw-33 {
+  max-width: 33%; }
+
+.mw-34 {
+  max-width: 34%; }
+
+.mw-40 {
+  max-width: 40%; }
+
+.mw-50 {
+  max-width: 50%; }
+
+.mw-60 {
+  max-width: 60%; }
+
+.mw-67 {
+  max-width: 67%; }
+
+.mw-70 {
+  max-width: 70%; }
+
+.mw-75 {
+  max-width: 75%; }
+
+.mw-80 {
+  max-width: 80%; }
+
+.mw-90 {
+  max-width: 90%; }
+
+.mw-100 {
+  max-width: 100%; }
+
+@media screen and (min-width: 30rem) {
+  .bp-s--mw-10 {
+    max-width: 10%; }
+  .bp-s--mw-20 {
+    max-width: 20%; }
+  .bp-s--mw-25 {
+    max-width: 25%; }
+  .bp-s--mw-30 {
+    max-width: 30%; }
+  .bp-s--mw-33 {
+    max-width: 33%; }
+  .bp-s--mw-34 {
+    max-width: 34%; }
+  .bp-s--mw-40 {
+    max-width: 40%; }
+  .bp-s--mw-50 {
+    max-width: 50%; }
+  .bp-s--mw-60 {
+    max-width: 60%; }
+  .bp-s--mw-67 {
+    max-width: 67%; }
+  .bp-s--mw-70 {
+    max-width: 70%; }
+  .bp-s--mw-75 {
+    max-width: 75%; }
+  .bp-s--mw-80 {
+    max-width: 80%; }
+  .bp-s--mw-90 {
+    max-width: 90%; }
+  .bp-s--mw-100 {
+    max-width: 100%; } }
+
+@media screen and (min-width: 45rem) {
+  .bp-m--mw-10 {
+    max-width: 10%; }
+  .bp-m--mw-20 {
+    max-width: 20%; }
+  .bp-m--mw-25 {
+    max-width: 25%; }
+  .bp-m--mw-30 {
+    max-width: 30%; }
+  .bp-m--mw-33 {
+    max-width: 33%; }
+  .bp-m--mw-34 {
+    max-width: 34%; }
+  .bp-m--mw-40 {
+    max-width: 40%; }
+  .bp-m--mw-50 {
+    max-width: 50%; }
+  .bp-m--mw-60 {
+    max-width: 60%; }
+  .bp-m--mw-67 {
+    max-width: 67%; }
+  .bp-m--mw-70 {
+    max-width: 70%; }
+  .bp-m--mw-75 {
+    max-width: 75%; }
+  .bp-m--mw-80 {
+    max-width: 80%; }
+  .bp-m--mw-90 {
+    max-width: 90%; }
+  .bp-m--mw-100 {
+    max-width: 100%; } }
+
+@media screen and (min-width: 60rem) {
+  .bp-l--mw-10 {
+    max-width: 10%; }
+  .bp-l--mw-20 {
+    max-width: 20%; }
+  .bp-l--mw-25 {
+    max-width: 25%; }
+  .bp-l--mw-30 {
+    max-width: 30%; }
+  .bp-l--mw-33 {
+    max-width: 33%; }
+  .bp-l--mw-34 {
+    max-width: 34%; }
+  .bp-l--mw-40 {
+    max-width: 40%; }
+  .bp-l--mw-50 {
+    max-width: 50%; }
+  .bp-l--mw-60 {
+    max-width: 60%; }
+  .bp-l--mw-67 {
+    max-width: 67%; }
+  .bp-l--mw-70 {
+    max-width: 70%; }
+  .bp-l--mw-75 {
+    max-width: 75%; }
+  .bp-l--mw-80 {
+    max-width: 80%; }
+  .bp-l--mw-90 {
+    max-width: 90%; }
+  .bp-l--mw-100 {
+    max-width: 100%; } }
+
+@media screen and (min-width: 70.5rem) {
+  .bp-xl--mw-10 {
+    max-width: 10%; }
+  .bp-xl--mw-20 {
+    max-width: 20%; }
+  .bp-xl--mw-25 {
+    max-width: 25%; }
+  .bp-xl--mw-30 {
+    max-width: 30%; }
+  .bp-xl--mw-33 {
+    max-width: 33%; }
+  .bp-xl--mw-34 {
+    max-width: 34%; }
+  .bp-xl--mw-40 {
+    max-width: 40%; }
+  .bp-xl--mw-50 {
+    max-width: 50%; }
+  .bp-xl--mw-60 {
+    max-width: 60%; }
+  .bp-xl--mw-67 {
+    max-width: 67%; }
+  .bp-xl--mw-70 {
+    max-width: 70%; }
+  .bp-xl--mw-75 {
+    max-width: 75%; }
+  .bp-xl--mw-80 {
+    max-width: 80%; }
+  .bp-xl--mw-90 {
+    max-width: 90%; }
+  .bp-xl--mw-100 {
+    max-width: 100%; } }
+
 .of-cover {
   -o-object-fit: cover;
      object-fit: cover; }
