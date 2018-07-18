@@ -1,0 +1,9 @@
+.bg-cover { background-size: cover; }
+.bg-contain { background-size: contain; }
+
+@each $breakpoint-name, $breakpoint-value in $breakpoints {
+  @media #{$breakpoint-value} {
+    .#{$breakpoint-name}--bg-cover { background-size: cover; }
+    .#{$breakpoint-name}--bg-contain { background-size: contain; }
+  }
+}
