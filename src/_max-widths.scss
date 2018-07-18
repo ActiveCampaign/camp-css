@@ -1,0 +1,19 @@
+@each $max-width in $max-widths {
+  $max-width-value: strip-unit($max-width);
+
+  .mw-#{$max-width-value} {
+    max-width: $max-width;
+  }
+}
+
+@each $breakpoint-name, $breakpoint-value in $breakpoints {
+  @media #{$breakpoint-value} {
+    @each $max-width in $max-widths {
+      $max-width-value: strip-unit($max-width);
+
+      .#{$breakpoint-name}--mw-#{$max-width-value} {
+        max-width: $max-width;
+      }
+    }
+  }
+}
