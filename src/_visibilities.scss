@@ -1,0 +1,19 @@
+.visible {
+  visibility: visible;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+@each $breakpoint-name, $breakpoint-value in $breakpoints {
+  @media #{$breakpoint-value} {
+    .#{$breakpoint-name}--visible {
+      visibility: visible;
+    }
+
+    .#{$breakpoint-name}--invisible {
+      visibility: hidden;
+    }
+  }
+}

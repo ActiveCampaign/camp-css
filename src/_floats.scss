@@ -1,0 +1,27 @@
+.f-left {
+  float: left;
+}
+
+.f-right {
+  float: right;
+}
+
+.f-none {
+  float: none;
+}
+
+@each $breakpoint-name, $breakpoint-value in $breakpoints {
+  @media #{$breakpoint-value} {
+    .#{$breakpoint-name}--f-left {
+      float: left;
+    }
+
+    .#{$breakpoint-name}--f-right {
+      float: right;
+    }
+
+    .#{$breakpoint-name}--f-none {
+      float: none;
+    }
+  }
+}
