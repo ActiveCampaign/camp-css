@@ -1,0 +1,15 @@
+.dim {
+  opacity: 1;
+  transition: opacity $transition-duration $transition-function;
+}
+
+.dim:hover,
+.dim:focus {
+  opacity: 0.5;
+  transition: opacity $transition-duration $transition-function;
+}
+
+.dim:active {
+  opacity: 0.8;
+  transition: opacity $transition-duration $transition-function;
+}
