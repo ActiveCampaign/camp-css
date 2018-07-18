@@ -4,6 +4,22 @@
   .br-#{$border-radius-value} {
     border-radius: $border-radius;
   }
+
+  .br-top-right-#{$border-radius-value} {
+    border-top-right-radius: $border-radius;
+  }
+
+  .br-bottom-right-#{$border-radius-value} {
+    border-bottom-right-radius: $border-radius;
+  }
+
+  .br-bottom-left-#{$border-radius-value} {
+    border-bottom-left-radius: $border-radius;
+  }
+
+  .br-top-left-#{$border-radius-value} {
+    border-top-left-radius: $border-radius;
+  }
 }
 
 @each $breakpoint-name, $breakpoint-value in $breakpoints {
