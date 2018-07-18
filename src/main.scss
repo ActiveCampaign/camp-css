@@ -8,11 +8,17 @@
 @import 'border-styles';
 @import 'border-widths';
 @import 'box-alignments';
+<<<<<<< HEAD
 @import 'colors';
 @import 'clears';
 @import 'displays';
 @import 'flex';
 @import 'floats';
+=======
+@import 'box-sizing';
+@import 'colors';
+@import 'flex';
+>>>>>>> d66697cccdb589ce551161b0679d527b1f2ff08b
 @import 'font-family';
 @import 'font-sizes';
 @import 'font-style';
@@ -22,6 +28,7 @@
 @import 'letter-spacing';
 @import 'line-heights';
 @import 'margins';
+<<<<<<< HEAD
 @import 'object-fits';
 @import 'opacity';
 @import 'overflows';
@@ -30,5 +37,10 @@
 @import 'text';
 @import 'vertical-aligns';
 @import 'visibilities';
+=======
+@import 'opacity';
+@import 'paddings';
+@import 'text';
+>>>>>>> d66697cccdb589ce551161b0679d527b1f2ff08b
 @import 'widths';
 @import 'z-index';
