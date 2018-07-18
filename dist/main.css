@@ -1256,6 +1256,22 @@ tr,
 .table-column-group{
   display:table-column-group; }
 
+.dim{
+  opacity:1;
+  -webkit-transition:opacity 300ms ease-in;
+  transition:opacity 300ms ease-in; }
+
+.dim:hover,
+.dim:focus{
+  opacity:0.5;
+  -webkit-transition:opacity 300ms ease-in;
+  transition:opacity 300ms ease-in; }
+
+.dim:active{
+  opacity:0.8;
+  -webkit-transition:opacity 300ms ease-in;
+  transition:opacity 300ms ease-in; }
+
 .flex{
   display:-webkit-box;
   display:-ms-flexbox;
