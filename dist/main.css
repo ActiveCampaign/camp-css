@@ -1952,6 +1952,16 @@ tr,
 .b-transparent {
   border-color: rgba(255, 255, 255, 0); }
 
+.pointer:hover {
+  cursor: pointer; }
+
+.grab:hover {
+  cursor: -webkit-grab;
+  cursor: grab; }
+  .grab:hover:active {
+    cursor: -webkit-grabbing;
+    cursor: grabbing; }
+
 .none {
   display: none; }
 

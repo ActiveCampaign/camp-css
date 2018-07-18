@@ -1,0 +1,11 @@
+.pointer:hover {
+  cursor: pointer;
+}
+
+.grab:hover {
+  cursor: grab;
+
+  &:active {
+    cursor: grabbing;
+  }
+}
