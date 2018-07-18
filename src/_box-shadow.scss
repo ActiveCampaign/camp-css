@@ -1,0 +1,9 @@
+.shadow-soft { box-shadow: rem($box-shadow-soft); }
+.shadow-hard { box-shadow: rem($box-shadow-hard); }
+
+@each $breakpoint-name, $breakpoint-value in $breakpoints {
+  @media #{$breakpoint-value} {
+    .#{$breakpoint-name}--shadow-soft { box-shadow: rem($box-shadow-soft); }
+    .#{$breakpoint-name}--shadow-hard { box-shadow: rem($box-shadow-hard); }
+  }
+}
