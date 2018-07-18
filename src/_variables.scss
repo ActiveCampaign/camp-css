@@ -135,3 +135,7 @@ $columns-basis: (
   m: $base-scale * 100,
   l: $base-scale * 200
 );
+
+// Transition and animation
+$transition-duration: 300ms;
+$transition-function: ease-in;
