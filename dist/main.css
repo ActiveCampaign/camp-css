@@ -143,17 +143,152 @@ template{
 .br-0{
   border-radius:0; }
 
+.br-top-right-0{
+  border-top-right-radius:0; }
+
+.br-bottom-right-0{
+  border-bottom-right-radius:0; }
+
+.br-bottom-left-0{
+  border-bottom-left-radius:0; }
+
+.br-top-left-0{
+  border-top-left-radius:0; }
+
 .br-1{
   border-radius:1px; }
+
+.br-top-right-1{
+  border-top-right-radius:1px; }
+
+.br-bottom-right-1{
+  border-bottom-right-radius:1px; }
+
+.br-bottom-left-1{
+  border-bottom-left-radius:1px; }
+
+.br-top-left-1{
+  border-top-left-radius:1px; }
 
 .br-2{
   border-radius:2px; }
 
+.br-top-right-2{
+  border-top-right-radius:2px; }
+
+.br-bottom-right-2{
+  border-bottom-right-radius:2px; }
+
+.br-bottom-left-2{
+  border-bottom-left-radius:2px; }
+
+.br-top-left-2{
+  border-top-left-radius:2px; }
+
 .br-3{
   border-radius:3px; }
 
+.br-top-right-3{
+  border-top-right-radius:3px; }
+
+.br-bottom-right-3{
+  border-bottom-right-radius:3px; }
+
+.br-bottom-left-3{
+  border-bottom-left-radius:3px; }
+
+.br-top-left-3{
+  border-top-left-radius:3px; }
+
+.br-4{
+  border-radius:4px; }
+
+.br-top-right-4{
+  border-top-right-radius:4px; }
+
+.br-bottom-right-4{
+  border-bottom-right-radius:4px; }
+
+.br-bottom-left-4{
+  border-bottom-left-radius:4px; }
+
+.br-top-left-4{
+  border-top-left-radius:4px; }
+
+.br-5{
+  border-radius:5px; }
+
+.br-top-right-5{
+  border-top-right-radius:5px; }
+
+.br-bottom-right-5{
+  border-bottom-right-radius:5px; }
+
+.br-bottom-left-5{
+  border-bottom-left-radius:5px; }
+
+.br-top-left-5{
+  border-top-left-radius:5px; }
+
+.br-6{
+  border-radius:6px; }
+
+.br-top-right-6{
+  border-top-right-radius:6px; }
+
+.br-bottom-right-6{
+  border-bottom-right-radius:6px; }
+
+.br-bottom-left-6{
+  border-bottom-left-radius:6px; }
+
+.br-top-left-6{
+  border-top-left-radius:6px; }
+
+.br-7{
+  border-radius:7px; }
+
+.br-top-right-7{
+  border-top-right-radius:7px; }
+
+.br-bottom-right-7{
+  border-bottom-right-radius:7px; }
+
+.br-bottom-left-7{
+  border-bottom-left-radius:7px; }
+
+.br-top-left-7{
+  border-top-left-radius:7px; }
+
+.br-8{
+  border-radius:8px; }
+
+.br-top-right-8{
+  border-top-right-radius:8px; }
+
+.br-bottom-right-8{
+  border-bottom-right-radius:8px; }
+
+.br-bottom-left-8{
+  border-bottom-left-radius:8px; }
+
+.br-top-left-8{
+  border-top-left-radius:8px; }
+
 .br-100{
   border-radius:100%; }
+
+.br-top-right-100{
+  border-top-right-radius:100%; }
+
+.br-bottom-right-100{
+  border-bottom-right-radius:100%; }
+
+.br-bottom-left-100{
+  border-bottom-left-radius:100%; }
+
+.br-top-left-100{
+  border-top-left-radius:100%; }
 
 .bn{
   border-style:none; }
@@ -2519,6 +2654,16 @@ tr,
     border-radius:2px; }
   .bp-s--br-3{
     border-radius:3px; }
+  .bp-s--br-4{
+    border-radius:4px; }
+  .bp-s--br-5{
+    border-radius:5px; }
+  .bp-s--br-6{
+    border-radius:6px; }
+  .bp-s--br-7{
+    border-radius:7px; }
+  .bp-s--br-8{
+    border-radius:8px; }
   .bp-s--br-100{
     border-radius:100%; }
   .bp-s--bn{
@@ -3493,6 +3638,16 @@ tr,
     border-radius:2px; }
   .bp-m--br-3{
     border-radius:3px; }
+  .bp-m--br-4{
+    border-radius:4px; }
+  .bp-m--br-5{
+    border-radius:5px; }
+  .bp-m--br-6{
+    border-radius:6px; }
+  .bp-m--br-7{
+    border-radius:7px; }
+  .bp-m--br-8{
+    border-radius:8px; }
   .bp-m--br-100{
     border-radius:100%; }
   .bp-m--bn{
@@ -4467,6 +4622,16 @@ tr,
     border-radius:2px; }
   .bp-l--br-3{
     border-radius:3px; }
+  .bp-l--br-4{
+    border-radius:4px; }
+  .bp-l--br-5{
+    border-radius:5px; }
+  .bp-l--br-6{
+    border-radius:6px; }
+  .bp-l--br-7{
+    border-radius:7px; }
+  .bp-l--br-8{
+    border-radius:8px; }
   .bp-l--br-100{
     border-radius:100%; }
   .bp-l--bn{
@@ -5441,6 +5606,16 @@ tr,
     border-radius:2px; }
   .bp-xl--br-3{
     border-radius:3px; }
+  .bp-xl--br-4{
+    border-radius:4px; }
+  .bp-xl--br-5{
+    border-radius:5px; }
+  .bp-xl--br-6{
+    border-radius:6px; }
+  .bp-xl--br-7{
+    border-radius:7px; }
+  .bp-xl--br-8{
+    border-radius:8px; }
   .bp-xl--br-100{
     border-radius:100%; }
   .bp-xl--bn{
