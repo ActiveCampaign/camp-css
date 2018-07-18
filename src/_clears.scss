@@ -1,0 +1,41 @@
+.c-left {
+  clear: left;
+}
+
+.c-right {
+  clear: right;
+}
+
+.c-both {
+  clear: both;
+}
+
+.c-none {
+  clear: none;
+}
+
+@each $breakpoint-name, $breakpoint-value in $breakpoints {
+  @media #{$breakpoint-value} {
+    .#{$breakpoint-name}--c-left {
+      clear: left;
+    }
+
+    .#{$breakpoint-name}--c-right {
+      clear: right;
+    }
+
+    .#{$breakpoint-name}--c-both {
+      clear: both;
+    }
+
+    .#{$breakpoint-name}--c-none {
+      clear: none;
+    }
+  }
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}

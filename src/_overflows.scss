@@ -1,0 +1,35 @@
+.ov-visible {
+  overflow: visible;
+}
+
+.ov-hidden {
+  overflow: hidden;
+}
+
+.ov-x-scroll {
+  overflow-x: scroll;
+}
+
+.ov-y-scroll {
+  overflow-y: scroll;
+}
+
+@each $breakpoint-name, $breakpoint-value in $breakpoints {
+  @media #{$breakpoint-value} {
+    .#{$breakpoint-name}--ov-visible {
+      overflow: visible;
+    }
+
+    .#{$breakpoint-name}--ov-hidden {
+      overflow: hidden;
+    }
+
+    .#{$breakpoint-name}--ov-x-scroll {
+      overflow-x: scroll;
+    }
+
+    .#{$breakpoint-name}--ov-y-scroll {
+      overflow-y: scroll;
+    }
+  }
+}

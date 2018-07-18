@@ -971,6 +971,63 @@ tr,
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
 
+.c-left {
+  clear: left; }
+
+.c-right {
+  clear: right; }
+
+.c-both {
+  clear: both; }
+
+.c-none {
+  clear: none; }
+
+@media screen and (min-width: 30rem) {
+  .bp-s--c-left {
+    clear: left; }
+  .bp-s--c-right {
+    clear: right; }
+  .bp-s--c-both {
+    clear: both; }
+  .bp-s--c-none {
+    clear: none; } }
+
+@media screen and (min-width: 45rem) {
+  .bp-m--c-left {
+    clear: left; }
+  .bp-m--c-right {
+    clear: right; }
+  .bp-m--c-both {
+    clear: both; }
+  .bp-m--c-none {
+    clear: none; } }
+
+@media screen and (min-width: 60rem) {
+  .bp-l--c-left {
+    clear: left; }
+  .bp-l--c-right {
+    clear: right; }
+  .bp-l--c-both {
+    clear: both; }
+  .bp-l--c-none {
+    clear: none; } }
+
+@media screen and (min-width: 70.5rem) {
+  .bp-xl--c-left {
+    clear: left; }
+  .bp-xl--c-right {
+    clear: right; }
+  .bp-xl--c-both {
+    clear: both; }
+  .bp-xl--c-none {
+    clear: none; } }
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both; }
+
 .ocean {
   color: #356ae6; }
 
@@ -1736,6 +1793,76 @@ tr,
 .b-transparent {
   border-color: rgba(255, 255, 255, 0); }
 
+.none {
+  display: none; }
+
+.inline {
+  display: inline; }
+
+.block {
+  display: block; }
+
+.inline-block {
+  display: inline-block; }
+
+.table {
+  display: table; }
+
+.table-cell {
+  display: table-cell; }
+
+.table-row {
+  display: table-row; }
+
+.table-row-group {
+  display: table-row-group; }
+
+.table-column {
+  display: table-column; }
+
+.table-column-group {
+  display: table-column-group; }
+
+@media screen and (min-width: 30rem) {
+  .bp-s--none {
+    display: none; }
+  .bp-s--inline {
+    display: inline; }
+  .bp-s--block {
+    display: block; }
+  .bp-s--inline-block {
+    display: inline-block; } }
+
+@media screen and (min-width: 45rem) {
+  .bp-m--none {
+    display: none; }
+  .bp-m--inline {
+    display: inline; }
+  .bp-m--block {
+    display: block; }
+  .bp-m--inline-block {
+    display: inline-block; } }
+
+@media screen and (min-width: 60rem) {
+  .bp-l--none {
+    display: none; }
+  .bp-l--inline {
+    display: inline; }
+  .bp-l--block {
+    display: block; }
+  .bp-l--inline-block {
+    display: inline-block; } }
+
+@media screen and (min-width: 70.5rem) {
+  .bp-xl--none {
+    display: none; }
+  .bp-xl--inline {
+    display: inline; }
+  .bp-xl--block {
+    display: block; }
+  .bp-xl--inline-block {
+    display: inline-block; } }
+
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2039,6 +2166,47 @@ sure which file to place them in if we use them
   .bp-xl--flex-shrink-1 {
     -ms-flex-negative: 1;
         flex-shrink: 1; } }
+
+.f-left {
+  float: left; }
+
+.f-right {
+  float: right; }
+
+.f-none {
+  float: none; }
+
+@media screen and (min-width: 30rem) {
+  .bp-s--f-left {
+    float: left; }
+  .bp-s--f-right {
+    float: right; }
+  .bp-s--f-none {
+    float: none; } }
+
+@media screen and (min-width: 45rem) {
+  .bp-m--f-left {
+    float: left; }
+  .bp-m--f-right {
+    float: right; }
+  .bp-m--f-none {
+    float: none; } }
+
+@media screen and (min-width: 60rem) {
+  .bp-l--f-left {
+    float: left; }
+  .bp-l--f-right {
+    float: right; }
+  .bp-l--f-none {
+    float: none; } }
+
+@media screen and (min-width: 70.5rem) {
+  .bp-xl--f-left {
+    float: left; }
+  .bp-xl--f-right {
+    float: right; }
+  .bp-xl--f-none {
+    float: none; } }
 
 .title {
   font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif; }
@@ -3020,6 +3188,24 @@ sure which file to place them in if we use them
   .bp-xl--lh-11 {
     line-height: 3.5rem; } }
 
+.link {
+  text-decoration: none;
+  -webkit-transition: color 300ms ease-in;
+  transition: color 300ms ease-in; }
+  .link:link, .link:visited {
+    -webkit-transition: color 300ms ease-in;
+    transition: color 300ms ease-in; }
+  .link:hover {
+    -webkit-transition: color 300ms ease-in;
+    transition: color 300ms ease-in; }
+  .link:active {
+    -webkit-transition: color 300ms ease-in;
+    transition: color 300ms ease-in; }
+  .link:focus {
+    -webkit-transition: color 300ms ease-in;
+    transition: color 300ms ease-in;
+    outline: 0.0625rem dotted currentColor; }
+
 .m-1 {
   margin: 0.25rem; }
 
@@ -3985,6 +4171,62 @@ sure which file to place them in if we use them
   .bp-xl--ml-11 {
     margin-left: 5rem; } }
 
+.of-cover {
+  -o-object-fit: cover;
+     object-fit: cover; }
+
+.of-contain {
+  -o-object-fit: contain;
+     object-fit: contain; }
+
+.of-none {
+  -o-object-fit: none;
+     object-fit: none; }
+
+@media screen and (min-width: 30rem) {
+  .bp-s--of-cover {
+    -o-object-fit: cover;
+       object-fit: cover; }
+  .bp-s--of-contain {
+    -o-object-fit: contain;
+       object-fit: contain; }
+  .bp-s--of-none {
+    -o-object-fit: none;
+       object-fit: none; } }
+
+@media screen and (min-width: 45rem) {
+  .bp-m--of-cover {
+    -o-object-fit: cover;
+       object-fit: cover; }
+  .bp-m--of-contain {
+    -o-object-fit: contain;
+       object-fit: contain; }
+  .bp-m--of-none {
+    -o-object-fit: none;
+       object-fit: none; } }
+
+@media screen and (min-width: 60rem) {
+  .bp-l--of-cover {
+    -o-object-fit: cover;
+       object-fit: cover; }
+  .bp-l--of-contain {
+    -o-object-fit: contain;
+       object-fit: contain; }
+  .bp-l--of-none {
+    -o-object-fit: none;
+       object-fit: none; } }
+
+@media screen and (min-width: 70.5rem) {
+  .bp-xl--of-cover {
+    -o-object-fit: cover;
+       object-fit: cover; }
+  .bp-xl--of-contain {
+    -o-object-fit: contain;
+       object-fit: contain; }
+  .bp-xl--of-none {
+    -o-object-fit: none;
+       object-fit: none; } }
+
 .o-0 {
   opacity: 0; }
 
@@ -4017,6 +4259,58 @@ sure which file to place them in if we use them
 
 .o-100 {
   opacity: 1; }
+
+.ov-visible {
+  overflow: visible; }
+
+.ov-hidden {
+  overflow: hidden; }
+
+.ov-x-scroll {
+  overflow-x: scroll; }
+
+.ov-y-scroll {
+  overflow-y: scroll; }
+
+@media screen and (min-width: 30rem) {
+  .bp-s--ov-visible {
+    overflow: visible; }
+  .bp-s--ov-hidden {
+    overflow: hidden; }
+  .bp-s--ov-x-scroll {
+    overflow-x: scroll; }
+  .bp-s--ov-y-scroll {
+    overflow-y: scroll; } }
+
+@media screen and (min-width: 45rem) {
+  .bp-m--ov-visible {
+    overflow: visible; }
+  .bp-m--ov-hidden {
+    overflow: hidden; }
+  .bp-m--ov-x-scroll {
+    overflow-x: scroll; }
+  .bp-m--ov-y-scroll {
+    overflow-y: scroll; } }
+
+@media screen and (min-width: 60rem) {
+  .bp-l--ov-visible {
+    overflow: visible; }
+  .bp-l--ov-hidden {
+    overflow: hidden; }
+  .bp-l--ov-x-scroll {
+    overflow-x: scroll; }
+  .bp-l--ov-y-scroll {
+    overflow-y: scroll; } }
+
+@media screen and (min-width: 70.5rem) {
+  .bp-xl--ov-visible {
+    overflow: visible; }
+  .bp-xl--ov-hidden {
+    overflow: hidden; }
+  .bp-xl--ov-x-scroll {
+    overflow-x: scroll; }
+  .bp-xl--ov-y-scroll {
+    overflow-y: scroll; } }
 
 .p-1 {
   padding: 0.25rem; }
@@ -4983,6 +5277,74 @@ sure which file to place them in if we use them
   .bp-xl--pl-11 {
     padding-left: 5rem; } }
 
+.static {
+  position: static; }
+
+.relative {
+  position: relative; }
+
+.absolute {
+  position: absolute; }
+
+.fixed {
+  position: fixed; }
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky; }
+
+@media screen and (min-width: 30rem) {
+  .bp-s--static {
+    position: static; }
+  .bp-s--relative {
+    position: relative; }
+  .bp-s--absolute {
+    position: absolute; }
+  .bp-s--fixed {
+    position: fixed; }
+  .bp-s--sticky {
+    position: -webkit-sticky;
+    position: sticky; } }
+
+@media screen and (min-width: 45rem) {
+  .bp-m--static {
+    position: static; }
+  .bp-m--relative {
+    position: relative; }
+  .bp-m--absolute {
+    position: absolute; }
+  .bp-m--fixed {
+    position: fixed; }
+  .bp-m--sticky {
+    position: -webkit-sticky;
+    position: sticky; } }
+
+@media screen and (min-width: 60rem) {
+  .bp-l--static {
+    position: static; }
+  .bp-l--relative {
+    position: relative; }
+  .bp-l--absolute {
+    position: absolute; }
+  .bp-l--fixed {
+    position: fixed; }
+  .bp-l--sticky {
+    position: -webkit-sticky;
+    position: sticky; } }
+
+@media screen and (min-width: 70.5rem) {
+  .bp-xl--static {
+    position: static; }
+  .bp-xl--relative {
+    position: relative; }
+  .bp-xl--absolute {
+    position: absolute; }
+  .bp-xl--fixed {
+    position: fixed; }
+  .bp-xl--sticky {
+    position: -webkit-sticky;
+    position: sticky; } }
+
 .ta-left {
   text-align: left; }
 
@@ -5116,6 +5478,88 @@ sure which file to place them in if we use them
     text-transform: none; }
   .bp-xl--tt-caps {
     text-transform: capitalize; } }
+
+.va-top {
+  vertical-align: top; }
+
+.va-baseline {
+  vertical-align: baseline; }
+
+.va-middle {
+  vertical-align: middle; }
+
+.va-bottom {
+  vertical-align: bottom; }
+
+@media screen and (min-width: 30rem) {
+  .bp-s--va-top {
+    vertical-align: top; }
+  .bp-s--va-baseline {
+    vertical-align: baseline; }
+  .bp-s--va-middle {
+    vertical-align: middle; }
+  .bp-s--va-bottom {
+    vertical-align: bottom; } }
+
+@media screen and (min-width: 45rem) {
+  .bp-m--va-top {
+    vertical-align: top; }
+  .bp-m--va-baseline {
+    vertical-align: baseline; }
+  .bp-m--va-middle {
+    vertical-align: middle; }
+  .bp-m--va-bottom {
+    vertical-align: bottom; } }
+
+@media screen and (min-width: 60rem) {
+  .bp-l--va-top {
+    vertical-align: top; }
+  .bp-l--va-baseline {
+    vertical-align: baseline; }
+  .bp-l--va-middle {
+    vertical-align: middle; }
+  .bp-l--va-bottom {
+    vertical-align: bottom; } }
+
+@media screen and (min-width: 70.5rem) {
+  .bp-xl--va-top {
+    vertical-align: top; }
+  .bp-xl--va-baseline {
+    vertical-align: baseline; }
+  .bp-xl--va-middle {
+    vertical-align: middle; }
+  .bp-xl--va-bottom {
+    vertical-align: bottom; } }
+
+.visible {
+  visibility: visible; }
+
+.invisible {
+  visibility: hidden; }
+
+@media screen and (min-width: 30rem) {
+  .bp-s--visible {
+    visibility: visible; }
+  .bp-s--invisible {
+    visibility: hidden; } }
+
+@media screen and (min-width: 45rem) {
+  .bp-m--visible {
+    visibility: visible; }
+  .bp-m--invisible {
+    visibility: hidden; } }
+
+@media screen and (min-width: 60rem) {
+  .bp-l--visible {
+    visibility: visible; }
+  .bp-l--invisible {
+    visibility: hidden; } }
+
+@media screen and (min-width: 70.5rem) {
+  .bp-xl--visible {
+    visibility: visible; }
+  .bp-xl--invisible {
+    visibility: hidden; } }
 
 .w-10 {
   width: 10%; }

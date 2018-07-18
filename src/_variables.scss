@@ -139,3 +139,7 @@ $columns-basis: (
 // Box shadows
 $box-shadow-soft: 0 12px 26px 0 rgba(54, 141, 255, 0.1);
 $box-shadow-hard: 0 34px 24px 0  rgba(54, 141, 255, 0.5);
+
+// Transition and animation
+$transition-duration: 300ms;
+$transition-function: ease-in;
