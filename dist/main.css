@@ -6,6 +6,124 @@
  * @param {Number} $number - Number to remove unit from
  * @return {Number} - Unitless number
  */
+.bg-cover {
+  background-size: cover; }
+
+.bg-contain {
+  background-size: contain; }
+
+@media screen and (min-width: 30rem) {
+  .bp-s--bg-cover {
+    background-size: cover; }
+  .bp-s--bg-contain {
+    background-size: contain; } }
+
+@media screen and (min-width: 45rem) {
+  .bp-m--bg-cover {
+    background-size: cover; }
+  .bp-m--bg-contain {
+    background-size: contain; } }
+
+@media screen and (min-width: 60rem) {
+  .bp-l--bg-cover {
+    background-size: cover; }
+  .bp-l--bg-contain {
+    background-size: contain; } }
+
+@media screen and (min-width: 70.5rem) {
+  .bp-xl--bg-cover {
+    background-size: cover; }
+  .bp-xl--bg-contain {
+    background-size: contain; } }
+
+.bg-center {
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+.bg-top {
+  background-repeat: no-repeat;
+  background-position: top center; }
+
+.bg-right {
+  background-repeat: no-repeat;
+  background-position: center right; }
+
+.bg-bottom {
+  background-repeat: no-repeat;
+  background-position: bottom center; }
+
+.bg-left {
+  background-repeat: no-repeat;
+  background-position: center left; }
+
+@media screen and (min-width: 30rem) {
+  .bp-s--bg-center {
+    background-repeat: no-repeat;
+    background-position: center center; }
+  .bp-s--bg-top {
+    background-repeat: no-repeat;
+    background-position: top center; }
+  .bp-s--bg-right {
+    background-repeat: no-repeat;
+    background-position: center right; }
+  .bp-s--bg-bottom {
+    background-repeat: no-repeat;
+    background-position: bottom center; }
+  .bp-s--bg-left {
+    background-repeat: no-repeat;
+    background-position: center left; } }
+
+@media screen and (min-width: 45rem) {
+  .bp-m--bg-center {
+    background-repeat: no-repeat;
+    background-position: center center; }
+  .bp-m--bg-top {
+    background-repeat: no-repeat;
+    background-position: top center; }
+  .bp-m--bg-right {
+    background-repeat: no-repeat;
+    background-position: center right; }
+  .bp-m--bg-bottom {
+    background-repeat: no-repeat;
+    background-position: bottom center; }
+  .bp-m--bg-left {
+    background-repeat: no-repeat;
+    background-position: center left; } }
+
+@media screen and (min-width: 60rem) {
+  .bp-l--bg-center {
+    background-repeat: no-repeat;
+    background-position: center center; }
+  .bp-l--bg-top {
+    background-repeat: no-repeat;
+    background-position: top center; }
+  .bp-l--bg-right {
+    background-repeat: no-repeat;
+    background-position: center right; }
+  .bp-l--bg-bottom {
+    background-repeat: no-repeat;
+    background-position: bottom center; }
+  .bp-l--bg-left {
+    background-repeat: no-repeat;
+    background-position: center left; } }
+
+@media screen and (min-width: 70.5rem) {
+  .bp-xl--bg-center {
+    background-repeat: no-repeat;
+    background-position: center center; }
+  .bp-xl--bg-top {
+    background-repeat: no-repeat;
+    background-position: top center; }
+  .bp-xl--bg-right {
+    background-repeat: no-repeat;
+    background-position: center right; }
+  .bp-xl--bg-bottom {
+    background-repeat: no-repeat;
+    background-position: bottom center; }
+  .bp-xl--bg-left {
+    background-repeat: no-repeat;
+    background-position: center left; } }
+
 .br-0 {
   border-radius: 0; }
 
