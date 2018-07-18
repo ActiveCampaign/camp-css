@@ -1,17 +1,29 @@
+@import 'normalize';
+@import 'variables';
+
 // Functions
 @import 'functions/rem';
 @import 'functions/strip-unit';
 
 // Styles
-@import 'variables';
+@import 'background-position';
+@import 'background-size';
 @import 'border-radiuses';
 @import 'border-styles';
 @import 'border-widths';
 @import 'box-alignments';
+<<<<<<< HEAD
 @import 'box-sizing';
 @import 'colors';
+=======
+@import 'box-shadow';
+@import 'box-sizing';
+>>>>>>> cdab87ab3f8921c6bb71755dedbaf41232ef40e3
 @import 'clears';
+@import 'colors';
+@import 'cursor';
 @import 'displays';
+@import 'effects';
 @import 'flex';
 @import 'floats';
 @import 'font-family';
@@ -24,6 +36,10 @@
 @import 'line-heights';
 @import 'links';
 @import 'margins';
+<<<<<<< HEAD
+=======
+@import 'max-widths';
+>>>>>>> cdab87ab3f8921c6bb71755dedbaf41232ef40e3
 @import 'object-fits';
 @import 'opacity';
 @import 'overflows';
