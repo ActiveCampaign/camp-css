@@ -1,9 +1,36 @@
 .shadow-soft { box-shadow: rem($box-shadow-soft); }
 .shadow-hard { box-shadow: rem($box-shadow-hard); }
+.shadow-unset { box-shadow: unset; }
 
 @each $breakpoint-name, $breakpoint-value in $breakpoints {
   @media #{$breakpoint-value} {
     .#{$breakpoint-name}--shadow-soft { box-shadow: rem($box-shadow-soft); }
     .#{$breakpoint-name}--shadow-hard { box-shadow: rem($box-shadow-hard); }
+    .#{$breakpoint-name}--shadow-unset { box-shadow: unset; }
   }
+}
+
+.shadow-hover {
+  cursor: pointer;
+  position: relative;
+  transition: all $transition-duration $transition-function;
+}
+
+.shadow-hover::after {
+  content: '';
+  box-shadow: inherit;
+  border-radius: inherit;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  transition: opacity $transition-duration $transition-function;
+}
+
+.shadow-hover:hover::after,
+.shadow-hover:focus::after {
+  opacity: 1;
 }
