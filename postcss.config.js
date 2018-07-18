@@ -7,6 +7,8 @@ module.exports = {
         'ie >= 10',
       ],
       flexbox: true,
-    })
+    }),
+    require('css-mqpacker')(),
+    require('postcss-discard-comments')({ removeAll: true }),
   ]
 }
