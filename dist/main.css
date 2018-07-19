@@ -1538,32 +1538,17 @@ tr,
 .fs-italic{
   font-style:italic; }
 
-.fw-1{
-  font-weight:100; }
-
-.fw-2{
-  font-weight:200; }
-
-.fw-3{
-  font-weight:300; }
-
-.fw-4{
+.fw-400{
   font-weight:400; }
 
-.fw-5{
+.fw-500{
   font-weight:500; }
 
-.fw-6{
+.fw-600{
   font-weight:600; }
 
-.fw-7{
+.fw-700{
   font-weight:700; }
-
-.fw-8{
-  font-weight:800; }
-
-.fw-9{
-  font-weight:900; }
 
 .grid{
   display:grid; }
@@ -2989,24 +2974,14 @@ tr,
     font-style:normal; }
   .bp-s--fs-italic{
     font-style:italic; }
-  .bp-s--fw-1{
-    font-weight:100; }
-  .bp-s--fw-2{
-    font-weight:200; }
-  .bp-s--fw-3{
-    font-weight:300; }
-  .bp-s--fw-4{
+  .bp-s--fw-400{
     font-weight:400; }
-  .bp-s--fw-5{
+  .bp-s--fw-500{
     font-weight:500; }
-  .bp-s--fw-6{
+  .bp-s--fw-600{
     font-weight:600; }
-  .bp-s--fw-7{
+  .bp-s--fw-700{
     font-weight:700; }
-  .bp-s--fw-8{
-    font-weight:800; }
-  .bp-s--fw-9{
-    font-weight:900; }
   .bp-s--grid{
     display:grid; }
   .bp-s--gap-1{
@@ -4014,24 +3989,14 @@ tr,
     font-style:normal; }
   .bp-m--fs-italic{
     font-style:italic; }
-  .bp-m--fw-1{
-    font-weight:100; }
-  .bp-m--fw-2{
-    font-weight:200; }
-  .bp-m--fw-3{
-    font-weight:300; }
-  .bp-m--fw-4{
+  .bp-m--fw-400{
     font-weight:400; }
-  .bp-m--fw-5{
+  .bp-m--fw-500{
     font-weight:500; }
-  .bp-m--fw-6{
+  .bp-m--fw-600{
     font-weight:600; }
-  .bp-m--fw-7{
+  .bp-m--fw-700{
     font-weight:700; }
-  .bp-m--fw-8{
-    font-weight:800; }
-  .bp-m--fw-9{
-    font-weight:900; }
   .bp-m--grid{
     display:grid; }
   .bp-m--gap-1{
@@ -5039,24 +5004,14 @@ tr,
     font-style:normal; }
   .bp-l--fs-italic{
     font-style:italic; }
-  .bp-l--fw-1{
-    font-weight:100; }
-  .bp-l--fw-2{
-    font-weight:200; }
-  .bp-l--fw-3{
-    font-weight:300; }
-  .bp-l--fw-4{
+  .bp-l--fw-400{
     font-weight:400; }
-  .bp-l--fw-5{
+  .bp-l--fw-500{
     font-weight:500; }
-  .bp-l--fw-6{
+  .bp-l--fw-600{
     font-weight:600; }
-  .bp-l--fw-7{
+  .bp-l--fw-700{
     font-weight:700; }
-  .bp-l--fw-8{
-    font-weight:800; }
-  .bp-l--fw-9{
-    font-weight:900; }
   .bp-l--grid{
     display:grid; }
   .bp-l--gap-1{
@@ -6064,24 +6019,14 @@ tr,
     font-style:normal; }
   .bp-xl--fs-italic{
     font-style:italic; }
-  .bp-xl--fw-1{
-    font-weight:100; }
-  .bp-xl--fw-2{
-    font-weight:200; }
-  .bp-xl--fw-3{
-    font-weight:300; }
-  .bp-xl--fw-4{
+  .bp-xl--fw-400{
     font-weight:400; }
-  .bp-xl--fw-5{
+  .bp-xl--fw-500{
     font-weight:500; }
-  .bp-xl--fw-6{
+  .bp-xl--fw-600{
     font-weight:600; }
-  .bp-xl--fw-7{
+  .bp-xl--fw-700{
     font-weight:700; }
-  .bp-xl--fw-8{
-    font-weight:800; }
-  .bp-xl--fw-9{
-    font-weight:900; }
   .bp-xl--grid{
     display:grid; }
   .bp-xl--gap-1{
