@@ -6,6 +6,10 @@
   }
 }
 
+.w-auto {
+  width: auto;
+}
+
 @each $breakpoint-name, $breakpoint-value in $breakpoints {
   @media #{$breakpoint-value} {
     @each $width in $widths {
@@ -14,6 +18,10 @@
       .#{$breakpoint-name}--w-#{$width-value} {
         width: $width;
       }
+    }
+
+    .#{$breakpoint-name}--w-auto {
+      width: auto;
     }
   }
 }
