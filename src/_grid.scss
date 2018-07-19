@@ -14,6 +14,10 @@
 
 @each $breakpoint-name, $breakpoint-value in $breakpoints {
   @media #{$breakpoint-value} {
+    .#{$breakpoint-name}--grid {
+      display: grid;
+    }
+
     @each $spacing-name, $spacing-value in $spacing {
       $i: index($spacing, $spacing-name $spacing-value);
 
@@ -43,6 +47,10 @@
 
 @each $breakpoint-name, $breakpoint-value in $breakpoints {
   @media #{$breakpoint-value} {
+    .#{$breakpoint-name}--g-cols {
+      grid-template-columns: repeat($cols, 1fr);
+    }
+
     @for $i from 1 through $cols {
       .#{$breakpoint-name}--g-col-#{$i} {
         grid-column: span $i;

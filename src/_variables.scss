@@ -92,6 +92,7 @@ $line-heights: (
 $spacing-scale: $base-scale * 1;
 
 $spacing: (
+  spacing-0: 0,
   spacing-1: $spacing-scale * 1,
   spacing-2: $spacing-scale * 2,
   spacing-3: $spacing-scale * 3,
@@ -102,7 +103,7 @@ $spacing: (
   spacing-8: $spacing-scale * 8,
   spacing-9: $spacing-scale * 12,
   spacing-10: $spacing-scale * 16,
-  spacing-12: $spacing-scale * 20,
+  spacing-11: $spacing-scale * 20,
 );
 
 // Widths
