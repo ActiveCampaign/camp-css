@@ -1,6 +1,6 @@
 {
-  "name": "ac-css",
-  "version": "0.0.0",
+  "name": "camp-css",
+  "version": "0.1.0",
   "description": "CSS behind the distinctive style of ActiveCampaign",
   "main": "dist/main.min.css",
   "scripts": {
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rod/ac-css.git"
+    "url": "git+https://github.com/activecampaign/camp-css.git"
   },
   "keywords": [
     "css",
@@ -26,9 +26,9 @@
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rod/ac-css/issues"
+    "url": "https://github.com/activecampaign/camp-css/issues"
   },
-  "homepage": "https://github.com/rod/ac-css#readme",
+  "homepage": "https://github.com/activecampaign/camp-css#readme",
   "devDependencies": {
     "autoprefixer": "^8.6.5",
     "css-mqpacker": "^7.0.0",
