@@ -33,7 +33,7 @@
     "autoprefixer": "^9.0.1",
     "css-mqpacker": "^7.0.0",
     "node-sass": "^4.9.2",
-    "postcss-cli": "^6",
+    "postcss-cli": "^6.0.0",
     "postcss-discard-comments": "^4.0.0",
     "postcss-syntax": "^0.31.0",
     "rimraf": "^2.6.2",
