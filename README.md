@@ -1,4 +1,4 @@
-# Camp CSS
+# camp-css
 
 > CSS behind the distinctive style of ActiveCampaign
 
