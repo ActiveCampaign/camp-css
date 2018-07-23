@@ -130,11 +130,6 @@ body{
   line-height:28px;
   color:#4e5468; }
 
-button::-moz-focus-inner,
-input::-moz-focus-inner{
-  border:0;
-  padding:0; }
-
 ::-moz-selection{
   color:#fff;
   background:#356ae6; }

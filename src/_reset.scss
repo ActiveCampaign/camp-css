@@ -16,12 +16,6 @@ body {
   color: map-get($colors, slate);
 }
 
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-  border: 0;
-  padding: 0;
-}
-
 ::selection {
   color: #fff;
   background: map-get($colors, ocean);
