@@ -1,6 +1,6 @@
 {
   "name": "camp-css",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "CSS behind the distinctive style of ActiveCampaign",
   "main": "dist/main.min.css",
   "scripts": {
@@ -30,15 +30,15 @@
   },
   "homepage": "https://github.com/activecampaign/camp-css#readme",
   "devDependencies": {
-    "autoprefixer": "^8.6.5",
+    "autoprefixer": "^9.0.1",
     "css-mqpacker": "^7.0.0",
     "node-sass": "^4.9.2",
-    "postcss-cli": "^5.0.1",
+    "postcss-cli": "^6.0.0",
     "postcss-discard-comments": "^4.0.0",
     "postcss-syntax": "^0.31.0",
     "rimraf": "^2.6.2",
     "stylelint": "^9.3.0",
-    "stylelint-config-activecampaign": "github:rod/stylelint-config-activecampaign",
+    "stylelint-config-activecampaign": "^0.1.2",
     "watch": "^1.0.2"
   }
 }
