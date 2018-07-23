@@ -130,10 +130,6 @@ body{
   line-height:28px;
   color:#4e5468; }
 
-input{
-  -webkit-appearance:none;
-  -moz-appearance:none; }
-
 button::-moz-focus-inner,
 input::-moz-focus-inner{
   border:0;

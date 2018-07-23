@@ -16,11 +16,6 @@ body {
   color: map-get($colors, slate);
 }
 
-input {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-}
-
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
