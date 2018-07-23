@@ -138,6 +138,14 @@ button::-moz-focus-inner,
 input::-moz-focus-inner{
   border:0;
   padding:0; }
+
+::-moz-selection{
+  color:#fff;
+  background:#356ae6; }
+
+::selection{
+  color:#fff;
+  background:#356ae6; }
 .bg-center{
   background-repeat:no-repeat;
   background-position:center center; }

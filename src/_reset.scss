@@ -26,3 +26,8 @@ input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
+
+::selection {
+  color: #fff;
+  background: map-get($colors, ocean);
+}
