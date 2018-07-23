@@ -1,0 +1,28 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: $body;
+  font-size: map-get($font-sizes, font-size-5);
+  line-height: map-get($line-heights, line-height-5);
+  color: map-get($colors, slate);
+}
+
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}

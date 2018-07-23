@@ -114,6 +114,30 @@ template{
   display:none; }
 [hidden]{
   display:none; }
+
+*{
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  text-rendering:optimizeLegibility; }
+
+html{
+  font-size:100%; }
+
+body{
+  margin:0;
+  font-family:"IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif;
+  font-size:18px;
+  line-height:28px;
+  color:#4e5468; }
+
+input{
+  -webkit-appearance:none;
+  -moz-appearance:none; }
+
+button::-moz-focus-inner,
+input::-moz-focus-inner{
+  border:0;
+  padding:0; }
 .bg-center{
   background-repeat:no-repeat;
   background-position:center center; }
