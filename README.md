@@ -27,7 +27,7 @@ With npm:
 npm install camp-css
 ```
 
-Now import the package wherever your css is compiled.
+Now import the package wherever your css is compiled:
 
 ```css
 @import 'camp-css';
