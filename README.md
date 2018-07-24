@@ -9,7 +9,13 @@
 
 ## Usage
 
-With yarn:
+### From the CDN:
+
+```html
+<link rel="stylesheet" href="https://unpkg.com/camp-css@latest/dist/camp.min.css">
+```
+
+### As a package
 
 ```sh
 yarn add camp-css
@@ -19,4 +25,17 @@ With npm:
 
 ```sh
 npm install camp-css
+```
+
+Now import the package wherever your css is compiled.
+
+```css
+@import 'camp-css';
+```
+
+
+If you have installed camp as a package and would like to reference the variables used by the package itself, you may import the source scss file rather than the compiled css file. From your projects scss add the following
+
+```scss
+@import 'camp-css/scss/camp';
 ```

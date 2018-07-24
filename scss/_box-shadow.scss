@@ -1,5 +1,6 @@
 .shadow-soft { box-shadow: rem($box-shadow-soft); }
 .shadow-hard { box-shadow: rem($box-shadow-hard); }
+.shadow-hard-dark { box-shadow: rem($box-shadow-hard-dark); }
 .shadow-unset { box-shadow: unset; }
 
 @each $breakpoint-name, $breakpoint-value in $breakpoints {

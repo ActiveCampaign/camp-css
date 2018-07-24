@@ -356,8 +356,11 @@ body {
   margin: 0; }
 
 ::selection {
-  background: #356ae6;
+  background: #1b54d9;
   color: #fff; }
+
+img {
+  max-width: 100%; }
 
 /*
  * Strip-unit Function by Hugo Giraudel
@@ -620,6 +623,21 @@ body {
 .br-top-left-8 {
   border-top-left-radius: 8px; }
 
+.br-16 {
+  border-radius: 16px; }
+
+.br-top-right-16 {
+  border-top-right-radius: 16px; }
+
+.br-bottom-right-16 {
+  border-bottom-right-radius: 16px; }
+
+.br-bottom-left-16 {
+  border-bottom-left-radius: 16px; }
+
+.br-top-left-16 {
+  border-top-left-radius: 16px; }
+
 .br-100 {
   border-radius: 100%; }
 
@@ -654,6 +672,8 @@ body {
     border-radius: 7px; }
   .bp-s--br-8 {
     border-radius: 8px; }
+  .bp-s--br-16 {
+    border-radius: 16px; }
   .bp-s--br-100 {
     border-radius: 100%; } }
 
@@ -676,6 +696,8 @@ body {
     border-radius: 7px; }
   .bp-m--br-8 {
     border-radius: 8px; }
+  .bp-m--br-16 {
+    border-radius: 16px; }
   .bp-m--br-100 {
     border-radius: 100%; } }
 
@@ -698,6 +720,8 @@ body {
     border-radius: 7px; }
   .bp-l--br-8 {
     border-radius: 8px; }
+  .bp-l--br-16 {
+    border-radius: 16px; }
   .bp-l--br-100 {
     border-radius: 100%; } }
 
@@ -720,6 +744,8 @@ body {
     border-radius: 7px; }
   .bp-xl--br-8 {
     border-radius: 8px; }
+  .bp-xl--br-16 {
+    border-radius: 16px; }
   .bp-xl--br-100 {
     border-radius: 100%; } }
 
@@ -1313,6 +1339,9 @@ body {
 
 .shadow-hard {
   box-shadow: 0 2.125rem 1.5rem 0 rgba(54, 141, 255, 0.5); }
+
+.shadow-hard-dark {
+  box-shadow: 0 2.125rem 1.5rem 0 rgba(31, 33, 41, 0.5); }
 
 .shadow-unset {
   box-shadow: unset; }
@@ -2314,13 +2343,18 @@ body {
 .flex-row-reverse {
   flex-direction: row-reverse; }
 
-/*
+.order-0 {
+  order: 0; }
 
-tbd if we will really need the `order` classes? they can be applied to both
-flex and grid items, but they are officially part of the flexbox spec. so not
-sure which file to place them in if we use them
+.order-1 {
+  order: 1; }
 
-*/
+.order-2 {
+  order: 2; }
+
+.flex-auto {
+  flex: auto; }
+
 .flex-grow-0 {
   flex-grow: 0; }
 
@@ -2354,6 +2388,14 @@ sure which file to place them in if we use them
     flex-direction: column-reverse; }
   .bp-s--flex-row-reverse {
     flex-direction: row-reverse; }
+  .bp-s--flex-auto {
+    flex: auto; }
+  .bp-s--order-0 {
+    order: 0; }
+  .bp-s--order-1 {
+    order: 1; }
+  .bp-s--order-2 {
+    order: 2; }
   .bp-s--flex-grow-0 {
     flex-grow: 0; }
   .bp-s--flex-grow-1 {
@@ -2384,6 +2426,14 @@ sure which file to place them in if we use them
     flex-direction: column-reverse; }
   .bp-m--flex-row-reverse {
     flex-direction: row-reverse; }
+  .bp-m--flex-auto {
+    flex: auto; }
+  .bp-m--order-0 {
+    order: 0; }
+  .bp-m--order-1 {
+    order: 1; }
+  .bp-m--order-2 {
+    order: 2; }
   .bp-m--flex-grow-0 {
     flex-grow: 0; }
   .bp-m--flex-grow-1 {
@@ -2414,6 +2464,14 @@ sure which file to place them in if we use them
     flex-direction: column-reverse; }
   .bp-l--flex-row-reverse {
     flex-direction: row-reverse; }
+  .bp-l--flex-auto {
+    flex: auto; }
+  .bp-l--order-0 {
+    order: 0; }
+  .bp-l--order-1 {
+    order: 1; }
+  .bp-l--order-2 {
+    order: 2; }
   .bp-l--flex-grow-0 {
     flex-grow: 0; }
   .bp-l--flex-grow-1 {
@@ -2444,6 +2502,14 @@ sure which file to place them in if we use them
     flex-direction: column-reverse; }
   .bp-xl--flex-row-reverse {
     flex-direction: row-reverse; }
+  .bp-xl--flex-auto {
+    flex: auto; }
+  .bp-xl--order-0 {
+    order: 0; }
+  .bp-xl--order-1 {
+    order: 1; }
+  .bp-xl--order-2 {
+    order: 2; }
   .bp-xl--flex-grow-0 {
     flex-grow: 0; }
   .bp-xl--flex-grow-1 {
@@ -2744,6 +2810,9 @@ sure which file to place them in if we use them
   .bp-xl--fw-700 {
     font-weight: 700; } }
 
+.gradient-ocean {
+  background: linear-gradient(165deg, #356ae6 50%, #356ae6 50%, #4072e7 50%); }
+
 .grid {
   display: grid; }
 
@@ -2796,6 +2865,10 @@ sure which file to place them in if we use them
   grid-gap: 5rem;
   gap: 5rem; }
 
+.gap-13 {
+  grid-gap: 8rem;
+  gap: 8rem; }
+
 @media screen and (min-width: 30rem) {
   .bp-s--grid {
     display: grid; }
@@ -2834,7 +2907,10 @@ sure which file to place them in if we use them
     gap: 4rem; }
   .bp-s--gap-12 {
     grid-gap: 5rem;
-    gap: 5rem; } }
+    gap: 5rem; }
+  .bp-s--gap-13 {
+    grid-gap: 8rem;
+    gap: 8rem; } }
 
 @media screen and (min-width: 45rem) {
   .bp-m--grid {
@@ -2874,7 +2950,10 @@ sure which file to place them in if we use them
     gap: 4rem; }
   .bp-m--gap-12 {
     grid-gap: 5rem;
-    gap: 5rem; } }
+    gap: 5rem; }
+  .bp-m--gap-13 {
+    grid-gap: 8rem;
+    gap: 8rem; } }
 
 @media screen and (min-width: 60rem) {
   .bp-l--grid {
@@ -2914,7 +2993,10 @@ sure which file to place them in if we use them
     gap: 4rem; }
   .bp-l--gap-12 {
     grid-gap: 5rem;
-    gap: 5rem; } }
+    gap: 5rem; }
+  .bp-l--gap-13 {
+    grid-gap: 8rem;
+    gap: 8rem; } }
 
 @media screen and (min-width: 70.5rem) {
   .bp-xl--grid {
@@ -2954,7 +3036,10 @@ sure which file to place them in if we use them
     gap: 4rem; }
   .bp-xl--gap-12 {
     grid-gap: 5rem;
-    gap: 5rem; } }
+    gap: 5rem; }
+  .bp-xl--gap-13 {
+    grid-gap: 8rem;
+    gap: 8rem; } }
 
 /* Sets up a 12 column grid with equal width columns. Use on grid container. */
 .g-cols {
@@ -3254,8 +3339,14 @@ sure which file to place them in if we use them
 .h-0 {
   height: 0; }
 
+.h-1 {
+  height: 1rem; }
+
 .h-100 {
   height: 100%; }
+
+.h-105 {
+  height: 105%; }
 
 .h-auto {
   height: auto; }
@@ -3263,32 +3354,48 @@ sure which file to place them in if we use them
 @media screen and (min-width: 30rem) {
   .bp-s--h-0 {
     height: 0; }
+  .bp-s--h-1 {
+    height: 1rem; }
   .bp-s--h-100 {
     height: 100%; }
+  .bp-s--h-105 {
+    height: 105%; }
   .bp-s--h-auto {
     height: auto; } }
 
 @media screen and (min-width: 45rem) {
   .bp-m--h-0 {
     height: 0; }
+  .bp-m--h-1 {
+    height: 1rem; }
   .bp-m--h-100 {
     height: 100%; }
+  .bp-m--h-105 {
+    height: 105%; }
   .bp-m--h-auto {
     height: auto; } }
 
 @media screen and (min-width: 60rem) {
   .bp-l--h-0 {
     height: 0; }
+  .bp-l--h-1 {
+    height: 1rem; }
   .bp-l--h-100 {
     height: 100%; }
+  .bp-l--h-105 {
+    height: 105%; }
   .bp-l--h-auto {
     height: auto; } }
 
 @media screen and (min-width: 70.5rem) {
   .bp-xl--h-0 {
     height: 0; }
+  .bp-xl--h-1 {
+    height: 1rem; }
   .bp-xl--h-100 {
     height: 100%; }
+  .bp-xl--h-105 {
+    height: 105%; }
   .bp-xl--h-auto {
     height: auto; } }
 
@@ -3754,6 +3861,29 @@ sure which file to place them in if we use them
 .ml-11 {
   margin-left: 5rem; }
 
+.m-12 {
+  margin: 8rem; }
+
+.mx-12 {
+  margin-left: 8rem;
+  margin-right: 8rem; }
+
+.my-12 {
+  margin-top: 8rem;
+  margin-bottom: 8rem; }
+
+.mt-12 {
+  margin-top: 8rem; }
+
+.mr-12 {
+  margin-right: 8rem; }
+
+.mb-12 {
+  margin-bottom: 8rem; }
+
+.ml-12 {
+  margin-left: 8rem; }
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto; }
@@ -3957,6 +4087,22 @@ sure which file to place them in if we use them
     margin-bottom: 5rem; }
   .bp-s--ml-11 {
     margin-left: 5rem; }
+  .bp-s--m-12 {
+    margin: 8rem; }
+  .bp-s--mx-12 {
+    margin-left: 8rem;
+    margin-right: 8rem; }
+  .bp-s--my-12 {
+    margin-top: 8rem;
+    margin-bottom: 8rem; }
+  .bp-s--mt-12 {
+    margin-top: 8rem; }
+  .bp-s--mr-12 {
+    margin-right: 8rem; }
+  .bp-s--mb-12 {
+    margin-bottom: 8rem; }
+  .bp-s--ml-12 {
+    margin-left: 8rem; }
   .bp-s--mx-auto {
     margin-left: auto;
     margin-right: auto; }
@@ -4158,6 +4304,22 @@ sure which file to place them in if we use them
     margin-bottom: 5rem; }
   .bp-m--ml-11 {
     margin-left: 5rem; }
+  .bp-m--m-12 {
+    margin: 8rem; }
+  .bp-m--mx-12 {
+    margin-left: 8rem;
+    margin-right: 8rem; }
+  .bp-m--my-12 {
+    margin-top: 8rem;
+    margin-bottom: 8rem; }
+  .bp-m--mt-12 {
+    margin-top: 8rem; }
+  .bp-m--mr-12 {
+    margin-right: 8rem; }
+  .bp-m--mb-12 {
+    margin-bottom: 8rem; }
+  .bp-m--ml-12 {
+    margin-left: 8rem; }
   .bp-m--mx-auto {
     margin-left: auto;
     margin-right: auto; }
@@ -4359,6 +4521,22 @@ sure which file to place them in if we use them
     margin-bottom: 5rem; }
   .bp-l--ml-11 {
     margin-left: 5rem; }
+  .bp-l--m-12 {
+    margin: 8rem; }
+  .bp-l--mx-12 {
+    margin-left: 8rem;
+    margin-right: 8rem; }
+  .bp-l--my-12 {
+    margin-top: 8rem;
+    margin-bottom: 8rem; }
+  .bp-l--mt-12 {
+    margin-top: 8rem; }
+  .bp-l--mr-12 {
+    margin-right: 8rem; }
+  .bp-l--mb-12 {
+    margin-bottom: 8rem; }
+  .bp-l--ml-12 {
+    margin-left: 8rem; }
   .bp-l--mx-auto {
     margin-left: auto;
     margin-right: auto; }
@@ -4560,6 +4738,22 @@ sure which file to place them in if we use them
     margin-bottom: 5rem; }
   .bp-xl--ml-11 {
     margin-left: 5rem; }
+  .bp-xl--m-12 {
+    margin: 8rem; }
+  .bp-xl--mx-12 {
+    margin-left: 8rem;
+    margin-right: 8rem; }
+  .bp-xl--my-12 {
+    margin-top: 8rem;
+    margin-bottom: 8rem; }
+  .bp-xl--mt-12 {
+    margin-top: 8rem; }
+  .bp-xl--mr-12 {
+    margin-right: 8rem; }
+  .bp-xl--mb-12 {
+    margin-bottom: 8rem; }
+  .bp-xl--ml-12 {
+    margin-left: 8rem; }
   .bp-xl--mx-auto {
     margin-left: auto;
     margin-right: auto; }
@@ -5110,6 +5304,29 @@ sure which file to place them in if we use them
 .pl-11 {
   padding-left: 5rem; }
 
+.p-12 {
+  padding: 8rem; }
+
+.px-12 {
+  padding-left: 8rem;
+  padding-right: 8rem; }
+
+.py-12 {
+  padding-top: 8rem;
+  padding-bottom: 8rem; }
+
+.pt-12 {
+  padding-top: 8rem; }
+
+.pr-12 {
+  padding-right: 8rem; }
+
+.pb-12 {
+  padding-bottom: 8rem; }
+
+.pl-12 {
+  padding-left: 8rem; }
+
 @media screen and (min-width: 30rem) {
   .bp-s--p-0 {
     padding: 0; }
@@ -5302,7 +5519,23 @@ sure which file to place them in if we use them
   .bp-s--pb-11 {
     padding-bottom: 5rem; }
   .bp-s--pl-11 {
-    padding-left: 5rem; } }
+    padding-left: 5rem; }
+  .bp-s--p-12 {
+    padding: 8rem; }
+  .bp-s--px-12 {
+    padding-left: 8rem;
+    padding-right: 8rem; }
+  .bp-s--py-12 {
+    padding-top: 8rem;
+    padding-bottom: 8rem; }
+  .bp-s--pt-12 {
+    padding-top: 8rem; }
+  .bp-s--pr-12 {
+    padding-right: 8rem; }
+  .bp-s--pb-12 {
+    padding-bottom: 8rem; }
+  .bp-s--pl-12 {
+    padding-left: 8rem; } }
 
 @media screen and (min-width: 45rem) {
   .bp-m--p-0 {
@@ -5496,7 +5729,23 @@ sure which file to place them in if we use them
   .bp-m--pb-11 {
     padding-bottom: 5rem; }
   .bp-m--pl-11 {
-    padding-left: 5rem; } }
+    padding-left: 5rem; }
+  .bp-m--p-12 {
+    padding: 8rem; }
+  .bp-m--px-12 {
+    padding-left: 8rem;
+    padding-right: 8rem; }
+  .bp-m--py-12 {
+    padding-top: 8rem;
+    padding-bottom: 8rem; }
+  .bp-m--pt-12 {
+    padding-top: 8rem; }
+  .bp-m--pr-12 {
+    padding-right: 8rem; }
+  .bp-m--pb-12 {
+    padding-bottom: 8rem; }
+  .bp-m--pl-12 {
+    padding-left: 8rem; } }
 
 @media screen and (min-width: 60rem) {
   .bp-l--p-0 {
@@ -5690,7 +5939,23 @@ sure which file to place them in if we use them
   .bp-l--pb-11 {
     padding-bottom: 5rem; }
   .bp-l--pl-11 {
-    padding-left: 5rem; } }
+    padding-left: 5rem; }
+  .bp-l--p-12 {
+    padding: 8rem; }
+  .bp-l--px-12 {
+    padding-left: 8rem;
+    padding-right: 8rem; }
+  .bp-l--py-12 {
+    padding-top: 8rem;
+    padding-bottom: 8rem; }
+  .bp-l--pt-12 {
+    padding-top: 8rem; }
+  .bp-l--pr-12 {
+    padding-right: 8rem; }
+  .bp-l--pb-12 {
+    padding-bottom: 8rem; }
+  .bp-l--pl-12 {
+    padding-left: 8rem; } }
 
 @media screen and (min-width: 70.5rem) {
   .bp-xl--p-0 {
@@ -5884,7 +6149,23 @@ sure which file to place them in if we use them
   .bp-xl--pb-11 {
     padding-bottom: 5rem; }
   .bp-xl--pl-11 {
-    padding-left: 5rem; } }
+    padding-left: 5rem; }
+  .bp-xl--p-12 {
+    padding: 8rem; }
+  .bp-xl--px-12 {
+    padding-left: 8rem;
+    padding-right: 8rem; }
+  .bp-xl--py-12 {
+    padding-top: 8rem;
+    padding-bottom: 8rem; }
+  .bp-xl--pt-12 {
+    padding-top: 8rem; }
+  .bp-xl--pr-12 {
+    padding-right: 8rem; }
+  .bp-xl--pb-12 {
+    padding-bottom: 8rem; }
+  .bp-xl--pl-12 {
+    padding-left: 8rem; } }
 
 .static {
   position: static; }
@@ -6569,6 +6850,9 @@ sure which file to place them in if we use them
   .bp-xl--invisible {
     visibility: hidden; } }
 
+.w-1 {
+  width: 1rem; }
+
 .w-10 {
   width: 10%; }
 
@@ -6618,6 +6902,8 @@ sure which file to place them in if we use them
   width: auto; }
 
 @media screen and (min-width: 30rem) {
+  .bp-s--w-1 {
+    width: 1rem; }
   .bp-s--w-10 {
     width: 10%; }
   .bp-s--w-20 {
@@ -6652,6 +6938,8 @@ sure which file to place them in if we use them
     width: auto; } }
 
 @media screen and (min-width: 45rem) {
+  .bp-m--w-1 {
+    width: 1rem; }
   .bp-m--w-10 {
     width: 10%; }
   .bp-m--w-20 {
@@ -6686,6 +6974,8 @@ sure which file to place them in if we use them
     width: auto; } }
 
 @media screen and (min-width: 60rem) {
+  .bp-l--w-1 {
+    width: 1rem; }
   .bp-l--w-10 {
     width: 10%; }
   .bp-l--w-20 {
@@ -6720,6 +7010,8 @@ sure which file to place them in if we use them
     width: auto; } }
 
 @media screen and (min-width: 70.5rem) {
+  .bp-xl--w-1 {
+    width: 1rem; }
   .bp-xl--w-10 {
     width: 10%; }
   .bp-xl--w-20 {
