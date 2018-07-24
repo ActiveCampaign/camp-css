@@ -18,5 +18,9 @@ body {
 
 ::selection {
   color: #fff;
-  background: map-get($colors, ocean);
+  background: map-get($colors, ocean-120);
+}
+
+img {
+  max-width: 100%;
 }
