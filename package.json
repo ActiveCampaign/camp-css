@@ -2,23 +2,26 @@
   "name": "camp-css",
   "version": "0.3.0",
   "description": "CSS behind the distinctive style of ActiveCampaign",
-  "main": "dist/main.min.css",
+  "style": "css/camp.min.css",
+  "main": "css/camp.css",
   "scripts": {
-    "clean": "rimraf dist",
-    "prebuild": "npm run lint",
-    "build": "node-sass src --output dist --source-map true",
-    "postbuild": "npm run post && npm run compress",
-    "lint": "stylelint src",
-    "post": "postcss dist/main.css --replace",
-    "compress": "node-sass --output-style compressed dist/main.css > dist/main.min.css",
-    "start": "npm run clean && watch 'npm run build' src",
-    "dev": "npm start"
+    "clean": "rimraf css",
+    "lint": "stylelint scss",
+    "test": "ava",
+    "compile": "node-sass scss -o css",
+    "build": "npm run compile && postcss css/camp.css -o css/camp.css -m",
+    "build:prod": "npm run compile && postcss css/camp.css --env production -o css/camp.min.css -m",
+    "start": "watch \"npm run build\" scss",
+    "dev": "npm run clean && npm start",
+    "prepublish": "npm run clean && npm run lint && npm run test && npm run build:prod"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/activecampaign/camp-css.git"
   },
   "keywords": [
+    "camp-css",
+    "camp",
     "css",
     "scss",
     "activecampaign"
@@ -31,10 +34,13 @@
   "homepage": "https://github.com/activecampaign/camp-css#readme",
   "devDependencies": {
     "autoprefixer": "^9.0.1",
+    "ava": "^0.25.0",
     "css-mqpacker": "^7.0.0",
+    "cssnano": "^4.0.3",
     "node-sass": "^4.9.2",
     "postcss-cli": "^6.0.0",
     "postcss-discard-comments": "^4.0.0",
+    "postcss-scss": "^2.0.0",
     "postcss-syntax": "^0.31.0",
     "rimraf": "^2.6.2",
     "stylelint": "^9.3.0",

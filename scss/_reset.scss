@@ -1,0 +1,70 @@
+*,
+*::before,
+*::after {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+a,
+article,
+body,
+code,
+dd,
+div,
+dl,
+dt,
+fieldset,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+html,
+legend,
+li,
+main,
+ol,
+p,
+pre,
+section,
+table,
+td,
+textarea,
+th,
+tr,
+ul,
+[type='email'],
+[type='number'],
+[type='password'],
+[type='tel'],
+[type='text'],
+[type='url'],
+.border-box {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  color: map-get($colors, slate);
+  font-family: $body;
+  font-size: map-get($font-sizes, font-size-5);
+  line-height: map-get($line-heights, line-height-5);
+  margin: 0;
+}
+
+::selection {
+  background: map-get($colors, ocean-120);
+  color: map-get($colors, white);
+}
+
+img {
+  max-width: 100%;
+}

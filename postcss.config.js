@@ -1,14 +1,16 @@
-module.exports = {
+module.exports = ctx => ({
+  map: ctx.options.map,
   parser: 'postcss-syntax',
-  plugins: [
-    require('autoprefixer')({
+  plugins: {
+    autoprefixer: {
       browsers: [
         'last 2 versions',
         'ie >= 10',
       ],
       flexbox: true,
-    }),
-    require('css-mqpacker')(),
-    require('postcss-discard-comments')({ removeAll: true }),
-  ]
-}
+    },
+    cssnano: ctx.env === 'production'
+      ? { preset: 'default' }
+      : false
+  }
+})
