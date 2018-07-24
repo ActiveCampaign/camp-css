@@ -12,7 +12,7 @@
 ### From the CDN:
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/camp-css@latest/dist/camp.min.css">
+<link rel="stylesheet" href="https://unpkg.com/camp-css@latest/css/camp.min.css">
 ```
 
 ### As a package
