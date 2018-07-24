@@ -105,16 +105,17 @@ $spacing: (
   spacing-9: $spacing-scale * 12,
   spacing-10: $spacing-scale * 16,
   spacing-11: $spacing-scale * 20,
+  spacing-12: $spacing-scale * 32
 );
 
 // Widths
-$widths: 10%, 20%, 25%, 30%, 33%, 34%, 40%, 50%, 60%, 67%, 70%, 75%, 80%, 90%, 100%;
+$widths: 1rem, 10%, 20%, 25%, 30%, 33%, 34%, 40%, 50%, 60%, 67%, 70%, 75%, 80%, 90%, 100%;
 
 // Max-widths
 $max-widths: 1rem, 2rem, 3rem, 4rem, 8rem, 16rem, 20rem, 32rem, 48rem, 64rem, 96rem, 100%;
 
 // Heights
-$heights: 0, 100%;
+$heights: 0, 1rem, 100%, 105%;
 
 // Border Widths:
 $border-widths: 0, 1px, 2px, 3px, 4px;
@@ -144,6 +145,7 @@ $columns-basis: (
 // Box shadows
 $box-shadow-soft: 0 12px 26px 0 rgba(54, 141, 255, 0.1);
 $box-shadow-hard: 0 34px 24px 0  rgba(54, 141, 255, 0.5);
+$box-shadow-hard-dark: 0 34px 24px 0 rgba(31, 33, 41, .5);
 
 // Transition and animation
 $transition-duration: 300ms;

@@ -34,6 +34,15 @@
   }
 }
 
+/* not sure how to implement these two negative classes */
+.mb-n12 {
+  margin-bottom: -1 * rem(map-get($spacing, spacing-12));
+}
+
+.mt-n8 {
+  margin-top: -1 * rem(map-get($spacing, spacing-8));
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
