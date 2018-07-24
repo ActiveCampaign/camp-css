@@ -13,7 +13,7 @@
     "build:prod": "npm run compile && postcss css/camp.css --env production -o css/camp.min.css -m",
     "start": "watch \"npm run build\" scss",
     "dev": "npm run clean && npm start",
-    "prepublish": "npm run clean && npm run lint && npm run test && npm run build:prod"
+    "prepublish": "npm run clean && npm run lint && npm run test && npm run build && npm run build:prod"
   },
   "repository": {
     "type": "git",
