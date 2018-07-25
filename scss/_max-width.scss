@@ -6,6 +6,10 @@
   }
 }
 
+.mw-none {
+  max-width: none;
+}
+
 @each $breakpoint-name, $breakpoint-value in $breakpoints {
   @media #{$breakpoint-value} {
     @each $max-width in $max-widths {
@@ -14,6 +18,10 @@
       .#{$breakpoint-name}--mw-#{$max-width-value} {
         max-width: $max-width;
       }
+    }
+
+    .#{$breakpoint-name}--mw-none {
+      max-width: none;
     }
   }
 }
