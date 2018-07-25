@@ -1,0 +1,63 @@
+// Typography
+$title: 'Poppins', 'Avenir', 'Avenir Next', 'Futura', helvetica, arial, sans-serif;
+$body: 'IBM Plex Sans', 'Franklin Gothic', 'ITC Franklin Gothic', helvetica, arial, sans-serif;
+
+$type-scale: $base-scale * 4;
+
+$font-size-1: $type-scale * 0.625;
+$font-size-2: $type-scale * 0.75;
+$font-size-3: $type-scale * 0.875;
+$font-size-4: $type-scale * 1;
+$font-size-5: $type-scale * 1.125;
+$font-size-6: $type-scale * 1.25;
+$font-size-7: $type-scale * 1.5;
+$font-size-8: $type-scale * 1.75;
+$font-size-9: $type-scale * 2;
+$font-size-10: $type-scale * 2.25;
+$font-size-11: $type-scale * 2.5;
+$font-size-12: $type-scale * 2.75;
+$font-size-13: $type-scale * 3;
+
+$font-sizes: (
+  font-size-1: $font-size-1,
+  font-size-2: $font-size-2,
+  font-size-3: $font-size-3,
+  font-size-4: $font-size-4,
+  font-size-5: $font-size-5,
+  font-size-6: $font-size-6,
+  font-size-7: $font-size-7,
+  font-size-8: $font-size-8,
+  font-size-9: $font-size-9,
+  font-size-10: $font-size-10,
+  font-size-11: $font-size-11,
+  font-size-12: $font-size-12,
+  font-size-13: $font-size-13
+);
+
+$line-height-1: $type-scale * 0.75;
+$line-height-2: $type-scale;
+$line-height-3: $type-scale * 1.25;
+$line-height-4: $type-scale * 1.5;
+$line-height-5: $type-scale * 1.75;
+$line-height-6: $type-scale * 2;
+$line-height-7: $type-scale * 2.25;
+$line-height-8: $type-scale * 2.5;
+$line-height-9: $type-scale * 2.75;
+$line-height-10: $type-scale * 3;
+$line-height-11: $type-scale * 3.25;
+$line-height-12: $type-scale * 3.5;
+
+$line-heights: (
+  line-height-1: $line-height-1,
+  line-height-2: $line-height-2,
+  line-height-3: $line-height-3,
+  line-height-4: $line-height-4,
+  line-height-5: $line-height-5,
+  line-height-6: $line-height-6,
+  line-height-7: $line-height-7,
+  line-height-8: $line-height-8,
+  line-height-9: $line-height-9,
+  line-height-10: $line-height-10,
+  line-height-11: $line-height-11,
+  line-height-12: $line-height-12
+);

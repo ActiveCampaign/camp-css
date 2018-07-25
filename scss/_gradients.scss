@@ -1,5 +1,3 @@
-$get-ocean: map-get($colors, ocean);
-
 .gradient-ocean {
-  background: linear-gradient(165deg, $get-ocean 50%, $get-ocean 50%, lighten($get-ocean, 2.5%) 50%);
+  background: linear-gradient(165deg, $ocean 50%, $ocean 50%, lighten($ocean, 2.5%) 50%);
 }

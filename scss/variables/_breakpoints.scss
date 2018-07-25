@@ -1,0 +1,12 @@
+// Breakpoints
+$breakpoint-s: 'screen and (min-width: 30rem)';     // ~ phone
+$breakpoint-m: 'screen and (min-width: 45rem)';     // ~ tablet
+$breakpoint-l: 'screen and (min-width: 60rem)';     // ~ laptop
+$breakpoint-xl: 'screen and (min-width: 70.5rem)';  // ~ monitor
+
+$breakpoints: (
+  bp-s: $breakpoint-s,
+  bp-m: $breakpoint-m,
+  bp-l: $breakpoint-l,
+  bp-xl: $breakpoint-xl
+);
