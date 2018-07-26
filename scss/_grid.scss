@@ -37,12 +37,22 @@
 /* Number of columns or rows to span. Use on children of .g-cols. */
 @for $i from 1 through $cols {
   .g-col-#{$i} {
-    grid-column: span $i;
+    grid-column-end: span $i;
   }
 
   .g-row-#{$i} {
-    grid-row: span $i;
+    grid-row-end: span $i;
   }
+
+  @if $i < $cols {
+    .g-push-#{$i} {
+      grid-column-start: $i + 1;
+    }
+  }
+}
+
+.g-push-0 {
+  grid-column-start: auto;
 }
 
 @each $breakpoint-name, $breakpoint-value in $breakpoints {
@@ -53,12 +63,22 @@
 
     @for $i from 1 through $cols {
       .#{$breakpoint-name}--g-col-#{$i} {
-        grid-column: span $i;
+        grid-column-end: span $i;
       }
 
       .#{$breakpoint-name}--g-row-#{$i} {
-        grid-row: span $i;
+        grid-row-end: span $i;
       }
+
+      @if $i < $cols {
+        .#{$breakpoint-name}--g-push-#{$i} {
+          grid-column-start: $i + 1;
+        }
+      }
+    }
+
+    .#{$breakpoint-name}--g-push-0 {
+      grid-column-start: auto;
     }
   }
 }
