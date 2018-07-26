@@ -1,10 +1,26 @@
-@import 'variables';
-@import 'normalize';
-@import 'reset';
+// Scale
+$base-scale: 4px;
+
+// Variables
+@import 'variables/borders';
+@import 'variables/breakpoints';
+@import 'variables/colors';
+@import 'variables/effects';
+@import 'variables/grid';
+@import 'variables/size';
+@import 'variables/spacing';
+@import 'variables/type';
+
+// Base
+@import 'base/normalize';
+@import 'base/reset';
 
 // Functions
-@import 'functions/rem';
-@import 'functions/strip-unit';
+@import 'utilities/functions/rem';
+@import 'utilities/functions/strip-unit';
+
+// Mixins
+@import 'utilities/mixins/type';
 
 // Styles
 @import 'background-position';

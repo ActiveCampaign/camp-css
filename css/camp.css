@@ -361,11 +361,11 @@ body {
   margin: 0; }
 
 ::-moz-selection {
-  background: #1b54d9;
+  background-color: #1b54d9;
   color: #fff; }
 
 ::selection {
-  background: #1b54d9;
+  background-color: #1b54d9;
   color: #fff; }
 
 img {
