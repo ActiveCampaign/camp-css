@@ -5,8 +5,8 @@ $breakpoint-l: 'screen and (min-width: 60rem)';     // ~ laptop
 $breakpoint-xl: 'screen and (min-width: 70.5rem)';  // ~ monitor
 
 $breakpoints: (
-  bp-s: $breakpoint-s,
-  bp-m: $breakpoint-m,
-  bp-l: $breakpoint-l,
-  bp-xl: $breakpoint-xl
+  s: $breakpoint-s,
+  m: $breakpoint-m,
+  l: $breakpoint-l,
+  xl: $breakpoint-xl
 );
