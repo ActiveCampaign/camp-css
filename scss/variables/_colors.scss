@@ -1,0 +1,102 @@
+// Primary palette
+$ocean: #356ae6;
+$ocean-120: #1b54d9;
+$ocean-80: #5884ea;
+$ocean-60: #c1d1f7;
+$ocean-40: #e3ebfc;
+$ocean-20: #fafbff;
+$slate: #4e5468;
+$slate-120: #1f2129;
+$slate-80: #5f667e;
+$slate-60: #9298ad;
+$slate-40: #ced3e0;
+$slate-20: #f7f9ff;
+$mint: #19cca3;
+$mint-120: #139879;
+$mint-80: #1bddb1;
+$mint-60: #6ae6c9;
+$mint-40: #b6f2e4;
+$mint-20: #ebfffa;
+
+// Secondary palette
+$strawberry: #f3376b;
+$strawberry-120: #e40e49;
+$strawberry-80: #f56e94;
+$strawberry-60: #faa5bd;
+$strawberry-40: #fcdee7;
+$strawberry-20: #fff2f6;
+$creamsicle: #ff8730;
+$creamsicle-120: #f46700;
+$creamsicle-80: #ffa869;
+$creamsicle-60: #ffbf90;
+$creamsicle-40: #ffe1cb;
+$creamsicle-20: #fff8f2;
+$lavender: #9159fc;
+$lavender-120: #73f;
+$lavender-80: #aa81fc;
+$lavender-60: #c3a7fc;
+$lavender-40: #eae0fe;
+$lavender-20: #f7f2ff;
+$banana: #facf3f;
+$banana-120: #deaa00;
+$banana-80: #fbd965;
+$banana-60: #fce28b;
+$banana-40: #fdecb2;
+$banana-20: #fff9e6;
+
+// Other
+$black: #000;
+$white: #fff;
+$transparent: rgba(255, 255, 255, 0);
+
+// Colors
+$colors: (
+  // Primary palette
+  ocean: $ocean,
+  ocean-120:$ocean-120,
+  ocean-80: $ocean-80,
+  ocean-60: $ocean-60,
+  ocean-40: $ocean-40,
+  ocean-20: $ocean-20,
+  slate: $slate,
+  slate-120: $slate-120,
+  slate-80: $slate-80,
+  slate-60: $slate-60,
+  slate-40: $slate-40,
+  slate-20: $slate-20,
+  mint: $mint,
+  mint-120: $mint-120,
+  mint-80: $mint-80,
+  mint-60: $mint-60,
+  mint-40: $mint-40,
+  mint-20: $mint-20,
+  // Secondary palette
+  strawberry: $strawberry,
+  strawberry-120: $strawberry-120,
+  strawberry-80: $strawberry-80,
+  strawberry-60: $strawberry-60,
+  strawberry-40: $strawberry-40,
+  strawberry-20: $strawberry-20,
+  creamsicle: $creamsicle,
+  creamsicle-120: $creamsicle-120,
+  creamsicle-80: $creamsicle-80,
+  creamsicle-60: $creamsicle-60,
+  creamsicle-40: $creamsicle-40,
+  creamsicle-20: $creamsicle-20,
+  lavender: $lavender,
+  lavender-120: $lavender-120,
+  lavender-80: $lavender-80,
+  lavender-60: $lavender-60,
+  lavender-40: $lavender-40,
+  lavender-20: $lavender-20,
+  banana: $banana,
+  banana-120: $banana-120,
+  banana-80: $banana-80,
+  banana-60: $banana-60,
+  banana-40: $banana-40,
+  banana-20: $banana-20,
+  // Other
+  black: $black,
+  white: $white,
+  transparent: $transparent
+);
