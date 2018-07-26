@@ -36,7 +36,7 @@
     "autoprefixer": "^9.0.1",
     "ava": "^0.25.0",
     "css-mqpacker": "^7.0.0",
-    "cssnano": "^4.0.3",
+    "cssnano": "^4.0.4",
     "node-sass": "^4.9.2",
     "postcss-cli": "^6.0.0",
     "postcss-discard-comments": "^4.0.0",
