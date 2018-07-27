@@ -40,8 +40,11 @@
     grid-column-end: span $i;
   }
 
-  .g-row-#{$i} {
-    grid-row-end: span $i;
+  /* Only create 4 row classes for now */
+  @if $i < 5 {
+    .g-row-#{$i} {
+      grid-row-end: span $i;
+    }
   }
 
   @if $i < $columns {
@@ -66,8 +69,10 @@
         grid-column-end: span $i;
       }
 
-      .#{$breakpoint-name}--g-row-#{$i} {
-        grid-row-end: span $i;
+      @if $i < 5 {
+        .#{$breakpoint-name}--g-row-#{$i} {
+          grid-row-end: span $i;
+        }
       }
 
       @if $i < $columns {
