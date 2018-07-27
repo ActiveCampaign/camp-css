@@ -7461,6 +7461,15 @@ img {
   .xl--invisible {
     visibility: hidden; } }
 
+.ws-normal {
+  white-space: normal; }
+
+.ws-no-wrap {
+  white-space: nowrap; }
+
+.ws-unset {
+  white-space: unset; }
+
 .w-1 {
   width: 1rem; }
 
