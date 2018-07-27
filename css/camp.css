@@ -3212,9 +3212,6 @@ img {
 .fw-400 {
   font-weight: 400; }
 
-.fw-500 {
-  font-weight: 500; }
-
 .fw-600 {
   font-weight: 600; }
 
@@ -3224,8 +3221,6 @@ img {
 @media screen and (min-width: 30rem) {
   .s--fw-400 {
     font-weight: 400; }
-  .s--fw-500 {
-    font-weight: 500; }
   .s--fw-600 {
     font-weight: 600; }
   .s--fw-700 {
@@ -3234,8 +3229,6 @@ img {
 @media screen and (min-width: 45rem) {
   .m--fw-400 {
     font-weight: 400; }
-  .m--fw-500 {
-    font-weight: 500; }
   .m--fw-600 {
     font-weight: 600; }
   .m--fw-700 {
@@ -3244,8 +3237,6 @@ img {
 @media screen and (min-width: 60rem) {
   .l--fw-400 {
     font-weight: 400; }
-  .l--fw-500 {
-    font-weight: 500; }
   .l--fw-600 {
     font-weight: 600; }
   .l--fw-700 {
@@ -3254,8 +3245,6 @@ img {
 @media screen and (min-width: 70.5rem) {
   .xl--fw-400 {
     font-weight: 400; }
-  .xl--fw-500 {
-    font-weight: 500; }
   .xl--fw-600 {
     font-weight: 600; }
   .xl--fw-700 {

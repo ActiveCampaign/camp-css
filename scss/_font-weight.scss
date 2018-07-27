@@ -1,18 +1,14 @@
-@for $i from 4 through 7 {
-  $value: $i * 100;
-
-  .fw-#{$value} {
-    font-weight: $value;
+@each $font-weight in $font-weights {
+  .fw-#{$font-weight} {
+    font-weight: $font-weight;
   }
 }
 
 @each $breakpoint-name, $breakpoint-value in $breakpoints {
   @media #{$breakpoint-value} {
-    @for $i from 4 through 7 {
-      $value: $i * 100;
-
-      .#{$breakpoint-name}--fw-#{$value} {
-        font-weight: $value;
+    @each $font-weight in $font-weights {
+      .#{$breakpoint-name}--fw-#{$font-weight} {
+        font-weight: $font-weight;
       }
     }
   }
