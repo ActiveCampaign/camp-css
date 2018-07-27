@@ -2,13 +2,13 @@
   display: grid;
 }
 
-/* Space between grid cells, use on grid container. Uses spacing scale. */
-@each $spacing-name, $spacing-value in $spacing {
-  $i: index($spacing, $spacing-name $spacing-value);
+/* Space between grid cells, use on grid container. */
+@each $gap-name, $gap-value in $grid-gaps {
+  $i: index($grid-gaps, $gap-name $gap-value);
 
-  .gap-#{$i} {
-    grid-gap: rem($spacing-value);
-    gap: rem($spacing-value); // newer, renamed property not available in all browsers yet.
+  .gap-#{$gap-name} {
+    grid-gap: rem($gap-value);
+    gap: rem($gap-value); // newer, renamed property not available in all browsers yet.
   }
 }
 
@@ -18,12 +18,12 @@
       display: grid;
     }
 
-    @each $spacing-name, $spacing-value in $spacing {
-      $i: index($spacing, $spacing-name $spacing-value);
+    @each $gap-name, $gap-value in $grid-gaps {
+      $i: index($grid-gaps, $gap-name $gap-value);
 
-      .#{$breakpoint-name}--gap-#{$i} {
-        grid-gap: rem($spacing-value);
-        gap: rem($spacing-value); // newer, renamed property not available in all browsers yet.
+      .#{$breakpoint-name}--gap-#{$gap-name} {
+        grid-gap: rem($gap-value);
+        gap: rem($gap-value); // newer, renamed property not available in all browsers yet.
       }
     }
   }
@@ -31,34 +31,59 @@
 
 /* Sets up a 12 column grid with equal width columns. Use on grid container. */
 .g-cols {
-  grid-template-columns: repeat($cols, 1fr);
+  grid-template-columns: repeat($columns, 1fr);
 }
 
 /* Number of columns or rows to span. Use on children of .g-cols. */
-@for $i from 1 through $cols {
+@for $i from 1 through $columns {
   .g-col-#{$i} {
-    grid-column: span $i;
+    grid-column-end: span $i;
   }
 
-  .g-row-#{$i} {
-    grid-row: span $i;
+  /* Only create 4 row classes for now */
+  @if $i < 5 {
+    .g-row-#{$i} {
+      grid-row-end: span $i;
+    }
   }
+
+  @if $i < $columns {
+    .g-push-#{$i} {
+      grid-column-start: $i + 1;
+    }
+  }
+}
+
+.g-push-0 {
+  grid-column-start: auto;
 }
 
 @each $breakpoint-name, $breakpoint-value in $breakpoints {
   @media #{$breakpoint-value} {
     .#{$breakpoint-name}--g-cols {
-      grid-template-columns: repeat($cols, 1fr);
+      grid-template-columns: repeat($columns, 1fr);
     }
 
-    @for $i from 1 through $cols {
+    @for $i from 1 through $columns {
       .#{$breakpoint-name}--g-col-#{$i} {
-        grid-column: span $i;
+        grid-column-end: span $i;
       }
 
-      .#{$breakpoint-name}--g-row-#{$i} {
-        grid-row: span $i;
+      @if $i < 5 {
+        .#{$breakpoint-name}--g-row-#{$i} {
+          grid-row-end: span $i;
+        }
       }
+
+      @if $i < $columns {
+        .#{$breakpoint-name}--g-push-#{$i} {
+          grid-column-start: $i + 1;
+        }
+      }
+    }
+
+    .#{$breakpoint-name}--g-push-0 {
+      grid-column-start: auto;
     }
   }
 }

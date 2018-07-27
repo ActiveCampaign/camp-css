@@ -1,4 +1,16 @@
-$cols: 12;
+$columns: 12;
+
+$gap-none: 0;
+$gap-s: $base-scale * 4;
+$gap-m: $base-scale * 6;
+$gap-l: $base-scale * 8;
+
+$grid-gaps: (
+  none: $gap-none,
+  s: $gap-s,
+  m: $gap-m,
+  l: $gap-l
+);
 
 $columns-basis: (
   s: $base-scale * 50,
