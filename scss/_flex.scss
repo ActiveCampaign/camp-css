@@ -64,6 +64,12 @@
   flex-shrink: 1;
 }
 
+.flex-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 rem($gap-m * -1);
+}
+
 @each $breakpoint-name, $breakpoint-value in $breakpoints {
   @media #{$breakpoint-value} {
     .#{$breakpoint-name}--flex {
