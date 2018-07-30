@@ -126,7 +126,7 @@
   }
 }
 
-/* Auto-fit columns, use on grid container. Children will be automatically inherit responsive behavior.
+/* Auto-fit columns, use on grid container. Children will automatically inherit responsive behavior.
  * If no grid support, auto columns will be 100% width and stacked. */
 @each $basis-name, $basis-value in $columns-basis {
   .g-cols-auto-#{$basis-name} {

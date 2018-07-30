@@ -4068,7 +4068,7 @@ img {
   .xl--g-push-0 {
     grid-column-start: auto; } }
 
-/* Auto-fit columns, use on grid container. Children will be automatically inherit responsive behavior.
+/* Auto-fit columns, use on grid container. Children will automatically inherit responsive behavior.
  * If no grid support, auto columns will be 100% width and stacked. */
 .g-cols-auto-s {
   grid-template-columns: repeat(auto-fit, minmax(12.5rem, 1fr)); }
