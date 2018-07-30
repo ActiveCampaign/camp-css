@@ -1,5 +1,10 @@
 .grid {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+
+  @supports (display: grid) {
+    display: grid;
+  }
 }
 
 /* Space between grid cells, use on grid container. */
@@ -7,23 +12,46 @@
   $i: index($grid-gaps, $gap-name $gap-value);
 
   .gap-#{$gap-name} {
-    grid-gap: rem($gap-value);
-    gap: rem($gap-value); // newer, renamed property not available in all browsers yet.
+    > * {
+      padding-right: rem($gap-value);
+    }
+
+    @supports (display: grid) {
+      > * {
+        padding-right: 0;
+      }
+      grid-gap: rem($gap-value);
+      gap: rem($gap-value); // newer, renamed property not available in all browsers yet.
+    }
   }
 }
 
 @each $breakpoint-name, $breakpoint-value in $breakpoints {
   @media #{$breakpoint-value} {
     .#{$breakpoint-name}--grid {
-      display: grid;
+      display: flex;
+      flex-wrap: wrap;
+
+      @supports (display: grid) {
+        display: grid;
+      }
     }
 
     @each $gap-name, $gap-value in $grid-gaps {
       $i: index($grid-gaps, $gap-name $gap-value);
 
       .#{$breakpoint-name}--gap-#{$gap-name} {
-        grid-gap: rem($gap-value);
-        gap: rem($gap-value); // newer, renamed property not available in all browsers yet.
+        > * {
+          padding-right: rem($gap-value);
+        }
+
+        @supports (display: grid) {
+          > * {
+            padding-right: 0;
+          }
+          grid-gap: rem($gap-value);
+          gap: rem($gap-value); // newer, renamed property not available in all browsers yet.
+        }
       }
     }
   }
@@ -37,7 +65,12 @@
 /* Number of columns or rows to span. Use on children of .g-cols. */
 @for $i from 1 through $columns {
   .g-col-#{$i} {
-    grid-column-end: span $i;
+    width: $i / 12 * 100%;
+
+    @supports (display: grid) {
+      width: auto;
+      grid-column-end: span $i;
+    }
   }
 
   /* Only create 4 row classes for now */
@@ -66,7 +99,12 @@
 
     @for $i from 1 through $columns {
       .#{$breakpoint-name}--g-col-#{$i} {
-        grid-column-end: span $i;
+        width: $i / 12 * 100%;
+
+        @supports (display: grid) {
+          width: auto;
+          grid-column-end: span $i;
+        }
       }
 
       @if $i < 5 {
@@ -88,7 +126,8 @@
   }
 }
 
-/* Auto-fit columns, use on grid container. Children will be automatically inherit responsive behavior. */
+/* Auto-fit columns, use on grid container. Children will be automatically inherit responsive behavior.
+ * If no grid support, auto columns will be 100% width and stacked. */
 @each $basis-name, $basis-value in $columns-basis {
   .g-cols-auto-#{$basis-name} {
     grid-template-columns: repeat(auto-fit, minmax(rem($basis-value), 1fr));
