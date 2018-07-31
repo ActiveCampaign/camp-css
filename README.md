@@ -28,9 +28,9 @@ With npm:
 npm install camp-css
 ```
 
-For Rails, add 
+For Rails, add to Gemfile
 ```sh
-gem install camp-css-0.7.0
+gem camp-css
 ```
 
 Now import the package wherever your css is compiled:
