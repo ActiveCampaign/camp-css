@@ -6,6 +6,7 @@
 ![license](https://img.shields.io/github/license/activecampaign/camp-css.svg)
 [![npm bundle size (minified + gzip)](https://img.shields.io/bundlephobia/min/camp-css.svg)](https://bundlephobia.com/result?p=camp-css)
 [![David](https://img.shields.io/david/dev/activecampaign/camp-css.svg)](https://david-dm.org/activecampaign/camp-css?type=dev)
+[![Gem Version](https://badge.fury.io/rb/camp-css.svg)](https://badge.fury.io/rb/camp-css)
 
 ## Usage
 
@@ -25,6 +26,11 @@ With npm:
 
 ```sh
 npm install camp-css
+```
+
+For Rails, add 
+```sh
+gem install camp-css-0.7.0
 ```
 
 Now import the package wherever your css is compiled:
