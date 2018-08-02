@@ -1,8 +1,8 @@
-.bn {
+.bs-none {
   border-style: none;
 }
 
-.ba {
+.bs-solid {
   border-style: solid;
 }
 
@@ -24,11 +24,11 @@
 
 @each $breakpoint-name, $breakpoint-value in $breakpoints {
   @media #{$breakpoint-value} {
-    .#{$breakpoint-name}--bn {
+    .#{$breakpoint-name}--bs-none {
       border-style: none;
     }
 
-    .#{$breakpoint-name}--ba {
+    .#{$breakpoint-name}--bs-solid {
       border-style: solid;
     }
 

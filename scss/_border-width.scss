@@ -1,18 +1,14 @@
-@each $border-width in $border-widths {
-  $border-width-value: strip-unit($border-width);
-
-  .bw-#{$border-width-value} {
-    border-width: $border-width;
+@each $border-width-name, $border-width-value in $border-widths {
+  .bw-#{$border-width-name} {
+    border-width: rem($border-width-value);
   }
 }
 
 @each $breakpoint-name, $breakpoint-value in $breakpoints {
   @media #{$breakpoint-value} {
-    @each $border-width in $border-widths {
-      $border-width-value: strip-unit($border-width);
-
-      .#{$breakpoint-name}--bw-#{$border-width-value} {
-        border-width: $border-width;
+    @each $border-width-name, $border-width-value in $border-widths {
+      .#{$breakpoint-name}--bw-#{$border-width-name} {
+        border-width: rem($border-width-value);
       }
     }
   }

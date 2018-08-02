@@ -1,34 +1,35 @@
-@each $border-radius in $border-radiuses {
-  $border-radius-value: strip-unit($border-radius);
-
-  .br-#{$border-radius-value} {
-    border-radius: $border-radius;
+@each $border-radius-name, $border-radius-value in $border-radiuses {
+  .br-#{$border-radius-name} {
+    border-radius: rem($border-radius-value);
   }
 
-  .br-top-right-#{$border-radius-value} {
-    border-top-right-radius: $border-radius;
+  .br-top-#{$border-radius-name} {
+    border-top-right-radius: rem($border-radius-value);
+    border-top-left-radius: rem($border-radius-value);
   }
 
-  .br-bottom-right-#{$border-radius-value} {
-    border-bottom-right-radius: $border-radius;
+  .br-right-#{$border-radius-name} {
+    border-bottom-right-radius: rem($border-radius-value);
+    border-top-right-radius: rem($border-radius-value);
   }
 
-  .br-bottom-left-#{$border-radius-value} {
-    border-bottom-left-radius: $border-radius;
+  .br-bottom-#{$border-radius-name} {
+    border-bottom-right-radius: rem($border-radius-value);
+    border-bottom-left-radius: rem($border-radius-value);
   }
 
-  .br-top-left-#{$border-radius-value} {
-    border-top-left-radius: $border-radius;
+  .br-left-#{$border-radius-name} {
+    border-bottom-left-radius: rem($border-radius-value);
+    border-top-left-radius: rem($border-radius-value);
   }
+
 }
 
 @each $breakpoint-name, $breakpoint-value in $breakpoints {
   @media #{$breakpoint-value} {
-    @each $border-radius in $border-radiuses {
-      $border-radius-value: strip-unit($border-radius);
-
-      .#{$breakpoint-name}--br-#{$border-radius-value} {
-        border-radius: $border-radius;
+    @each $border-radius-name, $border-radius-value in $border-radiuses {
+      .#{$breakpoint-name}--br-#{$border-radius-name} {
+        border-radius: rem($border-radius-value);
       }
     }
   }
