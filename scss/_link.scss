@@ -1,22 +1,22 @@
 .link {
   text-decoration: none;
-  transition: color $transition-duration $transition-function;
+  transition: color $transition-duration-slow $transition-function;
 
   &:link,
   &:visited {
-    transition: color $transition-duration $transition-function;
+    transition: color $transition-duration-slow $transition-function;
   }
 
   &:hover   {
-    transition: color $transition-duration $transition-function;
+    transition: color $transition-duration-slow $transition-function;
   }
 
   &:active  {
-    transition: color $transition-duration $transition-function;
+    transition: color $transition-duration-slow $transition-function;
   }
 
   &:focus   {
-    transition: color $transition-duration $transition-function;
+    transition: color $transition-duration-slow $transition-function;
     outline: rem(1px dotted currentColor);
   }
 }
