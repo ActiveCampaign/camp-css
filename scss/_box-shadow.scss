@@ -1,23 +1,42 @@
-.shadow-soft { box-shadow: rem($box-shadow-soft); }
-.shadow-hard { box-shadow: rem($box-shadow-hard); }
-.shadow-hard-dark { box-shadow: rem($box-shadow-hard-dark); }
-.shadow-unset { box-shadow: unset; }
+.bs-soft {
+  box-shadow: rem($box-shadow-soft);
+}
+
+.bs-hard {
+  box-shadow: rem($box-shadow-hard);
+}
+
+.bs-hard-dark {
+  box-shadow: rem($box-shadow-hard-dark);
+}
+
+.bs-unset {
+  box-shadow: unset;
+}
 
 @each $breakpoint-name, $breakpoint-value in $breakpoints {
   @media #{$breakpoint-value} {
-    .#{$breakpoint-name}--shadow-soft { box-shadow: rem($box-shadow-soft); }
-    .#{$breakpoint-name}--shadow-hard { box-shadow: rem($box-shadow-hard); }
-    .#{$breakpoint-name}--shadow-unset { box-shadow: unset; }
+    .#{$breakpoint-name}--bs-soft {
+      box-shadow: rem($box-shadow-soft);
+    }
+
+    .#{$breakpoint-name}--bs-hard {
+      box-shadow: rem($box-shadow-hard);
+    }
+
+    .#{$breakpoint-name}--bs-unset {
+      box-shadow: unset;
+    }
   }
 }
 
-.shadow-hover {
+.bs-hover {
   cursor: pointer;
   position: relative;
   transition: all $transition-duration $transition-function;
 }
 
-.shadow-hover::after {
+.bs-hover::after {
   content: '';
   box-shadow: inherit;
   border-radius: inherit;
@@ -31,7 +50,7 @@
   transition: opacity $transition-duration $transition-function;
 }
 
-.shadow-hover:hover::after,
-.shadow-hover:focus::after {
+.bs-hover:hover::after,
+.bs-hover:focus::after {
   opacity: 1;
 }
