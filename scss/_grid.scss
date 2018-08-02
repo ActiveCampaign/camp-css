@@ -88,6 +88,10 @@
 }
 
 .g-push-0 {
+  grid-column-start: 0;
+}
+
+.g-push-auto {
   grid-column-start: auto;
 }
 
@@ -121,6 +125,10 @@
     }
 
     .#{$breakpoint-name}--g-push-0 {
+      grid-column-start: 0;
+    }
+
+    .#{$breakpoint-name}--g-push-auto {
       grid-column-start: auto;
     }
   }
