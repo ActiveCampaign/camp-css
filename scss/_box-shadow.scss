@@ -1,13 +1,7 @@
-.bs-soft {
-  box-shadow: rem($box-shadow-soft);
-}
-
-.bs-hard {
-  box-shadow: rem($box-shadow-hard);
-}
-
-.bs-hard-dark {
-  box-shadow: rem($box-shadow-hard-dark);
+@each $box-shadow-name, $box-shadow-value in $box-shadows {
+  .bs-#{$box-shadow-name} {
+    box-shadow: rem($box-shadow-value);
+  }
 }
 
 .bs-unset {
@@ -16,12 +10,10 @@
 
 @each $breakpoint-name, $breakpoint-value in $breakpoints {
   @media #{$breakpoint-value} {
-    .#{$breakpoint-name}--bs-soft {
-      box-shadow: rem($box-shadow-soft);
-    }
-
-    .#{$breakpoint-name}--bs-hard {
-      box-shadow: rem($box-shadow-hard);
+    @each $box-shadow-name, $box-shadow-value in $box-shadows {
+      .#{$breakpoint-name}--bs-#{$box-shadow-name} {
+        box-shadow: rem($box-shadow-value);
+      }
     }
 
     .#{$breakpoint-name}--bs-unset {

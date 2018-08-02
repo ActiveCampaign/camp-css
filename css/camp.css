@@ -1601,6 +1601,9 @@ img {
   .s--bs-hard {
     -webkit-box-shadow: 0 2.125rem 1.5rem 0 rgba(54, 141, 255, 0.5);
             box-shadow: 0 2.125rem 1.5rem 0 rgba(54, 141, 255, 0.5); }
+  .s--bs-hard-dark {
+    -webkit-box-shadow: 0 2.125rem 1.5rem 0 rgba(31, 33, 41, 0.5);
+            box-shadow: 0 2.125rem 1.5rem 0 rgba(31, 33, 41, 0.5); }
   .s--bs-unset {
     -webkit-box-shadow: unset;
             box-shadow: unset; } }
@@ -1612,6 +1615,9 @@ img {
   .m--bs-hard {
     -webkit-box-shadow: 0 2.125rem 1.5rem 0 rgba(54, 141, 255, 0.5);
             box-shadow: 0 2.125rem 1.5rem 0 rgba(54, 141, 255, 0.5); }
+  .m--bs-hard-dark {
+    -webkit-box-shadow: 0 2.125rem 1.5rem 0 rgba(31, 33, 41, 0.5);
+            box-shadow: 0 2.125rem 1.5rem 0 rgba(31, 33, 41, 0.5); }
   .m--bs-unset {
     -webkit-box-shadow: unset;
             box-shadow: unset; } }
@@ -1623,6 +1629,9 @@ img {
   .l--bs-hard {
     -webkit-box-shadow: 0 2.125rem 1.5rem 0 rgba(54, 141, 255, 0.5);
             box-shadow: 0 2.125rem 1.5rem 0 rgba(54, 141, 255, 0.5); }
+  .l--bs-hard-dark {
+    -webkit-box-shadow: 0 2.125rem 1.5rem 0 rgba(31, 33, 41, 0.5);
+            box-shadow: 0 2.125rem 1.5rem 0 rgba(31, 33, 41, 0.5); }
   .l--bs-unset {
     -webkit-box-shadow: unset;
             box-shadow: unset; } }
@@ -1634,6 +1643,9 @@ img {
   .xl--bs-hard {
     -webkit-box-shadow: 0 2.125rem 1.5rem 0 rgba(54, 141, 255, 0.5);
             box-shadow: 0 2.125rem 1.5rem 0 rgba(54, 141, 255, 0.5); }
+  .xl--bs-hard-dark {
+    -webkit-box-shadow: 0 2.125rem 1.5rem 0 rgba(31, 33, 41, 0.5);
+            box-shadow: 0 2.125rem 1.5rem 0 rgba(31, 33, 41, 0.5); }
   .xl--bs-unset {
     -webkit-box-shadow: unset;
             box-shadow: unset; } }
