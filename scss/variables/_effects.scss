@@ -3,6 +3,13 @@ $box-shadow-soft: 0 12px 26px 0 rgba(54, 141, 255, 0.1);
 $box-shadow-hard: 0 34px 24px 0  rgba(54, 141, 255, 0.5);
 $box-shadow-hard-dark: 0 34px 24px 0 rgba(31, 33, 41, 0.5);
 
+$box-shadows: (
+  soft: $box-shadow-soft,
+  hard: $box-shadow-hard,
+  hard-dark: $box-shadow-hard-dark,
+);
+
 // Transition and animation
-$transition-duration: 300ms;
 $transition-function: ease-in;
+$transition-duration-fast: 150ms;
+$transition-duration-slow: 300ms;
