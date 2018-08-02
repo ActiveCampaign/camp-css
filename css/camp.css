@@ -667,10 +667,10 @@ img {
   .xl--br-pill {
     border-radius: 62499999.9375rem; } }
 
-.bn {
+.bs-none {
   border-style: none; }
 
-.ba {
+.bs-solid {
   border-style: solid; }
 
 .bt {
@@ -686,9 +686,9 @@ img {
   border-left-style: solid; }
 
 @media screen and (min-width: 30rem) {
-  .s--bn {
+  .s--bs-none {
     border-style: none; }
-  .s--ba {
+  .s--bs-solid {
     border-style: solid; }
   .s--bt {
     border-top-style: solid; }
@@ -700,9 +700,9 @@ img {
     border-left-style: solid; } }
 
 @media screen and (min-width: 45rem) {
-  .m--bn {
+  .m--bs-none {
     border-style: none; }
-  .m--ba {
+  .m--bs-solid {
     border-style: solid; }
   .m--bt {
     border-top-style: solid; }
@@ -714,9 +714,9 @@ img {
     border-left-style: solid; } }
 
 @media screen and (min-width: 60rem) {
-  .l--bn {
+  .l--bs-none {
     border-style: none; }
-  .l--ba {
+  .l--bs-solid {
     border-style: solid; }
   .l--bt {
     border-top-style: solid; }
@@ -728,9 +728,9 @@ img {
     border-left-style: solid; } }
 
 @media screen and (min-width: 70.5rem) {
-  .xl--bn {
+  .xl--bs-none {
     border-style: none; }
-  .xl--ba {
+  .xl--bs-solid {
     border-style: solid; }
   .xl--bt {
     border-top-style: solid; }
