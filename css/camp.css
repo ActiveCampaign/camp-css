@@ -1633,7 +1633,7 @@ img {
 .hover-bg-ocean:focus {
   background-color: #356ae6; }
 
-.b-ocean {
+.bc-ocean {
   border-color: #356ae6; }
 
 .ocean-120 {
@@ -1650,7 +1650,7 @@ img {
 .hover-bg-ocean-120:focus {
   background-color: #1b54d9; }
 
-.b-ocean-120 {
+.bc-ocean-120 {
   border-color: #1b54d9; }
 
 .ocean-80 {
@@ -1667,7 +1667,7 @@ img {
 .hover-bg-ocean-80:focus {
   background-color: #5884ea; }
 
-.b-ocean-80 {
+.bc-ocean-80 {
   border-color: #5884ea; }
 
 .ocean-60 {
@@ -1684,7 +1684,7 @@ img {
 .hover-bg-ocean-60:focus {
   background-color: #c1d1f7; }
 
-.b-ocean-60 {
+.bc-ocean-60 {
   border-color: #c1d1f7; }
 
 .ocean-40 {
@@ -1701,7 +1701,7 @@ img {
 .hover-bg-ocean-40:focus {
   background-color: #e3ebfc; }
 
-.b-ocean-40 {
+.bc-ocean-40 {
   border-color: #e3ebfc; }
 
 .ocean-20 {
@@ -1718,7 +1718,7 @@ img {
 .hover-bg-ocean-20:focus {
   background-color: #fafbff; }
 
-.b-ocean-20 {
+.bc-ocean-20 {
   border-color: #fafbff; }
 
 .slate {
@@ -1735,7 +1735,7 @@ img {
 .hover-bg-slate:focus {
   background-color: #4e5468; }
 
-.b-slate {
+.bc-slate {
   border-color: #4e5468; }
 
 .slate-120 {
@@ -1752,7 +1752,7 @@ img {
 .hover-bg-slate-120:focus {
   background-color: #1f2129; }
 
-.b-slate-120 {
+.bc-slate-120 {
   border-color: #1f2129; }
 
 .slate-80 {
@@ -1769,7 +1769,7 @@ img {
 .hover-bg-slate-80:focus {
   background-color: #5f667e; }
 
-.b-slate-80 {
+.bc-slate-80 {
   border-color: #5f667e; }
 
 .slate-60 {
@@ -1786,7 +1786,7 @@ img {
 .hover-bg-slate-60:focus {
   background-color: #9298ad; }
 
-.b-slate-60 {
+.bc-slate-60 {
   border-color: #9298ad; }
 
 .slate-40 {
@@ -1803,7 +1803,7 @@ img {
 .hover-bg-slate-40:focus {
   background-color: #ced3e0; }
 
-.b-slate-40 {
+.bc-slate-40 {
   border-color: #ced3e0; }
 
 .slate-20 {
@@ -1820,7 +1820,7 @@ img {
 .hover-bg-slate-20:focus {
   background-color: #f7f9ff; }
 
-.b-slate-20 {
+.bc-slate-20 {
   border-color: #f7f9ff; }
 
 .mint {
@@ -1837,7 +1837,7 @@ img {
 .hover-bg-mint:focus {
   background-color: #19cca3; }
 
-.b-mint {
+.bc-mint {
   border-color: #19cca3; }
 
 .mint-120 {
@@ -1854,7 +1854,7 @@ img {
 .hover-bg-mint-120:focus {
   background-color: #139879; }
 
-.b-mint-120 {
+.bc-mint-120 {
   border-color: #139879; }
 
 .mint-80 {
@@ -1871,7 +1871,7 @@ img {
 .hover-bg-mint-80:focus {
   background-color: #1bddb1; }
 
-.b-mint-80 {
+.bc-mint-80 {
   border-color: #1bddb1; }
 
 .mint-60 {
@@ -1888,7 +1888,7 @@ img {
 .hover-bg-mint-60:focus {
   background-color: #6ae6c9; }
 
-.b-mint-60 {
+.bc-mint-60 {
   border-color: #6ae6c9; }
 
 .mint-40 {
@@ -1905,7 +1905,7 @@ img {
 .hover-bg-mint-40:focus {
   background-color: #b6f2e4; }
 
-.b-mint-40 {
+.bc-mint-40 {
   border-color: #b6f2e4; }
 
 .mint-20 {
@@ -1922,7 +1922,7 @@ img {
 .hover-bg-mint-20:focus {
   background-color: #ebfffa; }
 
-.b-mint-20 {
+.bc-mint-20 {
   border-color: #ebfffa; }
 
 .strawberry {
@@ -1939,7 +1939,7 @@ img {
 .hover-bg-strawberry:focus {
   background-color: #f3376b; }
 
-.b-strawberry {
+.bc-strawberry {
   border-color: #f3376b; }
 
 .strawberry-120 {
@@ -1956,7 +1956,7 @@ img {
 .hover-bg-strawberry-120:focus {
   background-color: #e40e49; }
 
-.b-strawberry-120 {
+.bc-strawberry-120 {
   border-color: #e40e49; }
 
 .strawberry-80 {
@@ -1973,7 +1973,7 @@ img {
 .hover-bg-strawberry-80:focus {
   background-color: #f56e94; }
 
-.b-strawberry-80 {
+.bc-strawberry-80 {
   border-color: #f56e94; }
 
 .strawberry-60 {
@@ -1990,7 +1990,7 @@ img {
 .hover-bg-strawberry-60:focus {
   background-color: #faa5bd; }
 
-.b-strawberry-60 {
+.bc-strawberry-60 {
   border-color: #faa5bd; }
 
 .strawberry-40 {
@@ -2007,7 +2007,7 @@ img {
 .hover-bg-strawberry-40:focus {
   background-color: #fcdee7; }
 
-.b-strawberry-40 {
+.bc-strawberry-40 {
   border-color: #fcdee7; }
 
 .strawberry-20 {
@@ -2024,7 +2024,7 @@ img {
 .hover-bg-strawberry-20:focus {
   background-color: #fff2f6; }
 
-.b-strawberry-20 {
+.bc-strawberry-20 {
   border-color: #fff2f6; }
 
 .creamsicle {
@@ -2041,7 +2041,7 @@ img {
 .hover-bg-creamsicle:focus {
   background-color: #ff8730; }
 
-.b-creamsicle {
+.bc-creamsicle {
   border-color: #ff8730; }
 
 .creamsicle-120 {
@@ -2058,7 +2058,7 @@ img {
 .hover-bg-creamsicle-120:focus {
   background-color: #f46700; }
 
-.b-creamsicle-120 {
+.bc-creamsicle-120 {
   border-color: #f46700; }
 
 .creamsicle-80 {
@@ -2075,7 +2075,7 @@ img {
 .hover-bg-creamsicle-80:focus {
   background-color: #ffa869; }
 
-.b-creamsicle-80 {
+.bc-creamsicle-80 {
   border-color: #ffa869; }
 
 .creamsicle-60 {
@@ -2092,7 +2092,7 @@ img {
 .hover-bg-creamsicle-60:focus {
   background-color: #ffbf90; }
 
-.b-creamsicle-60 {
+.bc-creamsicle-60 {
   border-color: #ffbf90; }
 
 .creamsicle-40 {
@@ -2109,7 +2109,7 @@ img {
 .hover-bg-creamsicle-40:focus {
   background-color: #ffe1cb; }
 
-.b-creamsicle-40 {
+.bc-creamsicle-40 {
   border-color: #ffe1cb; }
 
 .creamsicle-20 {
@@ -2126,7 +2126,7 @@ img {
 .hover-bg-creamsicle-20:focus {
   background-color: #fff8f2; }
 
-.b-creamsicle-20 {
+.bc-creamsicle-20 {
   border-color: #fff8f2; }
 
 .lavender {
@@ -2143,7 +2143,7 @@ img {
 .hover-bg-lavender:focus {
   background-color: #9159fc; }
 
-.b-lavender {
+.bc-lavender {
   border-color: #9159fc; }
 
 .lavender-120 {
@@ -2160,7 +2160,7 @@ img {
 .hover-bg-lavender-120:focus {
   background-color: #73f; }
 
-.b-lavender-120 {
+.bc-lavender-120 {
   border-color: #73f; }
 
 .lavender-80 {
@@ -2177,7 +2177,7 @@ img {
 .hover-bg-lavender-80:focus {
   background-color: #aa81fc; }
 
-.b-lavender-80 {
+.bc-lavender-80 {
   border-color: #aa81fc; }
 
 .lavender-60 {
@@ -2194,7 +2194,7 @@ img {
 .hover-bg-lavender-60:focus {
   background-color: #c3a7fc; }
 
-.b-lavender-60 {
+.bc-lavender-60 {
   border-color: #c3a7fc; }
 
 .lavender-40 {
@@ -2211,7 +2211,7 @@ img {
 .hover-bg-lavender-40:focus {
   background-color: #eae0fe; }
 
-.b-lavender-40 {
+.bc-lavender-40 {
   border-color: #eae0fe; }
 
 .lavender-20 {
@@ -2228,7 +2228,7 @@ img {
 .hover-bg-lavender-20:focus {
   background-color: #f7f2ff; }
 
-.b-lavender-20 {
+.bc-lavender-20 {
   border-color: #f7f2ff; }
 
 .banana {
@@ -2245,7 +2245,7 @@ img {
 .hover-bg-banana:focus {
   background-color: #facf3f; }
 
-.b-banana {
+.bc-banana {
   border-color: #facf3f; }
 
 .banana-120 {
@@ -2262,7 +2262,7 @@ img {
 .hover-bg-banana-120:focus {
   background-color: #deaa00; }
 
-.b-banana-120 {
+.bc-banana-120 {
   border-color: #deaa00; }
 
 .banana-80 {
@@ -2279,7 +2279,7 @@ img {
 .hover-bg-banana-80:focus {
   background-color: #fbd965; }
 
-.b-banana-80 {
+.bc-banana-80 {
   border-color: #fbd965; }
 
 .banana-60 {
@@ -2296,7 +2296,7 @@ img {
 .hover-bg-banana-60:focus {
   background-color: #fce28b; }
 
-.b-banana-60 {
+.bc-banana-60 {
   border-color: #fce28b; }
 
 .banana-40 {
@@ -2313,7 +2313,7 @@ img {
 .hover-bg-banana-40:focus {
   background-color: #fdecb2; }
 
-.b-banana-40 {
+.bc-banana-40 {
   border-color: #fdecb2; }
 
 .banana-20 {
@@ -2330,7 +2330,7 @@ img {
 .hover-bg-banana-20:focus {
   background-color: #fff9e6; }
 
-.b-banana-20 {
+.bc-banana-20 {
   border-color: #fff9e6; }
 
 .black {
@@ -2347,7 +2347,7 @@ img {
 .hover-bg-black:focus {
   background-color: #000; }
 
-.b-black {
+.bc-black {
   border-color: #000; }
 
 .white {
@@ -2364,7 +2364,7 @@ img {
 .hover-bg-white:focus {
   background-color: #fff; }
 
-.b-white {
+.bc-white {
   border-color: #fff; }
 
 .transparent {
@@ -2381,7 +2381,7 @@ img {
 .hover-bg-transparent:focus {
   background-color: rgba(255, 255, 255, 0); }
 
-.b-transparent {
+.bc-transparent {
   border-color: rgba(255, 255, 255, 0); }
 
 .pointer:hover {
@@ -7498,34 +7498,34 @@ img {
   .xl--va-bottom {
     vertical-align: bottom; } }
 
-.visible {
+.v-visible {
   visibility: visible; }
 
-.invisible {
+.v-hidden {
   visibility: hidden; }
 
 @media screen and (min-width: 30rem) {
-  .s--visible {
+  .s--v-visible {
     visibility: visible; }
-  .s--invisible {
+  .s--v-hidden {
     visibility: hidden; } }
 
 @media screen and (min-width: 45rem) {
-  .m--visible {
+  .m--v-visible {
     visibility: visible; }
-  .m--invisible {
+  .m--v-hidden {
     visibility: hidden; } }
 
 @media screen and (min-width: 60rem) {
-  .l--visible {
+  .l--v-visible {
     visibility: visible; }
-  .l--invisible {
+  .l--v-hidden {
     visibility: hidden; } }
 
 @media screen and (min-width: 70.5rem) {
-  .xl--visible {
+  .xl--v-visible {
     visibility: visible; }
-  .xl--invisible {
+  .xl--v-hidden {
     visibility: hidden; } }
 
 .ws-normal {

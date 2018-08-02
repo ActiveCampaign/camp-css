@@ -1,4 +1,4 @@
-@each $border-radius-name, $border-radius-value in $border-radiuses {
+@each $border-radius-name, $border-radius-value in $border-radii {
   .br-#{$border-radius-name} {
     border-radius: rem($border-radius-value);
   }
@@ -22,12 +22,11 @@
     border-bottom-left-radius: rem($border-radius-value);
     border-top-left-radius: rem($border-radius-value);
   }
-
 }
 
 @each $breakpoint-name, $breakpoint-value in $breakpoints {
   @media #{$breakpoint-value} {
-    @each $border-radius-name, $border-radius-value in $border-radiuses {
+    @each $border-radius-name, $border-radius-value in $border-radii {
       .#{$breakpoint-name}--br-#{$border-radius-name} {
         border-radius: rem($border-radius-value);
       }
