@@ -1,5 +1,3 @@
-// See $spacing map in _variables.scss
-
 @each $spacing-name, $spacing-value in $spacing {
   $i: index($spacing, $spacing-name $spacing-value) - 1;
 
@@ -39,8 +37,13 @@
   margin-right: auto;
 }
 
-.ml-auto { margin-left: auto; }
-.mr-auto { margin-right: auto; }
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
 
 @each $breakpoint-name, $breakpoint-value in $breakpoints {
   @media #{$breakpoint-value} {
@@ -83,7 +86,12 @@
       margin-right: auto;
     }
 
-    .#{$breakpoint-name}--ml-auto { margin-left: auto; }
-    .#{$breakpoint-name}--mr-auto { margin-right: auto; }
+    .#{$breakpoint-name}--ml-auto {
+      margin-left: auto;
+    }
+
+    .#{$breakpoint-name}--mr-auto {
+      margin-right: auto;
+    }
   }
 }
