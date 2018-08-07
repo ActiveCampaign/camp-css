@@ -1,5 +1,5 @@
 @each $width in $widths {
-  $width-value: strip-unit($width);
+  $width-value: floor(strip-unit($width));
 
   .w-#{$width-value} {
     width: $width;
@@ -13,7 +13,7 @@
 @each $breakpoint-name, $breakpoint-value in $breakpoints {
   @media #{$breakpoint-value} {
     @each $width in $widths {
-      $width-value: strip-unit($width);
+      $width-value: floor(strip-unit($width));
 
       .#{$breakpoint-name}--w-#{$width-value} {
         width: $width;

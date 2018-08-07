@@ -67,7 +67,7 @@
 .flex-grid {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 rem($gap-m * -1);
+  margin: 0 rem($gap-m * -.5);
 }
 
 @each $breakpoint-name, $breakpoint-value in $breakpoints {
