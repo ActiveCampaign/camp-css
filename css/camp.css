@@ -2575,7 +2575,7 @@ img {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: 0 -1.5rem; }
+  margin: 0 -0.75rem; }
 
 @media screen and (min-width: 30rem) {
   .s--flex {
