@@ -4,6 +4,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [0.9.0] - 2018-08-07
+### Added
+- Comments denoting the calculated px value for font-size, line-height, spacing, gap, and breakpoints.
+- Font-size 60px and line-height 76px.
+- Mixin for super h1 type style.
+- This changelog.
+
+### Changed
+- Flex-grid class now has correct negative margins for a standard 24px gutter.
+- w-33 and w-66 now declare 33.333% and 66.667% widths respectively.
+
+### Fixed
+- Minor lint errors.
+
+
 ## [0.8.0] - 2018-08-03
 ### Added
 - Added br-circle and br-pill.

@@ -7,9 +7,9 @@ $gap-l: $base-scale * 8;
 
 $grid-gaps: (
   none: $gap-none,
-  s: $gap-s,
-  m: $gap-m,
-  l: $gap-l
+  s: $gap-s, // 16px
+  m: $gap-m, // 24px
+  l: $gap-l // 32px
 );
 
 $columns-basis: (
