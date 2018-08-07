@@ -78,6 +78,12 @@
   font-family: $title;
 }
 
+@mixin title-7 {
+  font-size: $font-size-14;
+  line-height: $line-height-13;
+  font-family: $title;
+}
+
 // Lead-in
 @mixin lead-in-1 {
   font-size: $font-size-3;
