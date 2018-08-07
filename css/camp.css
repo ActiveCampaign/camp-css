@@ -2958,6 +2958,9 @@ img {
 .fs-13 {
   font-size: 3rem; }
 
+.fs-14 {
+  font-size: 3.75rem; }
+
 @media screen and (min-width: 30rem) {
   .s--fs-0 {
     font-size: 0; }
@@ -2986,7 +2989,9 @@ img {
   .s--fs-12 {
     font-size: 2.75rem; }
   .s--fs-13 {
-    font-size: 3rem; } }
+    font-size: 3rem; }
+  .s--fs-14 {
+    font-size: 3.75rem; } }
 
 @media screen and (min-width: 45rem) {
   .m--fs-0 {
@@ -3016,7 +3021,9 @@ img {
   .m--fs-12 {
     font-size: 2.75rem; }
   .m--fs-13 {
-    font-size: 3rem; } }
+    font-size: 3rem; }
+  .m--fs-14 {
+    font-size: 3.75rem; } }
 
 @media screen and (min-width: 60rem) {
   .l--fs-0 {
@@ -3046,7 +3053,9 @@ img {
   .l--fs-12 {
     font-size: 2.75rem; }
   .l--fs-13 {
-    font-size: 3rem; } }
+    font-size: 3rem; }
+  .l--fs-14 {
+    font-size: 3.75rem; } }
 
 @media screen and (min-width: 70.5rem) {
   .xl--fs-0 {
@@ -3076,7 +3085,9 @@ img {
   .xl--fs-12 {
     font-size: 2.75rem; }
   .xl--fs-13 {
-    font-size: 3rem; } }
+    font-size: 3rem; }
+  .xl--fs-14 {
+    font-size: 3.75rem; } }
 
 .fs-normal {
   font-style: normal; }
@@ -4118,6 +4129,9 @@ img {
 .lh-12 {
   line-height: 3.5rem; }
 
+.lh-13 {
+  line-height: 4.75rem; }
+
 @media screen and (min-width: 30rem) {
   .s--lh-1 {
     line-height: 0.75rem; }
@@ -4142,7 +4156,9 @@ img {
   .s--lh-11 {
     line-height: 3.25rem; }
   .s--lh-12 {
-    line-height: 3.5rem; } }
+    line-height: 3.5rem; }
+  .s--lh-13 {
+    line-height: 4.75rem; } }
 
 @media screen and (min-width: 45rem) {
   .m--lh-1 {
@@ -4168,7 +4184,9 @@ img {
   .m--lh-11 {
     line-height: 3.25rem; }
   .m--lh-12 {
-    line-height: 3.5rem; } }
+    line-height: 3.5rem; }
+  .m--lh-13 {
+    line-height: 4.75rem; } }
 
 @media screen and (min-width: 60rem) {
   .l--lh-1 {
@@ -4194,7 +4212,9 @@ img {
   .l--lh-11 {
     line-height: 3.25rem; }
   .l--lh-12 {
-    line-height: 3.5rem; } }
+    line-height: 3.5rem; }
+  .l--lh-13 {
+    line-height: 4.75rem; } }
 
 @media screen and (min-width: 70.5rem) {
   .xl--lh-1 {
@@ -4220,7 +4240,9 @@ img {
   .xl--lh-11 {
     line-height: 3.25rem; }
   .xl--lh-12 {
-    line-height: 3.5rem; } }
+    line-height: 3.5rem; }
+  .xl--lh-13 {
+    line-height: 4.75rem; } }
 
 .link {
   text-decoration: none;
