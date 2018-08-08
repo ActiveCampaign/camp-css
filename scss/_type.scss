@@ -1,0 +1,37 @@
+.body-1 { @include body-1; }
+.body-2 { @include body-2; }
+.body-3 { @include body-3; }
+.body-4 { @include body-4; }
+.body-5 { @include body-5; }
+.body-6 { @include body-6; }
+.body-7 { @include body-7; }
+.title-1 { @include title-1; }
+.title-2 { @include title-2; }
+.title-3 { @include title-3; }
+.title-4 { @include title-4; }
+.title-5 { @include title-5; }
+.title-6 { @include title-6; }
+.title-7 { @include title-7; }
+.lead-in-1 { @include lead-in-1; }
+.lead-in-2 { @include lead-in-2; }
+
+@each $breakpoint-name, $breakpoint-value in $breakpoints {
+  @media #{$breakpoint-value} {
+    .#{$breakpoint-name}--body-1 { @include body-1; }
+    .#{$breakpoint-name}--body-2 { @include body-2; }
+    .#{$breakpoint-name}--body-3 { @include body-3; }
+    .#{$breakpoint-name}--body-4 { @include body-4; }
+    .#{$breakpoint-name}--body-5 { @include body-5; }
+    .#{$breakpoint-name}--body-6 { @include body-6; }
+    .#{$breakpoint-name}--body-7 { @include body-7; }
+    .#{$breakpoint-name}--title-1 { @include title-1; }
+    .#{$breakpoint-name}--title-2 { @include title-2; }
+    .#{$breakpoint-name}--title-3 { @include title-3; }
+    .#{$breakpoint-name}--title-4 { @include title-4; }
+    .#{$breakpoint-name}--title-5 { @include title-5; }
+    .#{$breakpoint-name}--title-6 { @include title-6; }
+    .#{$breakpoint-name}--title-7 { @include title-7; }
+    .#{$breakpoint-name}--lead-in-1 { @include lead-in-1; }
+    .#{$breakpoint-name}--lead-in-2 { @include lead-in-2; }
+  }
+}
