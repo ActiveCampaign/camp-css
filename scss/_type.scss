@@ -1,100 +1,37 @@
-// Body
-.body-1 {
-  font-size: $font-size-2;
-  line-height: $line-height-2;
-  font-family: $body;
-}
+.body-1 { @include body-1; }
+.body-2 { @include body-2; }
+.body-3 { @include body-3; }
+.body-4 { @include body-4; }
+.body-5 { @include body-5; }
+.body-6 { @include body-6; }
+.body-7 { @include body-7; }
+.title-1 { @include title-1; }
+.title-2 { @include title-2; }
+.title-3 { @include title-3; }
+.title-4 { @include title-4; }
+.title-5 { @include title-5; }
+.title-6 { @include title-6; }
+.title-7 { @include title-7; }
+.lead-in-1 { @include lead-in-1; }
+.lead-in-2 { @include lead-in-2; }
 
-.body-2 {
-  font-size: $font-size-3;
-  line-height: $line-height-3;
-  font-family: $body;
-}
-
-.body-3 {
-  font-size: $font-size-4;
-  line-height: $line-height-4;
-  font-family: $body;
-}
-
-.body-4 {
-  font-size: $font-size-5;
-  line-height: $line-height-5;
-  font-family: $body;
-}
-
-.body-5 {
-  font-size: $font-size-6;
-  line-height: $line-height-6;
-  font-family: $body;
-}
-
-.body-6 {
-  font-size: $font-size-7;
-  line-height: $line-height-7;
-  font-family: $body;
-}
-
-.body-7 {
-  font-size: $font-size-8;
-  line-height: $line-height-8;
-  font-family: $body;
-}
-
-// Title
-.title-1 {
-  font-size: $font-size-8;
-  line-height: $line-height-7;
-  font-family: $title;
-}
-
-.title-2 {
-  font-size: $font-size-9;
-  line-height: $line-height-8;
-  font-family: $title;
-}
-
-.title-3 {
-  font-size: $font-size-10;
-  line-height: $line-height-9;
-  font-family: $title;
-}
-
-.title-4 {
-  font-size: $font-size-11;
-  line-height: $line-height-10;
-  font-family: $title;
-}
-
-.title-5 {
-  font-size: $font-size-12;
-  line-height: $line-height-11;
-  font-family: $title;
-}
-
-.title-6 {
-  font-size: $font-size-13;
-  line-height: $line-height-12;
-  font-family: $title;
-}
-
-.title-7 {
-  font-size: $font-size-14;
-  line-height: $line-height-13;
-  font-family: $title;
-}
-
-// Lead-in
-.lead-in-1 {
-  font-size: $font-size-2;
-  line-height: $line-height-3;
-  text-transform: uppercase;
-  letter-spacing: rem(0.05 * $font-size-2);
-}
-
-.lead-in-2 {
-  font-size: $font-size-3;
-  line-height: $line-height-4;
-  text-transform: uppercase;
-  letter-spacing: rem(0.05 * $font-size-3);
+@each $breakpoint-name, $breakpoint-value in $breakpoints {
+  @media #{$breakpoint-value} {
+    .#{$breakpoint-name}--body-1 { @include body-1; }
+    .#{$breakpoint-name}--body-2 { @include body-2; }
+    .#{$breakpoint-name}--body-3 { @include body-3; }
+    .#{$breakpoint-name}--body-4 { @include body-4; }
+    .#{$breakpoint-name}--body-5 { @include body-5; }
+    .#{$breakpoint-name}--body-6 { @include body-6; }
+    .#{$breakpoint-name}--body-7 { @include body-7; }
+    .#{$breakpoint-name}--title-1 { @include title-1; }
+    .#{$breakpoint-name}--title-2 { @include title-2; }
+    .#{$breakpoint-name}--title-3 { @include title-3; }
+    .#{$breakpoint-name}--title-4 { @include title-4; }
+    .#{$breakpoint-name}--title-5 { @include title-5; }
+    .#{$breakpoint-name}--title-6 { @include title-6; }
+    .#{$breakpoint-name}--title-7 { @include title-7; }
+    .#{$breakpoint-name}--lead-in-1 { @include lead-in-1; }
+    .#{$breakpoint-name}--lead-in-2 { @include lead-in-2; }
+  }
 }
