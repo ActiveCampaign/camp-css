@@ -9,11 +9,14 @@
     "lint": "stylelint scss",
     "test": "ava",
     "compile": "node-sass scss -o css",
-    "build": "npm run compile && postcss css/camp.css -o css/camp.css -m",
-    "build:prod": "npm run compile && postcss css/camp.css --env production -o css/camp.min.css -m",
-    "start": "watch \"npm run build\" scss",
-    "dev": "npm run clean && npm start",
-    "prepublish": "npm run clean && npm run lint && npm run test && npm run build && npm run build:prod"
+    "build:unminified": "npm run compile && postcss css/camp.css -o css/camp.css -m",
+    "build:minified": "npm run compile && postcss css/camp.css --env production -o css/camp.min.css -m",
+    "build": "npm run lint && npm run test && npm run build:unminified && npm run build:minified",
+    "start": "npm run clean && watch \"npm run build\" scss",
+    "dev": "npm start",
+    "preversion": "npm run clean && npm run lint && npm run test && npm run build",
+    "version": "npm run build && git add --all",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
@@ -41,7 +44,7 @@
     "postcss-cli": "^6.0.0",
     "postcss-discard-comments": "^4.0.0",
     "postcss-scss": "^2.0.0",
-    "postcss-syntax": "^0.31.0",
+    "postcss-syntax": "^0.32.0",
     "rimraf": "^2.6.2",
     "stylelint": "^9.3.0",
     "stylelint-config-activecampaign": "^0.1.2",
