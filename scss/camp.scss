@@ -20,6 +20,7 @@ $base-scale: 4px;
 @import 'utilities/functions/strip-unit';
 
 // Mixins
+@import 'utilities/mixins/breakpoints';
 @import 'utilities/mixins/type';
 
 // Styles
