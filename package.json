@@ -14,7 +14,7 @@
     "build": "npm run lint && npm run test && npm run build:unminified && npm run build:minified",
     "start": "npm run clean && watch \"npm run build\" scss",
     "dev": "npm start",
-    "preversion": "npm run clean && npm run lint && npm run test && npm run build",
+    "preversion": "npm run clean && npm run lint && npm run test",
     "version": "npm run build && git add --all",
     "postversion": "git push && git push --tags"
   },
