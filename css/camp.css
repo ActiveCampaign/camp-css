@@ -3604,8 +3604,12 @@ img {
   width: 32px; }
   .icon-s img,
   .icon-s svg {
-    width: 100%;
-    height: 100%; }
+    display: block;
+    height: 100%;
+    width: 100%; }
+  .icon-s img {
+    object-fit: contain;
+    object-position: bottom; }
 
 .icon-m {
   display: inline-block;
@@ -3613,8 +3617,12 @@ img {
   width: 64px; }
   .icon-m img,
   .icon-m svg {
-    width: 100%;
-    height: 100%; }
+    display: block;
+    height: 100%;
+    width: 100%; }
+  .icon-m img {
+    object-fit: contain;
+    object-position: bottom; }
 
 .icon-l {
   display: inline-block;
@@ -3622,8 +3630,12 @@ img {
   width: 128px; }
   .icon-l img,
   .icon-l svg {
-    width: 100%;
-    height: 100%; }
+    display: block;
+    height: 100%;
+    width: 100%; }
+  .icon-l img {
+    object-fit: contain;
+    object-position: bottom; }
 
 .ls {
   letter-spacing: 0.1rem; }
