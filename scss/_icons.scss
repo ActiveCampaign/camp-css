@@ -1,0 +1,13 @@
+@each $icon-name, $icon-value in $icon-sizes {
+  .icon-#{$icon-name} {
+    display: inline-block;
+    height: #{$icon-value};
+    width: #{$icon-value};
+
+    img,
+    svg {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

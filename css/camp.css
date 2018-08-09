@@ -3598,6 +3598,33 @@ img {
   .xl--h-auto {
     height: auto; } }
 
+.icon-s {
+  display: inline-block;
+  height: 32px;
+  width: 32px; }
+  .icon-s img,
+  .icon-s svg {
+    width: 100%;
+    height: 100%; }
+
+.icon-m {
+  display: inline-block;
+  height: 64px;
+  width: 64px; }
+  .icon-m img,
+  .icon-m svg {
+    width: 100%;
+    height: 100%; }
+
+.icon-l {
+  display: inline-block;
+  height: 128px;
+  width: 128px; }
+  .icon-l img,
+  .icon-l svg {
+    width: 100%;
+    height: 100%; }
+
 .ls {
   letter-spacing: 0.1rem; }
 
