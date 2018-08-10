@@ -15,13 +15,13 @@
 <link rel="stylesheet" href="https://unpkg.com/camp-css@latest/css/camp.min.css">
 ```
 
-### As a package
+### From yarn
 
 ```sh
 yarn add camp-css
 ```
 
-With npm:
+### From npm
 
 ```sh
 npm install camp-css
