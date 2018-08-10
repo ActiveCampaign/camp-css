@@ -8,10 +8,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Changed
 ### Added
 
+## [0.11.1] - 2018-08-10
+### Changed
+- Base icon size variables on the base scale value
+- Update readme
+
 ## [0.11.0] - 2018-08-10
 ### Changed
 - Base font color changed from $slate to $slate-120
-- Base icon sizes on the base scale
 
 ### Added
 - Add classes for icon
