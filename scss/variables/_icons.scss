@@ -1,5 +1,5 @@
 $icon-sizes: (
-  s: 32px,
-  m: 64px,
-  l: 128px
+  s: $base-scale * 8, // 32px
+  m: $base-scale * 16, // 64px
+  l: $base-scale * 32, // 128px
 );
