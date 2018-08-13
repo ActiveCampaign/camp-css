@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - CSS Grid fallback now implements gap-sized padding on all sides of grid children instead of just padding-right.
 
 ### Added
+- 'xs' icon size.
 
 ## [0.11.1] - 2018-08-10
 ### Changed
