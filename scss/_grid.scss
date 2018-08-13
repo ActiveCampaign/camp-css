@@ -13,12 +13,12 @@
 
   .gap-#{$gap-name} {
     > * {
-      padding-right: rem($gap-value);
+      padding: rem($gap-value);
     }
 
     @supports (display: grid) {
       > * {
-        padding-right: 0;
+        padding: 0;
       }
       grid-gap: rem($gap-value);
       gap: rem($gap-value); // newer, renamed property not available in all browsers yet.
@@ -42,12 +42,12 @@
 
       .#{$breakpoint-name}--gap-#{$gap-name} {
         > * {
-          padding-right: rem($gap-value);
+          padding: rem($gap-value);
         }
 
         @supports (display: grid) {
           > * {
-            padding-right: 0;
+            padding: 0;
           }
           grid-gap: rem($gap-value);
           gap: rem($gap-value); // newer, renamed property not available in all browsers yet.
