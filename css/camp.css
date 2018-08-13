@@ -2733,44 +2733,44 @@ img {
 
 /* Space between grid cells, use on grid container. */
 .gap-none > * {
-  padding-right: 0; }
+  padding: 0; }
 
 @supports (display: grid) {
   .gap-none {
     grid-gap: 0;
     gap: 0; }
     .gap-none > * {
-      padding-right: 0; } }
+      padding: 0; } }
 
 .gap-s > * {
-  padding-right: 1rem; }
+  padding: 1rem; }
 
 @supports (display: grid) {
   .gap-s {
     grid-gap: 1rem;
     gap: 1rem; }
     .gap-s > * {
-      padding-right: 0; } }
+      padding: 0; } }
 
 .gap-m > * {
-  padding-right: 1.5rem; }
+  padding: 1.5rem; }
 
 @supports (display: grid) {
   .gap-m {
     grid-gap: 1.5rem;
     gap: 1.5rem; }
     .gap-m > * {
-      padding-right: 0; } }
+      padding: 0; } }
 
 .gap-l > * {
-  padding-right: 2rem; }
+  padding: 2rem; }
 
 @supports (display: grid) {
   .gap-l {
     grid-gap: 2rem;
     gap: 2rem; }
     .gap-l > * {
-      padding-right: 0; } }
+      padding: 0; } }
 
 @media screen and (min-width: 30rem) {
   .s--grid {
@@ -2780,37 +2780,37 @@ img {
       .s--grid {
         display: grid; } }
   .s--gap-none > * {
-    padding-right: 0; }
+    padding: 0; }
   @supports (display: grid) {
     .s--gap-none {
       grid-gap: 0;
       gap: 0; }
       .s--gap-none > * {
-        padding-right: 0; } }
+        padding: 0; } }
   .s--gap-s > * {
-    padding-right: 1rem; }
+    padding: 1rem; }
   @supports (display: grid) {
     .s--gap-s {
       grid-gap: 1rem;
       gap: 1rem; }
       .s--gap-s > * {
-        padding-right: 0; } }
+        padding: 0; } }
   .s--gap-m > * {
-    padding-right: 1.5rem; }
+    padding: 1.5rem; }
   @supports (display: grid) {
     .s--gap-m {
       grid-gap: 1.5rem;
       gap: 1.5rem; }
       .s--gap-m > * {
-        padding-right: 0; } }
+        padding: 0; } }
   .s--gap-l > * {
-    padding-right: 2rem; }
+    padding: 2rem; }
   @supports (display: grid) {
     .s--gap-l {
       grid-gap: 2rem;
       gap: 2rem; }
       .s--gap-l > * {
-        padding-right: 0; } } }
+        padding: 0; } } }
 
 @media screen and (min-width: 45rem) {
   .m--grid {
@@ -2820,37 +2820,37 @@ img {
       .m--grid {
         display: grid; } }
   .m--gap-none > * {
-    padding-right: 0; }
+    padding: 0; }
   @supports (display: grid) {
     .m--gap-none {
       grid-gap: 0;
       gap: 0; }
       .m--gap-none > * {
-        padding-right: 0; } }
+        padding: 0; } }
   .m--gap-s > * {
-    padding-right: 1rem; }
+    padding: 1rem; }
   @supports (display: grid) {
     .m--gap-s {
       grid-gap: 1rem;
       gap: 1rem; }
       .m--gap-s > * {
-        padding-right: 0; } }
+        padding: 0; } }
   .m--gap-m > * {
-    padding-right: 1.5rem; }
+    padding: 1.5rem; }
   @supports (display: grid) {
     .m--gap-m {
       grid-gap: 1.5rem;
       gap: 1.5rem; }
       .m--gap-m > * {
-        padding-right: 0; } }
+        padding: 0; } }
   .m--gap-l > * {
-    padding-right: 2rem; }
+    padding: 2rem; }
   @supports (display: grid) {
     .m--gap-l {
       grid-gap: 2rem;
       gap: 2rem; }
       .m--gap-l > * {
-        padding-right: 0; } } }
+        padding: 0; } } }
 
 @media screen and (min-width: 60rem) {
   .l--grid {
@@ -2860,37 +2860,37 @@ img {
       .l--grid {
         display: grid; } }
   .l--gap-none > * {
-    padding-right: 0; }
+    padding: 0; }
   @supports (display: grid) {
     .l--gap-none {
       grid-gap: 0;
       gap: 0; }
       .l--gap-none > * {
-        padding-right: 0; } }
+        padding: 0; } }
   .l--gap-s > * {
-    padding-right: 1rem; }
+    padding: 1rem; }
   @supports (display: grid) {
     .l--gap-s {
       grid-gap: 1rem;
       gap: 1rem; }
       .l--gap-s > * {
-        padding-right: 0; } }
+        padding: 0; } }
   .l--gap-m > * {
-    padding-right: 1.5rem; }
+    padding: 1.5rem; }
   @supports (display: grid) {
     .l--gap-m {
       grid-gap: 1.5rem;
       gap: 1.5rem; }
       .l--gap-m > * {
-        padding-right: 0; } }
+        padding: 0; } }
   .l--gap-l > * {
-    padding-right: 2rem; }
+    padding: 2rem; }
   @supports (display: grid) {
     .l--gap-l {
       grid-gap: 2rem;
       gap: 2rem; }
       .l--gap-l > * {
-        padding-right: 0; } } }
+        padding: 0; } } }
 
 @media screen and (min-width: 70.5rem) {
   .xl--grid {
@@ -2900,37 +2900,37 @@ img {
       .xl--grid {
         display: grid; } }
   .xl--gap-none > * {
-    padding-right: 0; }
+    padding: 0; }
   @supports (display: grid) {
     .xl--gap-none {
       grid-gap: 0;
       gap: 0; }
       .xl--gap-none > * {
-        padding-right: 0; } }
+        padding: 0; } }
   .xl--gap-s > * {
-    padding-right: 1rem; }
+    padding: 1rem; }
   @supports (display: grid) {
     .xl--gap-s {
       grid-gap: 1rem;
       gap: 1rem; }
       .xl--gap-s > * {
-        padding-right: 0; } }
+        padding: 0; } }
   .xl--gap-m > * {
-    padding-right: 1.5rem; }
+    padding: 1.5rem; }
   @supports (display: grid) {
     .xl--gap-m {
       grid-gap: 1.5rem;
       gap: 1.5rem; }
       .xl--gap-m > * {
-        padding-right: 0; } }
+        padding: 0; } }
   .xl--gap-l > * {
-    padding-right: 2rem; }
+    padding: 2rem; }
   @supports (display: grid) {
     .xl--gap-l {
       grid-gap: 2rem;
       gap: 2rem; }
       .xl--gap-l > * {
-        padding-right: 0; } } }
+        padding: 0; } } }
 
 /* Sets up a 12 column grid with equal width columns. Use on grid container. */
 .g-cols {
