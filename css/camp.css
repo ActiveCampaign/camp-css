@@ -3598,6 +3598,19 @@ img {
   .xl--h-auto {
     height: auto; } }
 
+.icon-xs {
+  display: inline-block;
+  height: 16px;
+  width: 16px; }
+  .icon-xs img,
+  .icon-xs svg {
+    display: block;
+    height: 100%;
+    width: 100%; }
+  .icon-xs img {
+    object-fit: contain;
+    object-position: bottom; }
+
 .icon-s {
   display: inline-block;
   height: 32px;
@@ -6426,6 +6439,9 @@ img {
     padding-bottom: 8rem; }
   .xl--pl-12 {
     padding-left: 8rem; } }
+
+.pe-none {
+  pointer-events: none; }
 
 .static {
   position: static; }

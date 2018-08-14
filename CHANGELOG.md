@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Added
 - 'xs' icon size.
+- Pointer events class
 
 ## [0.11.1] - 2018-08-10
 ### Changed
