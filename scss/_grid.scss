@@ -13,7 +13,7 @@
 
   .gap-#{$gap-name} {
     > * {
-      padding: rem($gap-value);
+      padding: rem($gap-value * 0.5);
     }
 
     @supports (display: grid) {
@@ -42,7 +42,7 @@
 
       .#{$breakpoint-name}--gap-#{$gap-name} {
         > * {
-          padding: rem($gap-value);
+          padding: rem($gap-value * 0.5);
         }
 
         @supports (display: grid) {
