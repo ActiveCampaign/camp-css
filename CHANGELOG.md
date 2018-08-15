@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.12.1] - 2018-08-15
+### Changed
+- Updated npm packages to fix vulnerability.
+- Type and icon styles were outputting px, changed those to rem.
+- Halved padding for grid fallback.
+
 ## [0.12.0] - 2018-08-14
 ### Changed
 - CSS Grid fallback now implements gap-sized padding on all sides of grid children instead of just padding-right.
