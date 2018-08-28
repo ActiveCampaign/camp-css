@@ -6,6 +6,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.12.2] - 2018-08-28
+### Added
+- Pointer events all
+- Centering x, y, and xy classes
+- Hover underline effect
+- Line height 0
+
 ## [0.12.1] - 2018-08-15
 ### Changed
 - Updated npm packages to fix vulnerability.

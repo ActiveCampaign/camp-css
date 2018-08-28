@@ -13,3 +13,8 @@
   opacity: 0.8;
   transition: opacity $transition-duration-slow $transition-function;
 }
+
+.hover-td-underline:hover,
+.hover-td-underline:active {
+  text-decoration: underline;
+}

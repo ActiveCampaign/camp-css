@@ -1295,6 +1295,63 @@ img {
 .bs-hover:focus::after {
   opacity: 1; }
 
+.center-x {
+  left: 50%;
+  transform: translateX(-50%); }
+
+.center-y {
+  top: 50%;
+  transform: translateY(-50%); }
+
+.center-xy {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); }
+
+@media screen and (min-width: 30rem) {
+  .s--center-x {
+    left: 50%;
+    transform: translateX(-50%); }
+  .s--center-y {
+    left: 50%;
+    transform: translateX(-50%); }
+  .s--center-xy {
+    left: 50%;
+    transform: translateX(-50%); } }
+
+@media screen and (min-width: 45rem) {
+  .m--center-x {
+    left: 50%;
+    transform: translateX(-50%); }
+  .m--center-y {
+    left: 50%;
+    transform: translateX(-50%); }
+  .m--center-xy {
+    left: 50%;
+    transform: translateX(-50%); } }
+
+@media screen and (min-width: 60rem) {
+  .l--center-x {
+    left: 50%;
+    transform: translateX(-50%); }
+  .l--center-y {
+    left: 50%;
+    transform: translateX(-50%); }
+  .l--center-xy {
+    left: 50%;
+    transform: translateX(-50%); } }
+
+@media screen and (min-width: 70.5rem) {
+  .xl--center-x {
+    left: 50%;
+    transform: translateX(-50%); }
+  .xl--center-y {
+    left: 50%;
+    transform: translateX(-50%); }
+  .xl--center-xy {
+    left: 50%;
+    transform: translateX(-50%); } }
+
 .c-left {
   clear: left; }
 
@@ -2207,6 +2264,10 @@ img {
 .dim:active {
   opacity: 0.8;
   transition: opacity 300ms ease-in; }
+
+.hover-td-underline:hover,
+.hover-td-underline:active {
+  text-decoration: underline; }
 
 .flex {
   display: flex; }
@@ -3680,6 +3741,9 @@ img {
   .xl--ls-n {
     letter-spacing: -0.05rem; } }
 
+.lh-0 {
+  line-height: 0; }
+
 .lh-1 {
   line-height: 0.75rem; }
 
@@ -3720,6 +3784,8 @@ img {
   line-height: 4.75rem; }
 
 @media screen and (min-width: 30rem) {
+  .s--lh-0 {
+    line-height: 0; }
   .s--lh-1 {
     line-height: 0.75rem; }
   .s--lh-2 {
@@ -3748,6 +3814,8 @@ img {
     line-height: 4.75rem; } }
 
 @media screen and (min-width: 45rem) {
+  .m--lh-0 {
+    line-height: 0; }
   .m--lh-1 {
     line-height: 0.75rem; }
   .m--lh-2 {
@@ -3776,6 +3844,8 @@ img {
     line-height: 4.75rem; } }
 
 @media screen and (min-width: 60rem) {
+  .l--lh-0 {
+    line-height: 0; }
   .l--lh-1 {
     line-height: 0.75rem; }
   .l--lh-2 {
@@ -3804,6 +3874,8 @@ img {
     line-height: 4.75rem; } }
 
 @media screen and (min-width: 70.5rem) {
+  .xl--lh-0 {
+    line-height: 0; }
   .xl--lh-1 {
     line-height: 0.75rem; }
   .xl--lh-2 {
@@ -6442,6 +6514,9 @@ img {
 
 .pe-none {
   pointer-events: none; }
+
+.pe-all {
+  pointer-events: all; }
 
 .static {
   position: static; }
