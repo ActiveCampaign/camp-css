@@ -1,0 +1,35 @@
+
+.center-x {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.center-y {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.center-xy {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@each $breakpoint-name, $breakpoint-value in $breakpoints {
+  @media #{$breakpoint-value} {
+    .#{$breakpoint-name}--center-x {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .#{$breakpoint-name}--center-y {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .#{$breakpoint-name}--center-xy {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}

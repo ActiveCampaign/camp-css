@@ -38,6 +38,7 @@ $font-sizes: (
   font-size-14: $font-size-14 // 60px
 );
 
+$line-height-0: 0;
 $line-height-1: $type-scale * 0.75;
 $line-height-2: $type-scale;
 $line-height-3: $type-scale * 1.25;
@@ -53,6 +54,7 @@ $line-height-12: $type-scale * 3.5;
 $line-height-13: $type-scale * 4.75;
 
 $line-heights: (
+  line-height-0: $line-height-0, // 0
   line-height-1: $line-height-1, // 12px
   line-height-2: $line-height-2, // 16px
   line-height-3: $line-height-3, // 20px
