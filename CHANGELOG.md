@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.12.3] - 2018-08-30
+### Fixed
+- Responsive center-y and center-xy classes are now correct.
+
 ## [0.12.2] - 2018-08-28
 ### Added
 - Pointer events all

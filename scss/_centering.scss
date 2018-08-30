@@ -23,13 +23,14 @@
     }
 
     .#{$breakpoint-name}--center-y {
-      left: 50%;
-      transform: translateX(-50%);
+      top: 50%;
+      transform: translateY(-50%);
     }
 
     .#{$breakpoint-name}--center-xy {
       left: 50%;
-      transform: translateX(-50%);
+      top: 50%;
+      transform: translate(-50%, -50%);
     }
   }
 }
