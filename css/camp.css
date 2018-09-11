@@ -1,3 +1,11 @@
+/*
+ * Strip-unit Function by Hugo Giraudel
+ * https://css-tricks.com/snippets/sass/strip-unit-function/
+ *
+ * Remove the unit of a length
+ * @param {Number} $number - Number to remove unit from
+ * @return {Number} - Unitless number
+ */
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -185,7 +193,7 @@ button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText; }
+  outline: 0.0625rem dotted ButtonText; }
 
 /**
  * Correct the padding in Firefox.
@@ -250,7 +258,7 @@ textarea {
 [type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
-  outline-offset: -2px;
+  outline-offset: -0.125rem;
   /* 2 */ }
 
 /**
@@ -351,8 +359,8 @@ html {
 body {
   color: #1f2129;
   font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif;
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
   margin: 0; }
 
 ::selection {
@@ -362,14 +370,6 @@ body {
 img {
   max-width: 100%; }
 
-/*
- * Strip-unit Function by Hugo Giraudel
- * https://css-tricks.com/snippets/sass/strip-unit-function/
- *
- * Remove the unit of a length
- * @param {Number} $number - Number to remove unit from
- * @return {Number} - Unitless number
- */
 .bg-center {
   background-repeat: no-repeat;
   background-position: center center; }
