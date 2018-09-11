@@ -7124,358 +7124,403 @@ img {
     text-transform: capitalize; } }
 
 .body-1 {
+  font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif;
   font-size: 0.75rem;
-  line-height: 1rem;
-  font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif; }
+  line-height: 1rem; }
 
 .body-2 {
+  font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif;
   font-size: 0.875rem;
-  line-height: 1.25rem;
-  font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif; }
+  line-height: 1.25rem; }
 
 .body-3 {
+  font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif;
   font-size: 1rem;
-  line-height: 1.5rem;
-  font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif; }
+  line-height: 1.5rem; }
 
 .body-4 {
+  font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif;
   font-size: 1.125rem;
-  line-height: 1.75rem;
-  font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif; }
+  line-height: 1.75rem; }
 
 .body-5 {
+  font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif;
   font-size: 1.25rem;
-  line-height: 2rem;
-  font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif; }
+  line-height: 2rem; }
 
 .body-6 {
+  font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif;
   font-size: 1.5rem;
-  line-height: 2.25rem;
-  font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif; }
+  line-height: 2.25rem; }
 
 .body-7 {
+  font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif;
   font-size: 1.75rem;
-  line-height: 2.5rem;
-  font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif; }
+  line-height: 2.5rem; }
 
 .title-1 {
+  font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif;
   font-size: 1.75rem;
-  line-height: 2.25rem;
-  font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif; }
+  font-weight: 700;
+  line-height: 2.25rem; }
 
 .title-2 {
+  font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif;
   font-size: 2rem;
-  line-height: 2.5rem;
-  font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif; }
+  font-weight: 700;
+  line-height: 2.5rem; }
 
 .title-3 {
+  font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif;
   font-size: 2.25rem;
-  line-height: 2.75rem;
-  font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif; }
+  font-weight: 700;
+  line-height: 2.75rem; }
 
 .title-4 {
+  font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif;
   font-size: 2.5rem;
-  line-height: 3rem;
-  font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif; }
+  font-weight: 700;
+  line-height: 3rem; }
 
 .title-5 {
+  font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif;
   font-size: 2.75rem;
-  line-height: 3.25rem;
-  font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif; }
+  font-weight: 700;
+  line-height: 3.25rem; }
 
 .title-6 {
+  font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif;
   font-size: 3rem;
-  line-height: 3.5rem;
-  font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif; }
+  font-weight: 700;
+  line-height: 3.5rem; }
 
 .title-7 {
+  font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif;
   font-size: 3.75rem;
-  line-height: 4.75rem;
-  font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif; }
+  font-weight: 700;
+  line-height: 4.75rem; }
 
 .lead-in-1 {
   font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.0375rem;
   line-height: 1.25rem;
-  text-transform: uppercase;
-  letter-spacing: 0.0375rem; }
+  text-transform: uppercase; }
 
 .lead-in-2 {
   font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.04375rem;
   line-height: 1.5rem;
-  text-transform: uppercase;
-  letter-spacing: 0.04375rem; }
+  text-transform: uppercase; }
 
 @media screen and (min-width: 30rem) {
   .s--body-1 {
+    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif;
     font-size: 0.75rem;
-    line-height: 1rem;
-    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif; }
+    line-height: 1rem; }
   .s--body-2 {
+    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif;
     font-size: 0.875rem;
-    line-height: 1.25rem;
-    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif; }
+    line-height: 1.25rem; }
   .s--body-3 {
+    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif;
     font-size: 1rem;
-    line-height: 1.5rem;
-    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif; }
+    line-height: 1.5rem; }
   .s--body-4 {
+    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif;
     font-size: 1.125rem;
-    line-height: 1.75rem;
-    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif; }
+    line-height: 1.75rem; }
   .s--body-5 {
+    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif;
     font-size: 1.25rem;
-    line-height: 2rem;
-    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif; }
+    line-height: 2rem; }
   .s--body-6 {
+    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif;
     font-size: 1.5rem;
-    line-height: 2.25rem;
-    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif; }
+    line-height: 2.25rem; }
   .s--body-7 {
+    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif;
     font-size: 1.75rem;
-    line-height: 2.5rem;
-    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif; }
+    line-height: 2.5rem; }
   .s--title-1 {
+    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif;
     font-size: 1.75rem;
-    line-height: 2.25rem;
-    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif; }
+    font-weight: 700;
+    line-height: 2.25rem; }
   .s--title-2 {
+    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif;
     font-size: 2rem;
-    line-height: 2.5rem;
-    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif; }
+    font-weight: 700;
+    line-height: 2.5rem; }
   .s--title-3 {
+    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif;
     font-size: 2.25rem;
-    line-height: 2.75rem;
-    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif; }
+    font-weight: 700;
+    line-height: 2.75rem; }
   .s--title-4 {
+    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif;
     font-size: 2.5rem;
-    line-height: 3rem;
-    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif; }
+    font-weight: 700;
+    line-height: 3rem; }
   .s--title-5 {
+    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif;
     font-size: 2.75rem;
-    line-height: 3.25rem;
-    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif; }
+    font-weight: 700;
+    line-height: 3.25rem; }
   .s--title-6 {
+    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif;
     font-size: 3rem;
-    line-height: 3.5rem;
-    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif; }
+    font-weight: 700;
+    line-height: 3.5rem; }
   .s--title-7 {
+    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif;
     font-size: 3.75rem;
-    line-height: 4.75rem;
-    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif; }
+    font-weight: 700;
+    line-height: 4.75rem; }
   .s--lead-in-1 {
     font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.0375rem;
     line-height: 1.25rem;
-    text-transform: uppercase;
-    letter-spacing: 0.0375rem; }
+    text-transform: uppercase; }
   .s--lead-in-2 {
     font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 0.04375rem;
     line-height: 1.5rem;
-    text-transform: uppercase;
-    letter-spacing: 0.04375rem; } }
+    text-transform: uppercase; } }
 
 @media screen and (min-width: 45rem) {
   .m--body-1 {
+    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif;
     font-size: 0.75rem;
-    line-height: 1rem;
-    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif; }
+    line-height: 1rem; }
   .m--body-2 {
+    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif;
     font-size: 0.875rem;
-    line-height: 1.25rem;
-    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif; }
+    line-height: 1.25rem; }
   .m--body-3 {
+    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif;
     font-size: 1rem;
-    line-height: 1.5rem;
-    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif; }
+    line-height: 1.5rem; }
   .m--body-4 {
+    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif;
     font-size: 1.125rem;
-    line-height: 1.75rem;
-    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif; }
+    line-height: 1.75rem; }
   .m--body-5 {
+    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif;
     font-size: 1.25rem;
-    line-height: 2rem;
-    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif; }
+    line-height: 2rem; }
   .m--body-6 {
+    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif;
     font-size: 1.5rem;
-    line-height: 2.25rem;
-    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif; }
+    line-height: 2.25rem; }
   .m--body-7 {
+    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif;
     font-size: 1.75rem;
-    line-height: 2.5rem;
-    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif; }
+    line-height: 2.5rem; }
   .m--title-1 {
+    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif;
     font-size: 1.75rem;
-    line-height: 2.25rem;
-    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif; }
+    font-weight: 700;
+    line-height: 2.25rem; }
   .m--title-2 {
+    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif;
     font-size: 2rem;
-    line-height: 2.5rem;
-    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif; }
+    font-weight: 700;
+    line-height: 2.5rem; }
   .m--title-3 {
+    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif;
     font-size: 2.25rem;
-    line-height: 2.75rem;
-    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif; }
+    font-weight: 700;
+    line-height: 2.75rem; }
   .m--title-4 {
+    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif;
     font-size: 2.5rem;
-    line-height: 3rem;
-    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif; }
+    font-weight: 700;
+    line-height: 3rem; }
   .m--title-5 {
+    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif;
     font-size: 2.75rem;
-    line-height: 3.25rem;
-    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif; }
+    font-weight: 700;
+    line-height: 3.25rem; }
   .m--title-6 {
+    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif;
     font-size: 3rem;
-    line-height: 3.5rem;
-    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif; }
+    font-weight: 700;
+    line-height: 3.5rem; }
   .m--title-7 {
+    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif;
     font-size: 3.75rem;
-    line-height: 4.75rem;
-    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif; }
+    font-weight: 700;
+    line-height: 4.75rem; }
   .m--lead-in-1 {
     font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.0375rem;
     line-height: 1.25rem;
-    text-transform: uppercase;
-    letter-spacing: 0.0375rem; }
+    text-transform: uppercase; }
   .m--lead-in-2 {
     font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 0.04375rem;
     line-height: 1.5rem;
-    text-transform: uppercase;
-    letter-spacing: 0.04375rem; } }
+    text-transform: uppercase; } }
 
 @media screen and (min-width: 60rem) {
   .l--body-1 {
+    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif;
     font-size: 0.75rem;
-    line-height: 1rem;
-    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif; }
+    line-height: 1rem; }
   .l--body-2 {
+    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif;
     font-size: 0.875rem;
-    line-height: 1.25rem;
-    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif; }
+    line-height: 1.25rem; }
   .l--body-3 {
+    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif;
     font-size: 1rem;
-    line-height: 1.5rem;
-    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif; }
+    line-height: 1.5rem; }
   .l--body-4 {
+    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif;
     font-size: 1.125rem;
-    line-height: 1.75rem;
-    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif; }
+    line-height: 1.75rem; }
   .l--body-5 {
+    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif;
     font-size: 1.25rem;
-    line-height: 2rem;
-    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif; }
+    line-height: 2rem; }
   .l--body-6 {
+    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif;
     font-size: 1.5rem;
-    line-height: 2.25rem;
-    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif; }
+    line-height: 2.25rem; }
   .l--body-7 {
+    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif;
     font-size: 1.75rem;
-    line-height: 2.5rem;
-    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif; }
+    line-height: 2.5rem; }
   .l--title-1 {
+    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif;
     font-size: 1.75rem;
-    line-height: 2.25rem;
-    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif; }
+    font-weight: 700;
+    line-height: 2.25rem; }
   .l--title-2 {
+    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif;
     font-size: 2rem;
-    line-height: 2.5rem;
-    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif; }
+    font-weight: 700;
+    line-height: 2.5rem; }
   .l--title-3 {
+    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif;
     font-size: 2.25rem;
-    line-height: 2.75rem;
-    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif; }
+    font-weight: 700;
+    line-height: 2.75rem; }
   .l--title-4 {
+    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif;
     font-size: 2.5rem;
-    line-height: 3rem;
-    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif; }
+    font-weight: 700;
+    line-height: 3rem; }
   .l--title-5 {
+    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif;
     font-size: 2.75rem;
-    line-height: 3.25rem;
-    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif; }
+    font-weight: 700;
+    line-height: 3.25rem; }
   .l--title-6 {
+    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif;
     font-size: 3rem;
-    line-height: 3.5rem;
-    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif; }
+    font-weight: 700;
+    line-height: 3.5rem; }
   .l--title-7 {
+    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif;
     font-size: 3.75rem;
-    line-height: 4.75rem;
-    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif; }
+    font-weight: 700;
+    line-height: 4.75rem; }
   .l--lead-in-1 {
     font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.0375rem;
     line-height: 1.25rem;
-    text-transform: uppercase;
-    letter-spacing: 0.0375rem; }
+    text-transform: uppercase; }
   .l--lead-in-2 {
     font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 0.04375rem;
     line-height: 1.5rem;
-    text-transform: uppercase;
-    letter-spacing: 0.04375rem; } }
+    text-transform: uppercase; } }
 
 @media screen and (min-width: 70.5rem) {
   .xl--body-1 {
+    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif;
     font-size: 0.75rem;
-    line-height: 1rem;
-    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif; }
+    line-height: 1rem; }
   .xl--body-2 {
+    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif;
     font-size: 0.875rem;
-    line-height: 1.25rem;
-    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif; }
+    line-height: 1.25rem; }
   .xl--body-3 {
+    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif;
     font-size: 1rem;
-    line-height: 1.5rem;
-    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif; }
+    line-height: 1.5rem; }
   .xl--body-4 {
+    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif;
     font-size: 1.125rem;
-    line-height: 1.75rem;
-    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif; }
+    line-height: 1.75rem; }
   .xl--body-5 {
+    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif;
     font-size: 1.25rem;
-    line-height: 2rem;
-    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif; }
+    line-height: 2rem; }
   .xl--body-6 {
+    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif;
     font-size: 1.5rem;
-    line-height: 2.25rem;
-    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif; }
+    line-height: 2.25rem; }
   .xl--body-7 {
+    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif;
     font-size: 1.75rem;
-    line-height: 2.5rem;
-    font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif; }
+    line-height: 2.5rem; }
   .xl--title-1 {
+    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif;
     font-size: 1.75rem;
-    line-height: 2.25rem;
-    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif; }
+    font-weight: 700;
+    line-height: 2.25rem; }
   .xl--title-2 {
+    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif;
     font-size: 2rem;
-    line-height: 2.5rem;
-    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif; }
+    font-weight: 700;
+    line-height: 2.5rem; }
   .xl--title-3 {
+    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif;
     font-size: 2.25rem;
-    line-height: 2.75rem;
-    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif; }
+    font-weight: 700;
+    line-height: 2.75rem; }
   .xl--title-4 {
+    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif;
     font-size: 2.5rem;
-    line-height: 3rem;
-    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif; }
+    font-weight: 700;
+    line-height: 3rem; }
   .xl--title-5 {
+    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif;
     font-size: 2.75rem;
-    line-height: 3.25rem;
-    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif; }
+    font-weight: 700;
+    line-height: 3.25rem; }
   .xl--title-6 {
+    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif;
     font-size: 3rem;
-    line-height: 3.5rem;
-    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif; }
+    font-weight: 700;
+    line-height: 3.5rem; }
   .xl--title-7 {
+    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif;
     font-size: 3.75rem;
-    line-height: 4.75rem;
-    font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif; }
+    font-weight: 700;
+    line-height: 4.75rem; }
   .xl--lead-in-1 {
     font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.0375rem;
     line-height: 1.25rem;
-    text-transform: uppercase;
-    letter-spacing: 0.0375rem; }
+    text-transform: uppercase; }
   .xl--lead-in-2 {
     font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 0.04375rem;
     line-height: 1.5rem;
-    text-transform: uppercase;
-    letter-spacing: 0.04375rem; } }
+    text-transform: uppercase; } }
 
 .va-top {
   vertical-align: top; }
