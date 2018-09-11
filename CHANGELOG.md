@@ -5,6 +5,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+### Fixed
+- Lead in title 1 and 2 now renders appropriate font sizes of 14px and 16px.
 
 ## [0.12.3] - 2018-08-30
 ### Fixed

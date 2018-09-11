@@ -86,14 +86,14 @@
 
 // Lead-in
 @mixin lead-in-1 {
-  font-size: rem($font-size-2);
+  font-size: rem($font-size-3);
   line-height: rem($line-height-3);
   text-transform: uppercase;
   letter-spacing: rem(0.05 * $font-size-2);
 }
 
 @mixin lead-in-2 {
-  font-size: rem($font-size-3);
+  font-size: rem($font-size-4);
   line-height: rem($line-height-4);
   text-transform: uppercase;
   letter-spacing: rem(0.05 * $font-size-3);

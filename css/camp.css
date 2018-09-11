@@ -7194,13 +7194,13 @@ img {
   font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif; }
 
 .lead-in-1 {
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   line-height: 1.25rem;
   text-transform: uppercase;
   letter-spacing: 0.0375rem; }
 
 .lead-in-2 {
-  font-size: 0.875rem;
+  font-size: 1rem;
   line-height: 1.5rem;
   text-transform: uppercase;
   letter-spacing: 0.04375rem; }
@@ -7263,12 +7263,12 @@ img {
     line-height: 4.75rem;
     font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif; }
   .s--lead-in-1 {
-    font-size: 0.75rem;
+    font-size: 0.875rem;
     line-height: 1.25rem;
     text-transform: uppercase;
     letter-spacing: 0.0375rem; }
   .s--lead-in-2 {
-    font-size: 0.875rem;
+    font-size: 1rem;
     line-height: 1.5rem;
     text-transform: uppercase;
     letter-spacing: 0.04375rem; } }
@@ -7331,12 +7331,12 @@ img {
     line-height: 4.75rem;
     font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif; }
   .m--lead-in-1 {
-    font-size: 0.75rem;
+    font-size: 0.875rem;
     line-height: 1.25rem;
     text-transform: uppercase;
     letter-spacing: 0.0375rem; }
   .m--lead-in-2 {
-    font-size: 0.875rem;
+    font-size: 1rem;
     line-height: 1.5rem;
     text-transform: uppercase;
     letter-spacing: 0.04375rem; } }
@@ -7399,12 +7399,12 @@ img {
     line-height: 4.75rem;
     font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif; }
   .l--lead-in-1 {
-    font-size: 0.75rem;
+    font-size: 0.875rem;
     line-height: 1.25rem;
     text-transform: uppercase;
     letter-spacing: 0.0375rem; }
   .l--lead-in-2 {
-    font-size: 0.875rem;
+    font-size: 1rem;
     line-height: 1.5rem;
     text-transform: uppercase;
     letter-spacing: 0.04375rem; } }
@@ -7467,12 +7467,12 @@ img {
     line-height: 4.75rem;
     font-family: "Poppins", "Avenir", "Avenir Next", "Futura", helvetica, arial, sans-serif; }
   .xl--lead-in-1 {
-    font-size: 0.75rem;
+    font-size: 0.875rem;
     line-height: 1.25rem;
     text-transform: uppercase;
     letter-spacing: 0.0375rem; }
   .xl--lead-in-2 {
-    font-size: 0.875rem;
+    font-size: 1rem;
     line-height: 1.5rem;
     text-transform: uppercase;
     letter-spacing: 0.04375rem; } }
