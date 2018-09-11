@@ -12,10 +12,6 @@ $base-scale: 4px;
 @import 'variables/spacing';
 @import 'variables/type';
 
-// Base
-@import 'base/normalize';
-@import 'base/reset';
-
 // Functions
 @import 'utilities/functions/rem';
 @import 'utilities/functions/strip-unit';
@@ -23,6 +19,10 @@ $base-scale: 4px;
 // Mixins
 @import 'utilities/mixins/breakpoints';
 @import 'utilities/mixins/type';
+
+// Base
+@import 'base/normalize';
+@import 'base/reset';
 
 // Styles
 @import 'background-position';

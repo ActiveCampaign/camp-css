@@ -55,8 +55,8 @@ html {
 body {
   color: $slate-120;
   font-family: $body;
-  font-size: $font-size-5;
-  line-height: $line-height-5;
+  font-size: rem($font-size-5);
+  line-height: rem($line-height-5);
   margin: 0;
 }
 
