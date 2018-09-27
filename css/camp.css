@@ -5139,9 +5139,6 @@ img {
 .mw-none {
   max-width: none; }
 
-.mw-grid {
-  max-width: 67.5rem; }
-
 @media screen and (min-width: 30rem) {
   .s--mw-1 {
     max-width: 1rem; }
@@ -5168,9 +5165,7 @@ img {
   .s--mw-100 {
     max-width: 100%; }
   .s--mw-none {
-    max-width: none; }
-  .s--mw-grid {
-    max-width: 67.5rem; } }
+    max-width: none; } }
 
 @media screen and (min-width: 45rem) {
   .m--mw-1 {
@@ -5198,9 +5193,7 @@ img {
   .m--mw-100 {
     max-width: 100%; }
   .m--mw-none {
-    max-width: none; }
-  .m--mw-grid {
-    max-width: 67.5rem; } }
+    max-width: none; } }
 
 @media screen and (min-width: 60rem) {
   .l--mw-1 {
@@ -5228,9 +5221,7 @@ img {
   .l--mw-100 {
     max-width: 100%; }
   .l--mw-none {
-    max-width: none; }
-  .l--mw-grid {
-    max-width: 67.5rem; } }
+    max-width: none; } }
 
 @media screen and (min-width: 70.5rem) {
   .xl--mw-1 {
@@ -5258,9 +5249,7 @@ img {
   .xl--mw-100 {
     max-width: 100%; }
   .xl--mw-none {
-    max-width: none; }
-  .xl--mw-grid {
-    max-width: 67.5rem; } }
+    max-width: none; } }
 
 .of-cover {
   object-fit: cover; }

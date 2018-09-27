@@ -10,10 +10,6 @@
   max-width: none;
 }
 
-.mw-grid {
-  max-width: 67.5rem; // 1080px
-}
-
 @each $breakpoint-name, $breakpoint-value in $breakpoints {
   @media #{$breakpoint-value} {
     @each $max-width in $max-widths {
@@ -26,10 +22,6 @@
 
     .#{$breakpoint-name}--mw-none {
       max-width: none;
-    }
-
-    .#{$breakpoint-name}--mw-grid {
-      max-width: 67.5rem; // 1080px
     }
   }
 }

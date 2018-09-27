@@ -4,10 +4,6 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-## [0.13.1] - 2018-09-26
-### Added
-- `mw-grid` class to represent a max-width of 67.5rem. We were previously using the mw-64 class as the full width of our grid, but it should have always been 67.5rem so we had to add this class.
-
 ## [0.13.0] - 2018-09-14
 ### Fixed
 - Lead in title 1 and 2 now renders appropriate font sizes of 14px and 16px and are bolded by default
