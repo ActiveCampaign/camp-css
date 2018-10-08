@@ -1,32 +1,18 @@
 // Spacing
 $spacing-scale: $base-scale * 1;
 
-$spacing-0: 0;
-$spacing-1: $spacing-scale * 1;
-$spacing-2: $spacing-scale * 2;
-$spacing-3: $spacing-scale * 3;
-$spacing-4: $spacing-scale * 4;
-$spacing-5: $spacing-scale * 5;
-$spacing-6: $spacing-scale * 6;
-$spacing-7: $spacing-scale * 7;
-$spacing-8: $spacing-scale * 8;
-$spacing-9: $spacing-scale * 12;
-$spacing-10: $spacing-scale * 16;
-$spacing-11: $spacing-scale * 20;
-$spacing-12: $spacing-scale * 32;
-
 $spacing: (
-  spacing-0: $spacing-0, // 0px
-  spacing-1: $spacing-1, // 4px
-  spacing-2: $spacing-2, // 8px
-  spacing-3: $spacing-3, // 12px
-  spacing-4: $spacing-4, // 16px
-  spacing-5: $spacing-5, // 20px
-  spacing-6: $spacing-6, // 24px
-  spacing-7: $spacing-7, // 28px
-  spacing-8: $spacing-8, // 32px
-  spacing-9: $spacing-9, // 48px
-  spacing-10: $spacing-10, // 64px
-  spacing-11: $spacing-11, // 80px
-  spacing-12: $spacing-12 // 128px
+  spacing-0: $spacing-scale * 0, // 0px
+  spacing-1: $spacing-scale * 1, // 4px
+  spacing-2: $spacing-scale * 2, // 8px
+  spacing-3: $spacing-scale * 3, // 12px
+  spacing-4: $spacing-scale * 4, // 16px
+  spacing-5: $spacing-scale * 5, // 20px
+  spacing-6: $spacing-scale * 6, // 24px
+  spacing-7: $spacing-scale * 7, // 28px
+  spacing-8: $spacing-scale * 8, // 32px
+  spacing-9: $spacing-scale * 12, // 48px
+  spacing-10: $spacing-scale * 16, // 64px
+  spacing-11: $spacing-scale * 20, // 80px
+  spacing-12: $spacing-scale * 32 // 128px
 );
