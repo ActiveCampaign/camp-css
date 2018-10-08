@@ -32,6 +32,25 @@
   }
 }
 
+@each $column_width in $column_widths {
+  $i: index($column_widths, $column_width);
+
+  @if $i < 6 {
+    .px-#{$i}c {
+      margin-left: $column_width;
+      margin-right: $column_width;
+    }
+  }
+
+  .pr-#{$i}c {
+    margin-right: $column_width;
+  }
+
+  .pl-#{$i}c {
+    margin-left: $column_width;
+  }
+}
+
 @each $breakpoint-name, $breakpoint-value in $breakpoints {
   @media #{$breakpoint-value} {
     @each $spacing-name, $spacing-value in $spacing {
@@ -66,6 +85,25 @@
       .#{$breakpoint-name}--pl-#{$i} {
         padding-left: rem($spacing-value);
       }
+    }
+  }
+
+  @each $column_width in $column_widths {
+    $i: index($column_widths, $column_width);
+
+    @if $i < 6 {
+      .#{$breakpoint-name}--px-#{$i}c {
+        margin-left: $column_width;
+        margin-right: $column_width;
+      }
+    }
+
+    .#{$breakpoint-name}--pr-#{$i}c {
+      margin-right: $column_width;
+    }
+
+    .#{$breakpoint-name}--pl-#{$i}c {
+      margin-left: $column_width;
     }
   }
 }
