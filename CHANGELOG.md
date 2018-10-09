@@ -7,12 +7,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [0.14.0] - 2018-10-09
 ### Added
 - column-based margin and padding classes based on 12-column grid, which includes:
-  - `mx-*-col` where *= 1-5
-  - `mr-*-col` where *= 1-11
-  - `ml-*-col` where *= 1-11
-  - `px-*-col` where *= 1-5
-  - `pr-*-col` where *= 1-11
-  - `pl-*-col` where *= 1-11
+  - `mx-*-col`
+  - `mr-*-col`
+  - `ml-*-col`
+  - `px-*-col`
+  - `pr-*-col`
+  - `pl-*-col`
 - `g-start-*` class to eventually replace `g-push-*`, which is semantically inaccurate because it uses the `grid-column-start` rule.
 
 ## [0.13.1] - 2018-09-26
