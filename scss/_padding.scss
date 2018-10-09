@@ -35,19 +35,19 @@
 @each $column_width in $column_widths {
   $i: index($column_widths, $column_width);
 
-  @if $i < 6 {
-    .px-#{$i}c {
+  @if $i < 3 {
+    .px-#{$i}-col {
       margin-left: $column_width;
       margin-right: $column_width;
     }
-  }
 
-  .pr-#{$i}c {
-    margin-right: $column_width;
-  }
+    .pr-#{$i}-col {
+      margin-right: $column_width;
+    }
 
-  .pl-#{$i}c {
-    margin-left: $column_width;
+    .pl-#{$i}-col {
+      margin-left: $column_width;
+    }
   }
 }
 
@@ -91,19 +91,19 @@
   @each $column_width in $column_widths {
     $i: index($column_widths, $column_width);
 
-    @if $i < 6 {
-      .#{$breakpoint-name}--px-#{$i}c {
+    @if $i < 3 {
+      .#{$breakpoint-name}--px-#{$i}-col {
         margin-left: $column_width;
         margin-right: $column_width;
       }
-    }
 
-    .#{$breakpoint-name}--pr-#{$i}c {
-      margin-right: $column_width;
-    }
+      .#{$breakpoint-name}--pr-#{$i}-col {
+        margin-right: $column_width;
+      }
 
-    .#{$breakpoint-name}--pl-#{$i}c {
-      margin-left: $column_width;
+      .#{$breakpoint-name}--pl-#{$i}-col {
+        margin-left: $column_width;
+      }
     }
   }
 }
