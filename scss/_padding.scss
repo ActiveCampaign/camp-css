@@ -37,16 +37,16 @@
 
   @if $i < 3 {
     .px-#{$i}-col {
-      margin-left: $column_width;
-      margin-right: $column_width;
+      padding-left: $column_width;
+      padding-right: $column_width;
     }
 
     .pr-#{$i}-col {
-      margin-right: $column_width;
+      padding-right: $column_width;
     }
 
     .pl-#{$i}-col {
-      margin-left: $column_width;
+      padding-left: $column_width;
     }
   }
 }
@@ -93,16 +93,16 @@
 
     @if $i < 3 {
       .#{$breakpoint-name}--px-#{$i}-col {
-        margin-left: $column_width;
-        margin-right: $column_width;
+        padding-left: $column_width;
+        padding-right: $column_width;
       }
 
       .#{$breakpoint-name}--pr-#{$i}-col {
-        margin-right: $column_width;
+        padding-right: $column_width;
       }
 
       .#{$breakpoint-name}--pl-#{$i}-col {
-        margin-left: $column_width;
+        padding-left: $column_width;
       }
     }
   }
