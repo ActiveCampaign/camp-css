@@ -35,19 +35,19 @@
 @each $column_width in $column_widths {
   $i: index($column_widths, $column_width);
 
-  @if $i < 6 {
+  @if $i < 3 {
     .mx-#{$i}-col {
       margin-left: $column_width;
       margin-right: $column_width;
     }
-  }
 
-  .mr-#{$i}-col {
-    margin-right: $column_width;
-  }
+    .mr-#{$i}-col {
+      margin-right: $column_width;
+    }
 
-  .ml-#{$i}-col {
-    margin-left: $column_width;
+    .ml-#{$i}-col {
+      margin-left: $column_width;
+    }
   }
 }
 
@@ -117,19 +117,19 @@
   @each $column_width in $column_widths {
     $i: index($column_widths, $column_width);
 
-    @if $i < 6 {
+    @if $i < 3 {
       .#{$breakpoint-name}--mx-#{$i}-col {
         margin-left: $column_width;
         margin-right: $column_width;
       }
-    }
 
-    .#{$breakpoint-name}--mr-#{$i}-col {
-      margin-right: $column_width;
-    }
+      .#{$breakpoint-name}--mr-#{$i}-col {
+        margin-right: $column_width;
+      }
 
-    .#{$breakpoint-name}--ml-#{$i}-col {
-      margin-left: $column_width;
+      .#{$breakpoint-name}--ml-#{$i}-col {
+        margin-left: $column_width;
+      }
     }
   }
 }
