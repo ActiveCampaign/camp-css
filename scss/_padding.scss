@@ -86,23 +86,23 @@
         padding-left: rem($spacing-value);
       }
     }
-  }
 
-  @each $column_width in $column_widths {
-    $i: index($column_widths, $column_width);
+    @each $column_width in $column_widths {
+      $i: index($column_widths, $column_width);
 
-    @if $i < 3 {
-      .#{$breakpoint-name}--px-#{$i}-col {
-        padding-left: $column_width;
-        padding-right: $column_width;
-      }
+      @if $i < 3 {
+        .#{$breakpoint-name}--px-#{$i}-col {
+          padding-left: $column_width;
+          padding-right: $column_width;
+        }
 
-      .#{$breakpoint-name}--pr-#{$i}-col {
-        padding-right: $column_width;
-      }
+        .#{$breakpoint-name}--pr-#{$i}-col {
+          padding-right: $column_width;
+        }
 
-      .#{$breakpoint-name}--pl-#{$i}-col {
-        padding-left: $column_width;
+        .#{$breakpoint-name}--pl-#{$i}-col {
+          padding-left: $column_width;
+        }
       }
     }
   }
