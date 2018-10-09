@@ -81,17 +81,30 @@
   }
 
   @if $i < $columns {
+    // the `g-push` class is being renamed to `g-start` for clarity.
+    // once the stylesheet is live, class names in Statamic can
+    // be updated from `g-push-` to `g-start-`.
+    //
+    // After Statamic has been updated, we can refactor or
+    // remove the `g-push` class
+    //
     .g-push-#{$i} {
+      grid-column-start: $i + 1;
+    }
+
+    .g-start-#{$i} {
       grid-column-start: $i + 1;
     }
   }
 }
 
-.g-push-0 {
+.g-push-0,
+.g-start-0 {
   grid-column-start: 0;
 }
 
-.g-push-auto {
+.g-push-auto,
+.g-start-auto {
   grid-column-start: auto;
 }
 
@@ -121,6 +134,10 @@
         .#{$breakpoint-name}--g-push-#{$i} {
           grid-column-start: $i + 1;
         }
+
+        .#{$breakpoint-name}--g-start-#{$i} {
+          grid-column-start: $i + 1;
+        }
       }
     }
 
@@ -128,7 +145,15 @@
       grid-column-start: 0;
     }
 
+    .#{$breakpoint-name}--g-start-0 {
+      grid-column-start: 0;
+    }
+
     .#{$breakpoint-name}--g-push-auto {
+      grid-column-start: auto;
+    }
+
+    .#{$breakpoint-name}--g-start-auto {
       grid-column-start: auto;
     }
   }
