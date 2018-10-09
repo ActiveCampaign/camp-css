@@ -36,17 +36,17 @@
   $i: index($column_widths, $column_width);
 
   @if $i < 6 {
-    .px-#{$i}c {
+    .px-#{$i}-col {
       margin-left: $column_width;
       margin-right: $column_width;
     }
   }
 
-  .pr-#{$i}c {
+  .pr-#{$i}-col {
     margin-right: $column_width;
   }
 
-  .pl-#{$i}c {
+  .pl-#{$i}-col {
     margin-left: $column_width;
   }
 }
@@ -92,17 +92,17 @@
     $i: index($column_widths, $column_width);
 
     @if $i < 6 {
-      .#{$breakpoint-name}--px-#{$i}c {
+      .#{$breakpoint-name}--px-#{$i}-col {
         margin-left: $column_width;
         margin-right: $column_width;
       }
     }
 
-    .#{$breakpoint-name}--pr-#{$i}c {
+    .#{$breakpoint-name}--pr-#{$i}-col {
       margin-right: $column_width;
     }
 
-    .#{$breakpoint-name}--pl-#{$i}c {
+    .#{$breakpoint-name}--pl-#{$i}-col {
       margin-left: $column_width;
     }
   }
