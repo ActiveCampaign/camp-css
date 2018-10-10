@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [0.14.3] - 2018-10-10
+### Changed
+- XL breakpoint is now 67.5rem (1080px) to match the `mw-grid` class that is the same value.
+
 ## [0.14.2] - 2018-10-09
 ### Fixed
 - `p*-*-col` classes were not correctly nested in their breakpoint loops, causing all class names to be applied regardless of breakpoint
