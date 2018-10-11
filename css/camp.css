@@ -441,7 +441,7 @@ img {
     background-repeat: no-repeat;
     background-position: center left; } }
 
-@media screen and (min-width: 70.5rem) {
+@media screen and (min-width: 67.5rem) {
   .xl--bg-center {
     background-repeat: no-repeat;
     background-position: center center; }
@@ -482,7 +482,7 @@ img {
   .l--bg-contain {
     background-size: contain; } }
 
-@media screen and (min-width: 70.5rem) {
+@media screen and (min-width: 67.5rem) {
   .xl--bg-cover {
     background-size: cover; }
   .xl--bg-contain {
@@ -644,7 +644,7 @@ img {
   .l--br-pill {
     border-radius: 62499999.9375rem; } }
 
-@media screen and (min-width: 70.5rem) {
+@media screen and (min-width: 67.5rem) {
   .xl--br-0 {
     border-radius: 0; }
   .xl--br-1 {
@@ -718,7 +718,7 @@ img {
   .l--bl {
     border-left-style: solid; } }
 
-@media screen and (min-width: 70.5rem) {
+@media screen and (min-width: 67.5rem) {
   .xl--bs-none {
     border-style: none; }
   .xl--bs-solid {
@@ -765,7 +765,7 @@ img {
   .l--bw-2 {
     border-width: 0.125rem; } }
 
-@media screen and (min-width: 70.5rem) {
+@media screen and (min-width: 67.5rem) {
   .xl--bw-0 {
     border-width: 0; }
   .xl--bw-1 {
@@ -1139,7 +1139,7 @@ img {
   .l--ac-space-evenly {
     align-content: space-evenly; } }
 
-@media screen and (min-width: 70.5rem) {
+@media screen and (min-width: 67.5rem) {
   .xl--js-start {
     justify-self: start; }
   .xl--js-end {
@@ -1263,7 +1263,7 @@ img {
   .l--bs-unset {
     box-shadow: unset; } }
 
-@media screen and (min-width: 70.5rem) {
+@media screen and (min-width: 67.5rem) {
   .xl--bs-soft {
     box-shadow: 0 0.75rem 1.625rem 0 rgba(54, 141, 255, 0.1); }
   .xl--bs-hard {
@@ -1344,7 +1344,7 @@ img {
     top: 50%;
     transform: translate(-50%, -50%); } }
 
-@media screen and (min-width: 70.5rem) {
+@media screen and (min-width: 67.5rem) {
   .xl--center-x {
     left: 50%;
     transform: translateX(-50%); }
@@ -1398,7 +1398,7 @@ img {
   .l--c-none {
     clear: none; } }
 
-@media screen and (min-width: 70.5rem) {
+@media screen and (min-width: 67.5rem) {
   .xl--c-left {
     clear: left; }
   .xl--c-right {
@@ -2246,7 +2246,7 @@ img {
   .l--inline-block {
     display: inline-block; } }
 
-@media screen and (min-width: 70.5rem) {
+@media screen and (min-width: 67.5rem) {
   .xl--none {
     display: none; }
   .xl--inline {
@@ -2446,7 +2446,7 @@ img {
   .l--flex-shrink-1 {
     flex-shrink: 1; } }
 
-@media screen and (min-width: 70.5rem) {
+@media screen and (min-width: 67.5rem) {
   .xl--flex {
     display: flex; }
   .xl--inline-flex {
@@ -2517,7 +2517,7 @@ img {
   .l--f-none {
     float: none; } }
 
-@media screen and (min-width: 70.5rem) {
+@media screen and (min-width: 67.5rem) {
   .xl--f-left {
     float: left; }
   .xl--f-right {
@@ -2672,7 +2672,7 @@ img {
   .l--fs-14 {
     font-size: 3.75rem; } }
 
-@media screen and (min-width: 70.5rem) {
+@media screen and (min-width: 67.5rem) {
   .xl--fs-0 {
     font-size: 0; }
   .xl--fs-1 {
@@ -2728,7 +2728,7 @@ img {
   .l--fs-italic {
     font-style: italic; } }
 
-@media screen and (min-width: 70.5rem) {
+@media screen and (min-width: 67.5rem) {
   .xl--fs-normal {
     font-style: normal; }
   .xl--fs-italic {
@@ -2776,7 +2776,7 @@ img {
   .l--fw-700 {
     font-weight: 700; } }
 
-@media screen and (min-width: 70.5rem) {
+@media screen and (min-width: 67.5rem) {
   .xl--fw-400 {
     font-weight: 400; }
   .xl--fw-500 {
@@ -2957,7 +2957,7 @@ img {
       .l--gap-l > * {
         padding: 0; } } }
 
-@media screen and (min-width: 70.5rem) {
+@media screen and (min-width: 67.5rem) {
   .xl--grid {
     display: flex;
     flex-wrap: wrap; }
@@ -3592,7 +3592,7 @@ img {
   .l--g-start-auto {
     grid-column-start: auto; } }
 
-@media screen and (min-width: 70.5rem) {
+@media screen and (min-width: 67.5rem) {
   .xl--g-cols {
     grid-template-columns: repeat(12, 1fr); }
   .xl--g-col-1 {
@@ -3790,7 +3790,7 @@ img {
   .l--h-auto {
     height: auto; } }
 
-@media screen and (min-width: 70.5rem) {
+@media screen and (min-width: 67.5rem) {
   .xl--h-0 {
     height: 0; }
   .xl--h-1 {
@@ -3878,7 +3878,7 @@ img {
   .l--ls-n {
     letter-spacing: -0.05rem; } }
 
-@media screen and (min-width: 70.5rem) {
+@media screen and (min-width: 67.5rem) {
   .xl--ls {
     letter-spacing: 0.1rem; }
   .xl--ls-n {
@@ -4016,7 +4016,7 @@ img {
   .l--lh-13 {
     line-height: 4.75rem; } }
 
-@media screen and (min-width: 70.5rem) {
+@media screen and (min-width: 67.5rem) {
   .xl--lh-0 {
     line-height: 0; }
   .xl--lh-1 {
@@ -5102,7 +5102,7 @@ img {
 .l--ml-2-col {
   margin-left: 16.666%; }
 
-@media screen and (min-width: 70.5rem) {
+@media screen and (min-width: 67.5rem) {
   .xl--m-0 {
     margin: 0; }
   .xl--mx-0 {
@@ -5471,7 +5471,7 @@ img {
   .l--mw-grid {
     max-width: 67.5rem; } }
 
-@media screen and (min-width: 70.5rem) {
+@media screen and (min-width: 67.5rem) {
   .xl--mw-1 {
     max-width: 1rem; }
   .xl--mw-2 {
@@ -5534,7 +5534,7 @@ img {
   .l--of-none {
     object-fit: none; } }
 
-@media screen and (min-width: 70.5rem) {
+@media screen and (min-width: 67.5rem) {
   .xl--of-cover {
     object-fit: cover; }
   .xl--of-contain {
@@ -5617,7 +5617,7 @@ img {
   .l--ov-y-scroll {
     overflow-y: scroll; } }
 
-@media screen and (min-width: 70.5rem) {
+@media screen and (min-width: 67.5rem) {
   .xl--ov-visible {
     overflow: visible; }
   .xl--ov-hidden {
@@ -6618,7 +6618,7 @@ img {
   .l--pl-2-col {
     padding-left: 16.666%; } }
 
-@media screen and (min-width: 70.5rem) {
+@media screen and (min-width: 67.5rem) {
   .xl--p-0 {
     padding: 0; }
   .xl--px-0 {
@@ -6899,7 +6899,7 @@ img {
   .l--sticky {
     position: sticky; } }
 
-@media screen and (min-width: 70.5rem) {
+@media screen and (min-width: 67.5rem) {
   .xl--static {
     position: static; }
   .xl--relative {
@@ -7241,7 +7241,7 @@ img {
   .l--left-4 {
     left: 4rem; } }
 
-@media screen and (min-width: 70.5rem) {
+@media screen and (min-width: 67.5rem) {
   .xl--top-n4 {
     top: -4rem; }
   .xl--right-n4 {
@@ -7348,7 +7348,7 @@ img {
   .l--ta-right {
     text-align: right; } }
 
-@media screen and (min-width: 70.5rem) {
+@media screen and (min-width: 67.5rem) {
   .xl--ta-left {
     text-align: left; }
   .xl--ta-center {
@@ -7389,7 +7389,7 @@ img {
   .l--td-strike {
     text-decoration: line-through; } }
 
-@media screen and (min-width: 70.5rem) {
+@media screen and (min-width: 67.5rem) {
   .xl--td-none {
     text-decoration: none; }
   .xl--td-underline {
@@ -7439,7 +7439,7 @@ img {
   .l--tt-caps {
     text-transform: capitalize; } }
 
-@media screen and (min-width: 70.5rem) {
+@media screen and (min-width: 67.5rem) {
   .xl--tt-upper {
     text-transform: uppercase; }
   .xl--tt-lower {
@@ -7771,7 +7771,7 @@ img {
     line-height: 1.5rem;
     text-transform: uppercase; } }
 
-@media screen and (min-width: 70.5rem) {
+@media screen and (min-width: 67.5rem) {
   .xl--body-1 {
     font-family: "IBM Plex Sans", "Franklin Gothic", "ITC Franklin Gothic", helvetica, arial, sans-serif;
     font-size: 0.75rem;
@@ -7890,7 +7890,7 @@ img {
   .l--va-bottom {
     vertical-align: bottom; } }
 
-@media screen and (min-width: 70.5rem) {
+@media screen and (min-width: 67.5rem) {
   .xl--va-top {
     vertical-align: top; }
   .xl--va-baseline {
@@ -7924,7 +7924,7 @@ img {
   .l--v-hidden {
     visibility: hidden; } }
 
-@media screen and (min-width: 70.5rem) {
+@media screen and (min-width: 67.5rem) {
   .xl--v-visible {
     visibility: visible; }
   .xl--v-hidden {
@@ -8089,7 +8089,7 @@ img {
   .l--w-auto {
     width: auto; } }
 
-@media screen and (min-width: 70.5rem) {
+@media screen and (min-width: 67.5rem) {
   .xl--w-1 {
     width: 1rem; }
   .xl--w-10 {
