@@ -1,6 +1,8 @@
 .link {
   text-decoration: none;
-  transition: color $transition-duration-slow $transition-function;
+  transition:
+    color $transition-duration-slow $transition-function,
+    text-decoration $transition-duration-slow $transition-function;
 
   &:link,
   &:visited {
