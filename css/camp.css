@@ -4048,7 +4048,7 @@ img {
 
 .link {
   text-decoration: none;
-  transition: color 300ms ease-in; }
+  transition: color 300ms ease-in, text-decoration 300ms ease-in; }
   .link:link, .link:visited {
     transition: color 300ms ease-in; }
   .link:hover {
