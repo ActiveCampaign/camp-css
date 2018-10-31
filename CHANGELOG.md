@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [0.14.6] - 2018-10-31
+### Fixed
+- Place margin column classes inside the media query loop.
+- On this spooky Halloween day, I've come to my senses and remembered `text-decoration` is not a property that can be transitioned. It has been removed from the `link` classes.
+
 ## [0.14.5] - 2018-10-25
 ### Fixed
 - Add text-decoration transition to `link` pseudo classes.

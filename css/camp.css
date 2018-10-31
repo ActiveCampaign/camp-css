@@ -4048,15 +4048,15 @@ img {
 
 .link {
   text-decoration: none;
-  transition: color 300ms ease-in, text-decoration 300ms ease-in; }
+  transition: color 300ms ease-in; }
   .link:link, .link:visited {
-    transition: color 300ms ease-in, text-decoration 300ms ease-in; }
+    transition: color 300ms ease-in; }
   .link:hover {
-    transition: color 300ms ease-in, text-decoration 300ms ease-in; }
+    transition: color 300ms ease-in; }
   .link:active {
-    transition: color 300ms ease-in, text-decoration 300ms ease-in; }
+    transition: color 300ms ease-in; }
   .link:focus {
-    transition: color 300ms ease-in, text-decoration 300ms ease-in;
+    transition: color 300ms ease-in;
     outline: 0.0625rem dotted currentColor; }
 
 .list {
@@ -4606,27 +4606,21 @@ img {
   .s--ml-auto {
     margin-left: auto; }
   .s--mr-auto {
-    margin-right: auto; } }
-
-.s--mx-1-col {
-  margin-left: 8.333%;
-  margin-right: 8.333%; }
-
-.s--mr-1-col {
-  margin-right: 8.333%; }
-
-.s--ml-1-col {
-  margin-left: 8.333%; }
-
-.s--mx-2-col {
-  margin-left: 16.666%;
-  margin-right: 16.666%; }
-
-.s--mr-2-col {
-  margin-right: 16.666%; }
-
-.s--ml-2-col {
-  margin-left: 16.666%; }
+    margin-right: auto; }
+  .s--mx-1-col {
+    margin-left: 8.333%;
+    margin-right: 8.333%; }
+  .s--mr-1-col {
+    margin-right: 8.333%; }
+  .s--ml-1-col {
+    margin-left: 8.333%; }
+  .s--mx-2-col {
+    margin-left: 16.666%;
+    margin-right: 16.666%; }
+  .s--mr-2-col {
+    margin-right: 16.666%; }
+  .s--ml-2-col {
+    margin-left: 16.666%; } }
 
 @media screen and (min-width: 45rem) {
   .m--m-0 {
@@ -4843,27 +4837,21 @@ img {
   .m--ml-auto {
     margin-left: auto; }
   .m--mr-auto {
-    margin-right: auto; } }
-
-.m--mx-1-col {
-  margin-left: 8.333%;
-  margin-right: 8.333%; }
-
-.m--mr-1-col {
-  margin-right: 8.333%; }
-
-.m--ml-1-col {
-  margin-left: 8.333%; }
-
-.m--mx-2-col {
-  margin-left: 16.666%;
-  margin-right: 16.666%; }
-
-.m--mr-2-col {
-  margin-right: 16.666%; }
-
-.m--ml-2-col {
-  margin-left: 16.666%; }
+    margin-right: auto; }
+  .m--mx-1-col {
+    margin-left: 8.333%;
+    margin-right: 8.333%; }
+  .m--mr-1-col {
+    margin-right: 8.333%; }
+  .m--ml-1-col {
+    margin-left: 8.333%; }
+  .m--mx-2-col {
+    margin-left: 16.666%;
+    margin-right: 16.666%; }
+  .m--mr-2-col {
+    margin-right: 16.666%; }
+  .m--ml-2-col {
+    margin-left: 16.666%; } }
 
 @media screen and (min-width: 60rem) {
   .l--m-0 {
@@ -5080,27 +5068,21 @@ img {
   .l--ml-auto {
     margin-left: auto; }
   .l--mr-auto {
-    margin-right: auto; } }
-
-.l--mx-1-col {
-  margin-left: 8.333%;
-  margin-right: 8.333%; }
-
-.l--mr-1-col {
-  margin-right: 8.333%; }
-
-.l--ml-1-col {
-  margin-left: 8.333%; }
-
-.l--mx-2-col {
-  margin-left: 16.666%;
-  margin-right: 16.666%; }
-
-.l--mr-2-col {
-  margin-right: 16.666%; }
-
-.l--ml-2-col {
-  margin-left: 16.666%; }
+    margin-right: auto; }
+  .l--mx-1-col {
+    margin-left: 8.333%;
+    margin-right: 8.333%; }
+  .l--mr-1-col {
+    margin-right: 8.333%; }
+  .l--ml-1-col {
+    margin-left: 8.333%; }
+  .l--mx-2-col {
+    margin-left: 16.666%;
+    margin-right: 16.666%; }
+  .l--mr-2-col {
+    margin-right: 16.666%; }
+  .l--ml-2-col {
+    margin-left: 16.666%; } }
 
 @media screen and (min-width: 67.5rem) {
   .xl--m-0 {
@@ -5317,27 +5299,21 @@ img {
   .xl--ml-auto {
     margin-left: auto; }
   .xl--mr-auto {
-    margin-right: auto; } }
-
-.xl--mx-1-col {
-  margin-left: 8.333%;
-  margin-right: 8.333%; }
-
-.xl--mr-1-col {
-  margin-right: 8.333%; }
-
-.xl--ml-1-col {
-  margin-left: 8.333%; }
-
-.xl--mx-2-col {
-  margin-left: 16.666%;
-  margin-right: 16.666%; }
-
-.xl--mr-2-col {
-  margin-right: 16.666%; }
-
-.xl--ml-2-col {
-  margin-left: 16.666%; }
+    margin-right: auto; }
+  .xl--mx-1-col {
+    margin-left: 8.333%;
+    margin-right: 8.333%; }
+  .xl--mr-1-col {
+    margin-right: 8.333%; }
+  .xl--ml-1-col {
+    margin-left: 8.333%; }
+  .xl--mx-2-col {
+    margin-left: 16.666%;
+    margin-right: 16.666%; }
+  .xl--mr-2-col {
+    margin-right: 16.666%; }
+  .xl--ml-2-col {
+    margin-left: 16.666%; } }
 
 .mw-1 {
   max-width: 1rem; }
