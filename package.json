@@ -34,6 +34,10 @@
   "bugs": {
     "url": "https://github.com/activecampaign/camp-css/issues"
   },
+  "files": [
+    "css/*",
+    "scss/*"
+  ],
   "homepage": "https://github.com/activecampaign/camp-css#readme",
   "devDependencies": {
     "autoprefixer": "^9.1.1",
