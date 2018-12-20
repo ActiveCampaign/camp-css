@@ -1,3 +1,99 @@
+/*
+---
+name: Colors
+category: Atoms
+---
+
+camp-css comes with pre-defined colors
+
+```color.html hidden
+<h3 class="slate-80">Text Colors</h3>
+<p>
+  <span class="slate">.slate</span>
+  <span class="strawberry ml-5">.strawberry</span>
+  <span class="mint ml-5">.mint</span>
+</p>
+<hr>
+
+<h3 class="slate-80">Background Colors</h3>
+<p>
+  <span class="bg-slate-40">.slate-40</span>
+  <span class="bg-strawberry-40 ml-5">.strawberry-40</span>
+  <span class="bg-mint-40 ml-5">.mint-40</span>
+</p>
+<hr>
+
+<h3 class="slate-80">Hover Colors</h3>
+<p>
+  <span class="hover-strawberry">.hover-strawberry</span>
+  <span class="hover-mint ml-5">.hover-mint</span>
+  <span class="hover-bg-strawberry-40 ml-5">.hover-bg-strawberry-40</span>
+  <span class="hover-bg-mint-40 ml-5">.hover-bg-mint-40</span>
+</p>
+<hr>
+
+<h3 class="slate-80">Border Colors</h3>
+<p>
+  <span class="bc-slate bw-5 bs-solid">.bc-slate</span>
+  <span class="bc-strawberry bw-5 bs-solid ml-5">.bc-strawberry</span>
+  <span class="bc-mint bw-5 bs-solid ml-5">.bc-mint</span>
+</p>
+<hr>
+```
+
+```color.scss
+$colors: (
+  // Primary palette
+  ocean: $ocean,
+  ocean-120:$ocean-120,
+  ocean-80: $ocean-80,
+  ocean-60: $ocean-60,
+  ocean-40: $ocean-40,
+  ocean-20: $ocean-20,
+  slate: $slate,
+  slate-120: $slate-120,
+  slate-80: $slate-80,
+  slate-60: $slate-60,
+  slate-40: $slate-40,
+  slate-20: $slate-20,
+  mint: $mint,
+  mint-120: $mint-120,
+  mint-80: $mint-80,
+  mint-60: $mint-60,
+  mint-40: $mint-40,
+  mint-20: $mint-20,
+  // Secondary palette
+  strawberry: $strawberry,
+  strawberry-120: $strawberry-120,
+  strawberry-80: $strawberry-80,
+  strawberry-60: $strawberry-60,
+  strawberry-40: $strawberry-40,
+  strawberry-20: $strawberry-20,
+  creamsicle: $creamsicle,
+  creamsicle-120: $creamsicle-120,
+  creamsicle-80: $creamsicle-80,
+  creamsicle-60: $creamsicle-60,
+  creamsicle-40: $creamsicle-40,
+  creamsicle-20: $creamsicle-20,
+  lavender: $lavender,
+  lavender-120: $lavender-120,
+  lavender-80: $lavender-80,
+  lavender-60: $lavender-60,
+  lavender-40: $lavender-40,
+  lavender-20: $lavender-20,
+  banana: $banana,
+  banana-120: $banana-120,
+  banana-80: $banana-80,
+  banana-60: $banana-60,
+  banana-40: $banana-40,
+  banana-20: $banana-20,
+  // Other
+  black: $black,
+  white: $white,
+  transparent: $transparent
+);
+```
+*/
 @each $color-name, $color-value in $colors {
   .#{$color-name} {
     color: #{$color-value};

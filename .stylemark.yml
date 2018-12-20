@@ -1,0 +1,10 @@
+name: camp-css
+
+theme:
+  logo: https://ac-styleguide.herokuapp.com/assets/favicon-96x96.png
+  sidebar:
+    background: "#356AE6"
+
+examples:
+  css:
+  - css/camp.min.css
