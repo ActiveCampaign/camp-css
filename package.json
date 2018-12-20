@@ -9,6 +9,8 @@
     "lint": "stylelint scss",
     "test": "ava",
     "compile": "node-sass scss -o css",
+    "doc:build": "stylemark -i scss -o doc -c .stylemark.yml",
+    "doc:watch": "stylemark -i scss -o doc -c .stylemark.yml -w -b 2800",
     "build:unminified": "npm run compile && postcss css/camp.css -o css/camp.css -m",
     "build:minified": "npm run compile && postcss css/camp.css --env production -o css/camp.min.css -m",
     "build": "npm run lint && npm run test && npm run build:unminified && npm run build:minified",
