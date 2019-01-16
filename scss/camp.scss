@@ -1,5 +1,6 @@
 // Scale
 $base-scale: 4px;
+$base-font-size: 16px; // The assumed font-size of the document element. Used when converting px to rem.
 
 // Variables
 @import 'variables/borders';
