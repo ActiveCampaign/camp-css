@@ -1,6 +1,12 @@
 // Scale
 $base-scale: 4px;
-$base-font-size: 16px; // The assumed font-size of the document element. Used when converting px to rem.
+
+// Base Font Size
+//
+// Should represent the font-size of the root element, in pixels,
+// if a font-size has been declared for it. Used when converting px to rem.
+// If font-size on root is `100%` or not declared, this should be `16px`.
+$base-font-size: 16px;
 
 // Variables
 @import 'variables/borders';
