@@ -1,6 +1,6 @@
 {
   "name": "camp-css",
-  "version": "0.14.8",
+  "version": "0.14.9",
   "description": "CSS behind the distinctive style of ActiveCampaign",
   "style": "css/camp.min.css",
   "main": "css/camp.css",
