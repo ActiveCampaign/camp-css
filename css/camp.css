@@ -1498,6 +1498,23 @@ img {
 .bc-ocean-40 {
   border-color: #e3ebfc; }
 
+.ocean-30 {
+  color: #edf3fe; }
+
+.hover-ocean-30:hover,
+.hover-ocean-30:focus {
+  color: #edf3fe; }
+
+.bg-ocean-30 {
+  background-color: #edf3fe; }
+
+.hover-bg-ocean-30:hover,
+.hover-bg-ocean-30:focus {
+  background-color: #edf3fe; }
+
+.bc-ocean-30 {
+  border-color: #edf3fe; }
+
 .ocean-20 {
   color: #fafbff; }
 
@@ -1599,6 +1616,23 @@ img {
 
 .bc-slate-40 {
   border-color: #ced3e0; }
+
+.slate-30 {
+  color: #edf0f7; }
+
+.hover-slate-30:hover,
+.hover-slate-30:focus {
+  color: #edf0f7; }
+
+.bg-slate-30 {
+  background-color: #edf0f7; }
+
+.hover-bg-slate-30:hover,
+.hover-bg-slate-30:focus {
+  background-color: #edf0f7; }
+
+.bc-slate-30 {
+  border-color: #edf0f7; }
 
 .slate-20 {
   color: #f7f9ff; }
