@@ -40,6 +40,10 @@ If you have installed camp as a package and would like to reference the variable
 @import 'camp-css/scss/camp';
 ```
 
+## Examples
+Nick Ciliak was gracious enough to create a few examples of camp-css in action
+[on codepen](https://codepen.io/collection/DBRyYY/).
+
 ## Contributing
 
 1. Create a fork of the `ActiveCampaign/camp-css` repository.
